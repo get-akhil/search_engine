@@ -1,0 +1,85 @@
+Cybersecurity & Ethical Hacking
+
+1. INTRODUCTION
+Cybersecurity is the practice of protecting computer systems, networks, and data from cyber threats. Ethical hacking is testing systems to identify vulnerabilities and improve security.
+
+2. HISTORY & EVOLUTION
+
+1970s–1980s: Emergence of network security and firewalls.
+
+1990s: Internet expansion brought new security challenges.
+
+2000s: Malware, phishing, and cybercrime increased.
+
+Present: AI-driven security, penetration testing, and zero-trust architectures.
+
+3. MAJOR SUBFIELDS
+
+Network Security
+
+Application Security
+
+Ethical Hacking & Penetration Testing
+
+Cryptography
+
+Incident Response & Forensics
+
+4. CORE SUBJECTS / MODULES
+
+Computer Networks and Protocols
+
+Operating Systems and Security
+
+Cryptography and Encryption
+
+Malware Analysis
+
+Penetration Testing Techniques
+
+Security Policies and Compliance
+
+5. APPLICATIONS
+
+Banking and financial systems protection
+
+Cloud security
+
+Government and defense cybersecurity
+
+Corporate data protection
+
+IoT and industrial system security
+
+6. INDUSTRY & ORGANIZATIONS
+
+Global: Cisco, Palo Alto Networks, IBM Security, Symantec
+
+Indian: TCS, Infosys, HCL Technologies, Quick Heal
+
+Research: CERT-In, IIT Cybersecurity Labs
+
+7. EMERGING TRENDS
+
+AI in cybersecurity
+
+Cloud and IoT security
+
+Zero-trust network architecture
+
+Blockchain-based security solutions
+
+8. CAREER PATHS
+
+Ethical Hacker / Penetration Tester
+
+Cybersecurity Analyst
+
+Security Architect
+
+Forensic Analyst
+
+Security Consultant
+
+9. CONCLUSION
+Cybersecurity and ethical hacking are critical to protecting digital assets, ensuring privacy, and maintaining trust in an increasingly connected world.

@@ -1,0 +1,83 @@
+Robotics & Automation
+
+1. INTRODUCTION
+Robotics & Automation is the branch of engineering that designs, constructs, and operates robots and automated systems to perform tasks efficiently and safely.
+
+2. HISTORY & EVOLUTION
+
+1950s: Industrial robots in assembly lines.
+
+1970s–1980s: Automation of manufacturing processes.
+
+1990s: Mobile robots and AI integration.
+
+21st Century: Collaborative robots, autonomous systems, and AI-driven automation.
+
+3. MAJOR SUBFIELDS
+
+Industrial Robotics
+
+Mobile and Autonomous Robots
+
+Mechatronics
+
+Artificial Intelligence in Robotics
+
+Control Systems
+
+4. CORE SUBJECTS / MODULES
+
+Sensors and Actuators
+
+Kinematics and Dynamics
+
+Embedded Systems
+
+Robot Programming and AI
+
+Automation in Manufacturing
+
+5. APPLICATIONS
+
+Automotive and manufacturing automation
+
+Medical robots and surgical systems
+
+Military and defense robots
+
+Service and household robots
+
+Space exploration
+
+6. INDUSTRY & ORGANIZATIONS
+
+Global: Boston Dynamics, ABB, KUKA, FANUC
+
+Indian: TATA Elxsi, GreyOrange, Hi-Tech Robotics
+
+Research: IIT Robotics Labs, ISRO robotics programs
+
+7. EMERGING TRENDS
+
+Collaborative robots (cobots)
+
+AI-driven autonomous robots
+
+Drone technology
+
+Robotic process automation (RPA)
+
+8. CAREER PATHS
+
+Robotics Engineer
+
+Automation Specialist
+
+AI & Machine Learning Engineer
+
+Research Scientist
+
+Control Systems Engineer
+
+9. CONCLUSION
+Robotics & Automation is revolutionizing industries and daily life, making processes safer, faster, and more efficient.

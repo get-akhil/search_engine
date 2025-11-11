@@ -1,0 +1,86 @@
+Textile Engineering
+
+1. INTRODUCTION
+Textile Engineering focuses on designing, manufacturing, and developing fibers, yarns, fabrics, and textile products.
+It combines principles of chemistry, mechanical engineering, and design to produce functional and aesthetic textile solutions.
+
+2. HISTORY & EVOLUTION
+
+Ancient Era: Hand weaving, natural fibers like cotton and silk.
+
+Industrial Revolution: Mechanized spinning, weaving, and dyeing technologies.
+
+20th Century: Synthetic fibers, technical textiles, and automated production.
+
+21st Century: Smart textiles, wearable tech, and sustainable fabrics.
+
+3. MAJOR SUBFIELDS
+
+Fiber and Yarn Technology
+
+Fabric Manufacturing and Weaving
+
+Textile Design and Dyeing
+
+Technical Textiles (industrial, medical, defense)
+
+Apparel and Fashion Technology
+
+4. CORE SUBJECTS / MODULES
+
+Textile Fibers and Polymers
+
+Fabric Formation Techniques
+
+Dyeing and Printing Technology
+
+Textile Testing and Quality Control
+
+CAD for Textile Design
+
+Smart and Functional Textiles
+
+5. APPLICATIONS
+
+Clothing and fashion industry
+
+Industrial and technical textiles
+
+Medical textiles (implants, bandages)
+
+Protective textiles for defense and safety
+
+Smart fabrics and wearable electronics
+
+6. INDUSTRY & ORGANIZATIONS
+
+Global: Arvind, Lenzing, DuPont, Toray
+
+Indian: Vardhman, Raymond, Welspun, Bombay Dyeing
+
+Research: Textile Research Associations, IITs, CSIR Labs
+
+7. EMERGING TRENDS
+
+Smart and wearable textiles
+
+Eco-friendly and sustainable fabrics
+
+Automation and robotics in textile manufacturing
+
+Functional textiles for healthcare and defense
+
+8. CAREER PATHS
+
+Textile Engineer
+
+Production and Quality Manager
+
+R&D Scientist
+
+Apparel Technologist
+
+Textile Consultant
+
+9. CONCLUSION
+Textile Engineering blends technology, materials, and design, creating innovative fabrics that meet fashion, industrial, and functional demands globally

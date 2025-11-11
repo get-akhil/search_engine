@@ -1,0 +1,96 @@
+Chemical engineering is an engineering field which deals with the study of the operation and design of chemical plants as well as methods of improving production. Chemical engineers develop economical commercial processes to convert raw materials into useful products. Chemical engineering uses principles of chemistry, physics, mathematics, biology, and economics to efficiently use, produce, design, transport and transform energy and materials. The work of chemical engineers can range from the utilization of nanotechnology and nanomaterials in the laboratory to large-scale industrial processes that convert chemicals, raw materials, living cells, microorganisms, and energy into useful forms and products. Chemical engineers are involved in many aspects of plant design and operation, including safety and hazard assessments, process design and analysis, modeling, control engineering, chemical reaction engineering, nuclear engineering, biological engineering, construction specification, and operating instructions.
+
+Chemical engineers typically hold a degree in Chemical Engineering or Process Engineering. Practicing engineers may have professional certification and be accredited members of a professional body. Such bodies include the Institution of Chemical Engineers (IChemE) or the American Institute of Chemical Engineers (AIChE). A degree in chemical engineering is directly linked with all of the other engineering disciplines, to various extents.
+
+INTRODUCTION
+
+Chemical Engineering is the branch of engineering that deals with the design, development, and operation of chemical processes for the production of materials and products.
+It applies principles of chemistry, physics, mathematics, and biology to transform raw materials into valuable goods such as fuels, plastics, medicines, and food.
+
+Core Objective: To efficiently convert raw materials into useful products while ensuring safety, sustainability, and cost-effectiveness.
+
+HISTORY & EVOLUTION
+
+1800s: Early chemical processes in industries like soap, glass, and textiles.
+1888: The term "Chemical Engineer" was first used at MIT.
+1900s: Rapid industrialization led to the development of chemical plants and refineries.
+1950s–1980s: Advances in petroleum refining, plastics, and fertilizers.
+2000s–Present: Focus on green chemistry, biotechnology, nanotechnology, and renewable energy.
+
+MAJOR SUBFIELDS
+
+A. Process Engineering
+Design and optimization of industrial chemical processes such as distillation, crystallization, and filtration.
+
+B. Biochemical Engineering
+Application of chemical processes to biological systems — fermentation, enzyme technology, and pharmaceuticals.
+
+C. Materials Engineering
+Development of polymers, composites, and nanomaterials with specific physical and chemical properties.
+
+D. Environmental Engineering
+Treatment of industrial waste, pollution control, and development of sustainable processes.
+
+E. Energy Engineering
+Study of fuel production, energy storage, and alternative energy sources like hydrogen and biofuels.
+
+F. Petrochemical Engineering
+Refining crude oil and natural gas into usable fuels and chemicals.
+
+CORE SUBJECTS / MODULES
+
+Semester 1–2: Chemistry, Mathematics, Physics, Engineering Mechanics, Basic Electricals
+Semester 3–4: Fluid Mechanics, Thermodynamics, Heat Transfer, Chemical Process Calculations
+Semester 5–6: Mass Transfer, Reaction Engineering, Instrumentation and Control, Process Dynamics
+Semester 7–8: Plant Design, Environmental Engineering, Petroleum Processing, Project Work
+
+IMPORTANT SOFTWARE & TOOLS
+
+Simulation and Modeling: Aspen Plus, HYSYS, CHEMCAD
+Design and Analysis: MATLAB, AutoCAD, ANSYS
+Process Control: Simulink, DCS, SCADA
+Data Analysis: Python, Excel, Minitab
+Material Analysis: COMSOL Multiphysics, CFD Tools
+
+APPLICATIONS
+
+Petroleum Refining and Gas Processing
+Pharmaceutical and Biotech Manufacturing
+Food and Beverage Processing
+Fertilizer and Pesticide Production
+Water Treatment and Environmental Protection
+Energy Systems and Renewable Fuel Production
+Nanotechnology and Advanced Materials
+Polymers, Paints, and Coatings Industry
+
+INDUSTRY & ORGANIZATIONS
+
+Global Companies: BASF, Dow Chemical, DuPont, Shell, ExxonMobil, BP, Pfizer
+Indian Leaders: Reliance Industries, IOCL, ONGC, HPCL, Dr. Reddy’s Laboratories, Tata Chemicals
+Research and Academia: CSIR, BARC, IITs, National Chemical Laboratory, DRDO
+
+EMERGING TRENDS
+
+Green Chemistry and Sustainable Processes
+Biofuels and Renewable Energy
+Carbon Capture and Storage (CCS)
+Nanotechnology in Chemical Production
+Artificial Intelligence in Process Optimization
+Hydrogen Economy and Fuel Cells
+Pharmaceutical Biotechnology and Drug Delivery Systems
+
+CAREER PATHS
+
+Process Engineer – Design and operate chemical plants.
+Production Engineer – Oversee industrial production and ensure efficiency.
+Quality Control Engineer – Maintain product standards and safety.
+Research Scientist – Develop new materials, catalysts, or processes.
+Environmental Engineer – Focus on sustainability and waste management.
+Petrochemical Engineer – Work in oil refineries and gas plants.
+Bioprocess Engineer – Design biotechnological production systems.
+Project Engineer – Manage large-scale chemical plant projects.
+
+CONCLUSION
+
+Chemical Engineering is one of the most versatile and impactful branches of engineering. It bridges science and technology to create real-world solutions in energy, health, environment, and materials.
+From cleaner fuels and biodegradable plastics to advanced medicines and renewable energy systems, chemical engineers shape the foundation of modern industry and sustainability.

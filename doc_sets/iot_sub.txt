@@ -1,0 +1,84 @@
+Internet of Things (IoT)
+
+1. INTRODUCTION
+The Internet of Things (IoT) refers to a network of physical devices, vehicles, appliances, and sensors connected to the internet, capable of collecting, exchanging, and processing data.
+IoT integrates electronics, communication, and computing technologies to create smart and automated systems.
+
+2. HISTORY & EVOLUTION
+
+1980s: Early embedded sensors in machines.
+
+1990s: Concept of networked devices and RFID-based connectivity.
+
+2000s: Expansion of internet and wireless communication enabled IoT growth.
+
+Present: IoT applications in smart homes, industries, healthcare, and transportation.
+
+3. MAJOR SUBFIELDS
+
+IoT Architecture and Protocols
+
+Embedded Systems and Sensor Networks
+
+Cloud Computing and Edge Computing
+
+Security and Privacy in IoT
+
+Data Analytics and IoT Applications
+
+4. CORE SUBJECTS / MODULES
+
+Sensors and Actuators
+
+Wireless Communication Protocols (Wi-Fi, Zigbee, LoRa)
+
+Embedded Systems Programming
+
+IoT Platforms (AWS IoT, Azure IoT)
+
+Data Analysis and Visualization
+
+5. APPLICATIONS
+
+Smart homes and cities
+
+Industrial IoT for automation and monitoring
+
+Healthcare IoT (remote patient monitoring)
+
+Agriculture and environmental monitoring
+
+Connected vehicles and traffic systems
+
+6. INDUSTRY & ORGANIZATIONS
+
+Global: Cisco, IBM, Microsoft, Siemens, Intel
+
+Indian: TCS, Infosys, Wipro, Tech Mahindra
+
+Research: IIT IoT Labs, ISRO projects, CSIR
+
+7. EMERGING TRENDS
+
+IoT with Artificial Intelligence (AIoT)
+
+Edge computing for faster processing
+
+5G-enabled IoT
+
+Smart energy management and predictive maintenance
+
+8. CAREER PATHS
+
+IoT Engineer
+
+Embedded Systems Developer
+
+Data Analyst for IoT systems
+
+IoT Solution Architect
+
+IoT Security Specialist
+
+9. CONCLUSION
+IoT is transforming everyday life and industries by connecting devices, enabling automation, real-time monitoring, and intelligent decision-making.

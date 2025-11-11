@@ -1,0 +1,99 @@
+Electrical engineering is an engineering discipline concerned with the study, design, and application of equipment, devices, and systems that use electricity, electronics, and electromagnetism. It emerged as an identifiable occupation in the latter half of the 19th century after the commercialization of the electric telegraph, the telephone, and electrical power generation, distribution, and use.
+
+Electrical engineering is divided into a wide range of different fields, including computer engineering, systems engineering, power engineering, telecommunications, radio-frequency engineering, signal processing, instrumentation, photovoltaic cells, electronics, and optics and photonics. Many of these disciplines overlap with other engineering branches, spanning a huge number of specializations including hardware engineering, power electronics, electromagnetics and waves, microwave engineering, nanotechnology, electrochemistry, renewable energies, mechatronics/control, and electrical materials science.
+
+INTRODUCTION
+
+Electrical Engineering (EE) is the branch of engineering that deals with the study, design, and application of systems and devices that use electricity, electronics, and electromagnetism.
+It covers power generation, transmission, control systems, electronics, telecommunications, and renewable energy technologies.
+
+Core Objective: To harness and control electrical energy safely and efficiently for industrial, commercial, and domestic use.
+
+HISTORY & EVOLUTION
+
+1800s: Discovery of electricity by scientists like Volta, Ohm, and Faraday.
+1879: Thomas Edison developed the electric bulb.
+1882: First electric power station built by Edison in New York.
+1900s: Development of AC/DC systems, telephones, and motors.
+1950s–1990s: Electronics and communication revolution.
+2000s–Present: Smart grids, renewable energy, automation, and IoT-based electrical systems.
+
+MAJOR SUBFIELDS
+
+A. Power Systems Engineering
+Generation, transmission, and distribution of electrical power through networks and grids.
+
+B. Control Systems
+Automation and regulation of machines and processes using feedback systems.
+
+C. Electronics
+Study and design of electronic circuits, semiconductors, and devices.
+
+D. Instrumentation
+Measurement and monitoring of physical quantities such as temperature, pressure, and flow.
+
+E. Telecommunications
+Signal processing, antennas, and network design for communication systems.
+
+F. Renewable Energy Systems
+Development of solar, wind, hydro, and other sustainable energy sources.
+
+CORE SUBJECTS / MODULES
+
+Semester 1–2: Engineering Mathematics, Physics, Basic Electricals, Programming in C
+Semester 3–4: Network Theory, Electrical Machines, Analog and Digital Electronics, Electromagnetic Field Theory
+Semester 5–6: Power Systems, Control Systems, Microprocessors, Power Electronics
+Semester 7–8: Renewable Energy Systems, Electric Drives, High Voltage Engineering, Project Work
+
+IMPORTANT SOFTWARE & TOOLS
+
+Circuit Simulation: MATLAB/Simulink, Multisim, PSpice
+Design and Analysis: AutoCAD Electrical, ETAP, LabVIEW
+Control Systems: Scilab, Proteus, Arduino IDE
+Embedded Systems: Keil uVision, Raspberry Pi Tools
+Power System Tools: PSCAD, PowerWorld Simulator, Digsilent PowerFactory
+
+APPLICATIONS
+
+Power Generation and Transmission
+Electrical Machines and Drives
+Industrial Automation and Robotics
+Electronics Manufacturing and Testing
+Smart Grid Development
+Renewable Energy Integration
+Electric Vehicle Design and Battery Systems
+Communication Networks and Signal Systems
+
+INDUSTRY & ORGANIZATIONS
+
+Global Leaders: Siemens, ABB, Schneider Electric, General Electric, Hitachi
+Indian Leaders: BHEL, NTPC, Power Grid Corporation, L&T, Tata Power, ISRO, DRDO
+Electronics and Semiconductor: Intel, Texas Instruments, Philips, Samsung, Bosch
+Energy Sector: Adani, Reliance, Suzlon, ReNew Power
+
+EMERGING TRENDS
+
+Smart Grids and Intelligent Power Systems
+Electric Vehicles (EV) and Battery Management Systems
+Renewable and Green Energy Technologies
+Internet of Things (IoT) in Electrical Systems
+Robotics and Automation
+Wireless Power Transfer
+Energy Storage and Supercapacitors
+AI and Machine Learning in Power Management
+
+CAREER PATHS
+
+Electrical Engineer – Design and maintain power systems and devices.
+Power Engineer – Manage generation, transmission, and distribution systems.
+Control Engineer – Work on automation and process control.
+Electronics Engineer – Design circuits, chips, and semiconductors.
+Project Engineer – Plan and supervise electrical installations.
+Maintenance Engineer – Ensure smooth operation of electrical machinery.
+Research Scientist – Innovate in renewable energy and power systems.
+Instrumentation Engineer – Develop precise measuring instruments and sensors.
+
+CONCLUSION
+
+Electrical Engineering is one of the oldest and most essential fields in modern technology. It powers industries, cities, and innovations — from the simplest circuits to the most advanced renewable grids.
+With the rise of automation, smart devices, and electric mobility, electrical engineers are at the core of building a sustainable, connected, and efficient world.

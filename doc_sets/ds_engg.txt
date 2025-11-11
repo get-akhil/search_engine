@@ -1,0 +1,83 @@
+Data Science & Analytics
+
+1. INTRODUCTION
+Data Science is the interdisciplinary field that extracts knowledge and insights from structured and unstructured data using statistics, programming, and domain expertise.
+
+2. HISTORY & EVOLUTION
+
+1960s–1980s: Early database management and statistical analysis.
+
+1990s: Data warehousing and Business Intelligence (BI).
+
+2000s–Present: Big Data, machine learning, AI, and cloud analytics.
+
+3. MAJOR SUBFIELDS
+
+Data Mining and Cleaning
+
+Predictive Analytics
+
+Big Data Technologies (Hadoop, Spark)
+
+Visualization and Reporting
+
+Statistical Modeling
+
+4. CORE SUBJECTS / MODULES
+
+Programming (Python, R, SQL)
+
+Statistics and Probability
+
+Machine Learning and AI Integration
+
+Data Visualization Tools (Tableau, Power BI)
+
+Big Data Analytics
+
+Cloud Data Management
+
+5. APPLICATIONS
+
+Business intelligence and marketing analytics
+
+Healthcare data analysis
+
+Financial risk modeling
+
+Fraud detection
+
+IoT and sensor data analytics
+
+6. INDUSTRY & ORGANIZATIONS
+
+Global: Google, Amazon, Microsoft, IBM, SAS
+
+Indian: TCS, Infosys, Wipro, Mu Sigma
+
+Research: IITs, IIITs, ISB Analytics Labs
+
+7. EMERGING TRENDS
+
+Predictive and prescriptive analytics
+
+Real-time data processing
+
+AI-powered data analysis
+
+Cloud-based data science platforms
+
+8. CAREER PATHS
+
+Data Scientist
+
+Data Analyst
+
+Business Intelligence Analyst
+
+Big Data Engineer
+
+Analytics Consultant
+
+9. CONCLUSION
+Data Science empowers organizations to make informed decisions, uncover hidden patterns, and optimize operations across industries.

@@ -1,0 +1,89 @@
+Mining Engineering
+
+1. INTRODUCTION
+Mining Engineering is the branch of engineering concerned with the extraction, processing, and management of minerals, ores, and fossil fuels from the earth.
+It integrates geology, mechanical engineering, and environmental science to ensure safe, efficient, and sustainable mining practices.
+
+2. HISTORY & EVOLUTION
+
+Ancient Era: Manual extraction of minerals and use of stone tools.
+
+Middle Ages: Development of underground mining techniques.
+
+18th–19th Century: Industrial Revolution introduced mechanized mining, steam engines, and large-scale operations.
+
+20th Century: Modern mining technologies, safety standards, and environmental regulations were implemented.
+
+21st Century: Automation, robotics, remote sensing, and sustainable mining practices are transforming the field.
+
+3. MAJOR SUBFIELDS
+
+Mineral Exploration: Locating and evaluating ore deposits.
+
+Mine Design and Planning: Designing safe and efficient mines.
+
+Rock Mechanics: Studying behavior of rocks under stress.
+
+Mineral Processing: Extracting and refining minerals from ores.
+
+Environmental Management: Mitigating mining impacts on soil, water, and ecosystems.
+
+4. CORE SUBJECTS / MODULES
+
+Mining Geology and Surveying
+
+Mine Ventilation and Safety
+
+Drilling and Blasting Techniques
+
+Surface and Underground Mining Methods
+
+Mineral Economics and Resource Management
+
+Environmental Impact Assessment (EIA)
+
+5. APPLICATIONS
+
+Coal, iron, gold, and mineral extraction
+
+Petroleum and natural gas exploration
+
+Industrial minerals for construction and manufacturing
+
+Environmental reclamation of mined lands
+
+6. INDUSTRY & ORGANIZATIONS
+
+Global: BHP, Rio Tinto, Vale, Anglo American
+
+Indian: Coal India Limited, NMDC, Hindustan Zinc, Tata Steel Mining
+
+Research & Regulation: Indian Bureau of Mines (IBM), CSIR Institutes, IIT Mining Departments
+
+7. EMERGING TRENDS
+
+Automation and autonomous mining vehicles
+
+Remote sensing, GIS, and drones for exploration
+
+Sustainable and eco-friendly mining practices
+
+Robotics and AI for underground operations
+
+Advanced mineral processing techniques
+
+8. CAREER PATHS
+
+Mining Engineer
+
+Geotechnical Engineer
+
+Mineral Processing Specialist
+
+Safety and Environmental Engineer
+
+Project Manager for mining operations
+
+9. CONCLUSION
+Mining Engineering is essential for supplying raw materials that drive industries and economies.
+With advancements in automation, sustainability, and environmental safety, it remains a critical and evolving field in modern engineering.

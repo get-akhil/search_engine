@@ -1,0 +1,84 @@
+Petroleum Engineering
+
+1. INTRODUCTION
+Petroleum Engineering focuses on the exploration, extraction, production, and management of oil and natural gas resources.
+It combines geology, chemistry, and engineering principles to maximize recovery from reservoirs efficiently and safely.
+
+2. HISTORY & EVOLUTION
+
+Ancient Era: Early oil collection from surface seeps and simple pits.
+
+19th Century: First commercial drilling in the U.S. (1859) and development of petroleum refining.
+
+20th Century: Offshore drilling, enhanced oil recovery, and pipeline networks emerged.
+
+21st Century: Digital oilfields, automation, and renewable energy integration are shaping the industry.
+
+3. MAJOR SUBFIELDS
+
+Reservoir Engineering: Estimating reserves and designing extraction methods.
+
+Drilling Engineering: Planning and executing drilling operations.
+
+Production Engineering: Managing well performance and fluid flow.
+
+Petrophysics: Evaluating rock and fluid properties in reservoirs.
+
+Enhanced Oil Recovery (EOR): Techniques to increase extraction efficiency.
+
+4. CORE SUBJECTS / MODULES
+
+Reservoir and Well Engineering
+
+Drilling Fluids and Equipment
+
+Petroleum Geology
+
+Production Optimization Techniques
+
+Safety and Environmental Management
+
+Petroleum Economics and Project Management
+
+5. APPLICATIONS
+
+Oil and gas exploration and production
+
+Offshore and onshore drilling operations
+
+Refining and petrochemical processes
+
+Energy resource management and planning
+
+6. INDUSTRY & ORGANIZATIONS
+
+Global: ExxonMobil, Shell, Chevron, BP, TotalEnergies
+
+Indian: ONGC, Reliance Industries, Oil India, Cairn India
+
+Research: IIT Petroleum Engineering Departments, CSIR Labs
+
+7. EMERGING TRENDS
+
+Digital Oilfields and IoT-based monitoring
+
+Offshore deepwater drilling technologies
+
+Enhanced Oil Recovery and CO2 sequestration
+
+Integration with renewable energy systems
+
+8. CAREER PATHS
+
+Petroleum Engineer
+
+Reservoir Analyst
+
+Drilling Engineer
+
+Production Manager
+
+Energy Consultant
+
+9. CONCLUSION
+Petroleum Engineering is vital for global energy supply, blending technology and science to extract and manage hydrocarbon resources efficiently and sustainably.
