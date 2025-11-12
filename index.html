@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimised Search Engine</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        /* Custom font import for modern look */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0d1117; /* Dark background */
+            color: #c9d1d9; /* Light text */
+        }
+        .search-container {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .shadow-custom {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -2px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8 min-h-screen">
+
+    <div class="search-container pt-10">
+        <!-- Header -->
+        <header class="text-center mb-10">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-blue-400">
+                Optimised Search Engine
+            </h1>
+            <p class="text-gray-400 mt-2">Data Structures With C (Project Based Learning)</p>
+        </header>
+
+        <!-- Search Input Bar with Suggestions -->
+        <div id="search-bar-wrapper" class="relative">
+            <input type="text" id="search-input" placeholder="Enter query (e.g., 'data structure' or 'robotics engineering')"
+                   class="w-full p-4 pl-12 text-lg rounded-xl border border-gray-700 bg-gray-800 text-white focus:ring-blue-500 focus:border-blue-500 shadow-custom transition duration-200"
+                   onkeyup="handleInput(event)">
+            <i data-lucide="search" class="absolute left-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-500"></i>
+            <button onclick="performSearch()"
+                    class="absolute right-0 top-0 h-full px-5 text-white bg-blue-600 rounded-r-xl hover:bg-blue-700 transition duration-150">
+                Search
+            </button>
+            
+            <!-- Suggestions Dropdown -->
+            <ul id="suggestion-list" class="absolute z-10 w-full mt-2 bg-gray-800 border border-gray-700 rounded-xl shadow-lg max-h-48 overflow-y-auto hidden">
+                <!-- Suggestions will be rendered here -->
+            </ul>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+
+            <!-- Recent Searches / Suggestions Panel (Column 1) -->
+            <div class="md:col-span-1">
+                <div class="bg-gray-800 p-6 rounded-xl shadow-custom border border-gray-700">
+                    <h2 class="text-xl font-semibold mb-4 flex items-center text-blue-400">
+                        <i data-lucide="history" class="h-5 w-5 mr-2"></i> Recent Searches
+                    </h2>
+                    <ul id="recent-searches-list" class="space-y-2 text-sm">
+                        <!-- History items will be inserted here -->
+                        <li class="text-gray-500 italic">No recent searches yet.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Search Results Area (Columns 2 & 3) -->
+            <div class="md:col-span-2">
+                <div class="bg-gray-800 p-6 rounded-xl shadow-custom border border-gray-700 min-h-64">
+                    <h2 class="text-xl font-semibold mb-4 flex items-center text-blue-400">
+                        <i data-lucide="list-checks" class="h-5 w-5 mr-2"></i> Search Results
+                    </h2>
+                    <div id="results-container" class="space-y-4">
+                        <p class="text-gray-500 italic" id="initial-message">Enter a query to see ranked results from the local C index.</p>
+                        <!-- Results are dynamically inserted here -->
+                    </div>
+                    <div id="loading-indicator" class="hidden text-center mt-8">
+                        <svg class="animate-spin h-8 w-8 text-blue-400 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                        </svg>
+                        <p class="mt-2 text-gray-400">Connecting to local C engine...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // --- Configuration ---
+        const LOCAL_API_URL = 'http://localhost:3000/api/search';
+        const MAX_RECENT_SEARCHES = 5;
+
+        // --- DOM Elements ---
+        const searchInput = document.getElementById('search-input');
+        const resultsContainer = document.getElementById('results-container');
+        const loadingIndicator = document.getElementById('loading-indicator');
+        const recentSearchesList = document.getElementById('recent-searches-list');
+        const suggestionList = document.getElementById('suggestion-list');
+        const initialMessage = document.getElementById('initial-message');
+        
+        // --- Data Management ---
+        let recentSearches = JSON.parse(localStorage.getItem('recentSearches') || '[]');
+
+        /**
+         * Cleans, updates localStorage, and re-renders the recent searches list.
+         * @param {string} query The search query to save.
+         */
+        function updateRecentSearches(query) {
+            query = query.trim().toLowerCase();
+            if (!query) return;
+
+            // Remove old instance of the query if it exists
+            recentSearches = recentSearches.filter(q => q !== query);
+            
+            // Add to the beginning
+            recentSearches.unshift(query);
+            
+            // Limit array size
+            if (recentSearches.length > MAX_RECENT_SEARCHES) {
+                recentSearches.pop();
+            }
+
+            localStorage.setItem('recentSearches', JSON.stringify(recentSearches));
+            renderRecentSearches();
+        }
+
+        /**
+         * Renders the recent searches into the left panel.
+         */
+        function renderRecentSearches() {
+            recentSearchesList.innerHTML = '';
+            if (recentSearches.length === 0) {
+                recentSearchesList.innerHTML = '<li class="text-gray-500 italic">No recent searches yet.</li>';
+                return;
+            }
+
+            recentSearches.forEach(query => {
+                const li = document.createElement('li');
+                li.className = 'cursor-pointer text-gray-300 hover:text-blue-400 hover:bg-gray-700 p-2 rounded-lg transition duration-150 flex items-center';
+                li.innerHTML = `<i data-lucide="chevrons-right" class="h-4 w-4 mr-2"></i>${query}`;
+                li.onclick = () => {
+                    searchInput.value = query;
+                    // Note: When calling performSearch(), it will use searchInput.value
+                    performSearch(); 
+                };
+                recentSearchesList.appendChild(li);
+            });
+            lucide.createIcons(); // Re-render Lucide icons
+        }
+
+        /**
+         * Renders suggestions based on partial match with recent searches.
+         * @param {string} input The current text in the search bar.
+         */
+        function renderSuggestions(input) {
+            suggestionList.innerHTML = '';
+            const matchingQueries = recentSearches.filter(q => q.startsWith(input.toLowerCase()));
+
+            if (input.length > 0 && matchingQueries.length > 0) {
+                suggestionList.classList.remove('hidden');
+                matchingQueries.forEach(query => {
+                    const li = document.createElement('li');
+                    li.className = 'p-3 cursor-pointer hover:bg-gray-700 transition duration-100';
+                    li.textContent = query;
+                    li.onclick = () => {
+                        searchInput.value = query;
+                        suggestionList.classList.add('hidden');
+                        performSearch();
+                    };
+                    suggestionList.appendChild(li);
+                });
+            } else {
+                suggestionList.classList.add('hidden');
+            }
+        }
+
+        /**
+         * Handles keyboard input for search and suggestions.
+         * @param {Event} event 
+         */
+        function handleInput(event) {
+            const input = searchInput.value.trim();
+            renderSuggestions(input);
+            if (event.key === 'Enter' && input.length > 0) {
+                performSearch();
+            }
+        }
+
+        /**
+         * Renders the search results dynamically.
+         * @param {Array<Object>} results Array of search result objects.
+         * @param {string} query The original search query.
+         */
+        function displayResults(results, query) {
+            resultsContainer.innerHTML = '';
+            initialMessage.classList.add('hidden');
+
+            if (results.length === 0) {
+                resultsContainer.innerHTML = `<p class="text-red-400 font-semibold">No results found for "${query}".</p>`;
+                return;
+            }
+
+            // Check for image search simulation
+            const isImageSearch = query.toLowerCase().includes('image');
+
+            results.forEach((result, index) => {
+                const itemDiv = document.createElement('div');
+                itemDiv.className = 'p-4 bg-gray-700 rounded-lg border border-gray-600 flex items-start space-x-4';
+                
+                let iconHtml;
+                if (isImageSearch) {
+                    // Placeholder for simulated Image Search Result
+                    iconHtml = `<div class="w-16 h-16 bg-blue-900 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <i data-lucide="image" class="h-8 w-8 text-blue-300"></i>
+                                </div>`;
+                } else {
+                    // Default Document Search Result
+                    iconHtml = `<div class="w-10 h-10 bg-green-700 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <i data-lucide="file-text" class="h-5 w-5 text-white"></i>
+                                </div>`;
+                }
+
+                itemDiv.innerHTML = `
+                    ${iconHtml}
+                    <div class="flex-grow">
+                        <p class="text-lg font-medium text-white">${result.filename}</p>
+                        <p class="text-sm text-gray-400">TF-IDF Score: <span class="text-yellow-400 font-bold">${result.score}</span></p>
+                        <p class="text-xs text-gray-500 mt-1">Found in: /doc_sets/${result.filename}</p>
+                    </div>
+                `;
+                resultsContainer.appendChild(itemDiv);
+            });
+            lucide.createIcons();
+        }
+
+        /**
+         * Main function to perform the search via the local server.
+         */
+        async function performSearch() {
+            const query = searchInput.value.trim();
+            if (!query) return;
+
+            loadingIndicator.classList.remove('hidden');
+            suggestionList.classList.add('hidden');
+            resultsContainer.innerHTML = '';
+
+            try {
+                // IMPORTANT: This URL points to your local server (Node.js/Flask/etc.)
+                // which must be running on your PC and executing the C program.
+                const response = await fetch(`${LOCAL_API_URL}?query=${encodeURIComponent(query)}`);
+                
+                if (!response.ok) {
+                    throw new Error(`Server error: ${response.status}. Make sure your local server is running at ${LOCAL_API_URL}.`);
+                }
+
+                const results = await response.json();
+                
+                // On success, update history
+                updateRecentSearches(query);
+                
+                // Display results
+                displayResults(results, query);
+
+            } catch (error) {
+                console.error("Search failed:", error);
+                resultsContainer.innerHTML = `
+                    <div class="p-4 bg-red-800/30 border border-red-700 rounded-lg">
+                        <p class="text-red-400 font-bold mb-2">Connection Error</p>
+                        <p class="text-sm text-gray-300">Could not connect to the local server endpoint.</p>
+                        <p class="text-xs mt-1 text-red-300">Ensure your Node/Flask server is running and accessible at: <code>${LOCAL_API_URL}</code></p>
+                    </div>
+                `;
+            } finally {
+                loadingIndicator.classList.add('hidden');
+            }
+        }
+
+        // --- Initialization ---
+        document.addEventListener('DOMContentLoaded', () => {
+            lucide.createIcons(); // Initialize all Lucide icons
+            renderRecentSearches();
+        });
+
+        // --- DEMO / DEBUG SIMULATION ---
+        // Since I cannot run your C code, this function mocks the JSON response 
+        // that your local server would send back. To test, uncomment the 
+        // line below the function definition.
+        
+        async function mockSearch() {
+            // Retrieve query internally, solving the 'undefined' error
+            const query = searchInput.value.trim(); 
+            
+            // Wait to simulate network latency
+            await new Promise(resolve => setTimeout(resolve, 800));
+
+            // Filter results to make the demo realistic (e.g., if query is too generic)
+            if (!query || query.length < 3) {
+                 loadingIndicator.classList.add('hidden');
+                 if(query) { // If the query is just too short (1 or 2 chars)
+                    resultsContainer.innerHTML = `<p class="text-red-400 font-semibold">Please enter a search query with at least 3 characters.</p>`;
+                 }
+                 return;
+            }
+
+            // Generate mock results
+            const mockResults = [
+                { filename: `Report_A_${query}.txt`, score: 98 },
+                { filename: `Summary_B_${query}.pdf`, score: 85 },
+                { filename: `Log_C_${query}.dat`, score: 71 },
+                { filename: `Image_D_${query}.jpg`, score: 62 },
+                { filename: `Old_E_${query}.docx`, score: 55 },
+            ];
+
+            // This is where you would replace the above mock data with the actual fetch call
+            // performSearch = performSearch; // Revert to actual function call
+
+            updateRecentSearches(query);
+            displayResults(mockResults, query);
+            loadingIndicator.classList.add('hidden');
+        }
+
+        // UNCOMMENT THIS LINE TO RUN THE MOCK DEMO WITHOUT A LOCAL SERVER:
+        //performSearch = mockSearch; 
+        
+        // Initial Message (If using the mock, perform a demo search)
+        /*if(performSearch === mockSearch) {
+            loadingIndicator.classList.add('hidden');
+            initialMessage.textContent = "Demo Mode: Mock results shown. Enter a query to test history and suggestions.";
+        }*/
+    </script>
+</body>
+</html>

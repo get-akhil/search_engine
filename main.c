@@ -8,40 +8,33 @@
 #include "query_processor.h"
 #include "tokenizer_utils.h"
 
-int main() {
+int main(int argc, char *argv[]) {
     struct dirent *de;
     FILE *fp;
 
     char buffer[1000];
     char *token;
     TreeNode *root = NULL; 
-    char cwd[1024];
-    getcwd(cwd, sizeof(cwd));
-    //printf(" Current working directory: %s\n",cwd);
 
-  
-    DIR *dr = opendir("C:\\PROJECTS\\search engine\\doc_sets");
+    
+    DIR *dr = opendir("doc_sets");
     if (dr == NULL) {
-        printf(" Could not open 'doc_sets' folder.\n");
+        
+        printf("[{\"error\": \"Could not open 'doc_sets' folder. Ensure the folder is present.\"}]");
         return 1;
     }
-
-    //printf(" Tokenizing all text files inside 'doc_sets/'...\n");
 
     while ((de = readdir(dr)) != NULL) {
         if (strcmp(de->d_name, ".") == 0 || strcmp(de->d_name, "..") == 0)
             continue;
 
         char path[500];
-        sprintf(path, "C:\\PROJECTS\\search engine\\doc_sets\\%s", de->d_name);
+        sprintf(path, "doc_sets/%s", de->d_name);
 
         fp = fopen(path, "r");
         if (fp == NULL) {
-            printf(" Error opening %s\n", path);
             continue;
         }
-
-        //printf("\n---  Tokens in %s ---\n", de->d_name);
 
         while (fgets(buffer, sizeof(buffer), fp)) {
             token = strtok(buffer, " \t\n");
@@ -54,16 +47,18 @@ int main() {
                 token = strtok(NULL, " \t\n");
             }
         }
-
         fclose(fp);
     }
-
     closedir(dr);
-    //printf("\n\n Indexing complete! Total unique words indexed.\n");
-
-    handleSearch(root);
+    
+    if (argc > 1) {
+      
+        handleSearch(root, argv[1]);
+    } else {
+      
+        printf("[{\"message\": \"Index built successfully. Run the C executable with a search argument (e.g., ./search_engine 'query').\"}]");
+    }
 
     freeTree(root); 
-    //printf("\nMemory cleanup done. Exiting.\n");
     return 0;
 }
