@@ -93,7 +93,7 @@
 
     <script>
         // --- Configuration ---
-        const LOCAL_API_URL = 'http://localhost:3000/api/search';
+        const LOCAL_API_URL = window.location.origin.replace(/:\d+/, ':3000') + '/api/search';
         const MAX_RECENT_SEARCHES = 5;
 
         // --- DOM Elements ---
