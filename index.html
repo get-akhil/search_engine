@@ -12,8 +12,13 @@
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #0d1117; /* Dark background */
+            background-color: #0d1117; /* Deep slate background */
             color: #c9d1d9; /* Light text */
+            /* Subtle fixed radial gradient for depth */
+            background-attachment: fixed;
+            background-image: radial-gradient(at 0% 0%, rgba(20, 30, 48, 0.5) 0%, transparent 50%),
+                              radial-gradient(at 100% 100%, rgba(20, 30, 48, 0.5) 0%, transparent 50%),
+                              linear-gradient(to bottom, #0a0e14, #0d1117);
         }
         .search-container {
             position: relative;
@@ -21,7 +26,19 @@
             margin: 0 auto;
         }
         .shadow-custom {
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -2px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 4px 15px -1px rgba(0, 0, 0, 0.5), 0 2px 8px -2px rgba(0, 0, 0, 0.5);
+        }
+        .text-gradient {
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        .glow-shadow {
+            box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+        }
+        .modal-content-scroll {
+            max-height: 70vh;
+            overflow-y: auto;
         }
     </style>
 </head>
@@ -31,7 +48,7 @@
         <!-- Header -->
         <header class="text-center mb-10">
             <h1 class="text-4xl md:text-5xl font-extrabold text-blue-400">
-                Optimised Search Engine
+                <!-- Removed scan icon --> <span class="text-gradient bg-gradient-to-r from-blue-400 to-cyan-400">Optimised Search Engine</span>
             </h1>
             <p class="text-gray-400 mt-2">Data Structures With C (Project Based Learning)</p>
         </header>
@@ -42,8 +59,9 @@
                    class="w-full p-4 pl-12 text-lg rounded-xl border border-gray-700 bg-gray-800 text-white focus:ring-blue-500 focus:border-blue-500 shadow-custom transition duration-200"
                    onkeyup="handleInput(event)">
             <i data-lucide="search" class="absolute left-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-500"></i>
-            <button onclick="performSearch()"
-                    class="absolute right-0 top-0 h-full px-5 text-white bg-blue-600 rounded-r-xl hover:bg-blue-700 transition duration-150">
+            <button onclick="handleSearchClick()" id="searchButton"
+                class="absolute right-0 top-0 h-full px-5 text-white bg-blue-600 rounded-r-xl hover:bg-blue-700 transition duration-150 transform hover:scale-[1.01] hover:shadow-lg">
+                <!-- SVG scan icon removed here -->
                 Search
             </button>
             
@@ -53,12 +71,14 @@
             </ul>
         </div>
 
+        <!-- Query Assistant Button and LLM Analysis Panel removed -->
+        
         <!-- Main Content Area -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
 
             <!-- Recent Searches / Suggestions Panel (Column 1) -->
             <div class="md:col-span-1">
-                <div class="bg-gray-800 p-6 rounded-xl shadow-custom border border-gray-700">
+                <div class="bg-gray-800 p-6 rounded-xl shadow-2xl border border-gray-700 glow-shadow">
                     <h2 class="text-xl font-semibold mb-4 flex items-center text-blue-400">
                         <i data-lucide="history" class="h-5 w-5 mr-2"></i> Recent Searches
                     </h2>
@@ -71,7 +91,7 @@
 
             <!-- Search Results Area (Columns 2 & 3) -->
             <div class="md:col-span-2">
-                <div class="bg-gray-800 p-6 rounded-xl shadow-custom border border-gray-700 min-h-64">
+                <div class="bg-gray-800 p-6 rounded-xl shadow-2xl border border-gray-700 min-h-64">
                     <h2 class="text-xl font-semibold mb-4 flex items-center text-blue-400">
                         <i data-lucide="list-checks" class="h-5 w-5 mr-2"></i> Search Results
                     </h2>
@@ -91,9 +111,50 @@
         </div>
     </div>
 
+    <!-- Document Viewer Modal -->
+    <div id="documentModal" class="fixed inset-0 bg-black bg-opacity-80 backdrop-blur-sm hidden z-50 p-4 md:p-8">
+        <div class="bg-gray-900 rounded-xl shadow-2xl max-w-4xl mx-auto mt-4 modal-content-scroll">
+            <div class="sticky top-0 bg-gray-900 border-b border-gray-700 p-4 flex justify-between items-center z-10">
+                <h2 id="modalTitle" class="text-xl font-bold text-white">Document Viewer: [Filename]</h2>
+                <button onclick="closeModal()" class="text-gray-400 hover:text-white transition duration-150">
+                    <i data-lucide="x" class="h-6 w-6"></i>
+                </button>
+            </div>
+            <div class="p-4 md:p-6">
+                <!-- LLM Summary Section -->
+                <div class="mb-6 p-4 bg-gray-800 rounded-lg border border-gray-700 shadow-lg">
+                    <h3 class="text-lg font-semibold mb-2 text-yellow-400 flex items-center">
+                        <i data-lucide="message-square" class="h-5 w-5 mr-2"></i> LLM Summary (Gemini API)
+                    </h3>
+                    <div id="modalSummary" class="text-sm text-gray-300">
+                        <div class="text-center py-2" id="summaryLoading">
+                            <svg class="animate-spin h-5 w-5 text-yellow-400 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                            </svg>
+                            <p class="mt-1 text-xs text-gray-400">Generating summary...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Raw Document Content -->
+                <h3 class="text-lg font-semibold mb-2 text-blue-400 flex items-center mt-4">
+                    <i data-lucide="file-text" class="h-5 w-5 mr-2"></i> Raw Document Content
+                </h3>
+                <pre id="modalContent" class="bg-gray-700 p-4 rounded-lg text-sm text-gray-300 whitespace-pre-wrap font-mono border border-gray-600 overflow-x-auto"></pre>
+            </div>
+        </div>
+    </div>
+
+
     <script>
         // --- Configuration ---
-        const LOCAL_API_URL = 'http://localhost:3000/api/search';
+        // This dynamically determines the host (e.g., crispy-space-carnival-...) 
+        // and forces the port to 3000, where the Flask server is running internally.
+        const LOCAL_HOST_ORIGIN = window.location.origin.replace(/:\d+/, ':3000');
+        const LOCAL_API_URL = LOCAL_HOST_ORIGIN + '/api/search';
+        const DOCUMENT_API_URL = LOCAL_HOST_ORIGIN + '/api/document/';
+        // ANALYZE_API_URL removed
         const MAX_RECENT_SEARCHES = 5;
 
         // --- DOM Elements ---
@@ -103,25 +164,25 @@
         const recentSearchesList = document.getElementById('recent-searches-list');
         const suggestionList = document.getElementById('suggestion-list');
         const initialMessage = document.getElementById('initial-message');
+        const documentModal = document.getElementById('documentModal');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalContent = document.getElementById('modalContent');
+        const modalSummary = document.getElementById('modalSummary');
+        const summaryLoading = document.getElementById('summaryLoading');
+        // analysisArea, analysisContent, analysisLoading removed
         
         // --- Data Management ---
         let recentSearches = JSON.parse(localStorage.getItem('recentSearches') || '[]');
 
-        /**
-         * Cleans, updates localStorage, and re-renders the recent searches list.
-         * @param {string} query The search query to save.
-         */
+        // --- Utility Functions ---
+
         function updateRecentSearches(query) {
             query = query.trim().toLowerCase();
             if (!query) return;
 
-            // Remove old instance of the query if it exists
             recentSearches = recentSearches.filter(q => q !== query);
-            
-            // Add to the beginning
             recentSearches.unshift(query);
             
-            // Limit array size
             if (recentSearches.length > MAX_RECENT_SEARCHES) {
                 recentSearches.pop();
             }
@@ -130,9 +191,6 @@
             renderRecentSearches();
         }
 
-        /**
-         * Renders the recent searches into the left panel.
-         */
         function renderRecentSearches() {
             recentSearchesList.innerHTML = '';
             if (recentSearches.length === 0) {
@@ -146,18 +204,13 @@
                 li.innerHTML = `<i data-lucide="chevrons-right" class="h-4 w-4 mr-2"></i>${query}`;
                 li.onclick = () => {
                     searchInput.value = query;
-                    // Note: When calling performSearch(), it will use searchInput.value
-                    performSearch(); 
+                    handleSearchClick(); 
                 };
                 recentSearchesList.appendChild(li);
             });
-            lucide.createIcons(); // Re-render Lucide icons
+            lucide.createIcons();
         }
 
-        /**
-         * Renders suggestions based on partial match with recent searches.
-         * @param {string} input The current text in the search bar.
-         */
         function renderSuggestions(input) {
             suggestionList.innerHTML = '';
             const matchingQueries = recentSearches.filter(q => q.startsWith(input.toLowerCase()));
@@ -171,7 +224,7 @@
                     li.onclick = () => {
                         searchInput.value = query;
                         suggestionList.classList.add('hidden');
-                        performSearch();
+                        handleSearchClick();
                     };
                     suggestionList.appendChild(li);
                 });
@@ -180,22 +233,60 @@
             }
         }
 
-        /**
-         * Handles keyboard input for search and suggestions.
-         * @param {Event} event 
-         */
         function handleInput(event) {
             const input = searchInput.value.trim();
             renderSuggestions(input);
             if (event.key === 'Enter' && input.length > 0) {
-                performSearch();
+                handleSearchClick();
             }
         }
 
         /**
+         * Opens the modal and fetches the document content and summary.
+         * @param {string} filename The name of the file to fetch.
+         */
+        async function openDocument(filename) {
+            documentModal.classList.remove('hidden');
+            modalTitle.textContent = `Document Viewer: ${filename}`;
+            modalContent.textContent = 'Loading raw content...';
+            
+            // Show loading for summary
+            modalSummary.innerHTML = '';
+            summaryLoading.classList.remove('hidden');
+            modalSummary.appendChild(summaryLoading);
+            
+            try {
+                const response = await fetch(DOCUMENT_API_URL + filename);
+                if (!response.ok) {
+                    throw new Error(`Failed to fetch document: ${response.status}`);
+                }
+                const data = await response.json();
+                
+                // Display content
+                modalContent.textContent = data.content;
+                
+                // Display summary
+                summaryLoading.classList.add('hidden');
+                modalSummary.innerHTML = data.summary.trim() === 'API failed to return text.' || data.summary.trim().startsWith('Error:') 
+                    ? `<p class="text-red-300">${data.summary}</p>` 
+                    : `<div class="markdown">${data.summary}</div>`;
+                
+                lucide.createIcons();
+
+            } catch (error) {
+                console.error("Document fetch error:", error);
+                modalContent.textContent = `Error fetching document: ${error.message}`;
+                summaryLoading.classList.add('hidden');
+                modalSummary.innerHTML = `<p class="text-red-300">Failed to load or summarize document. Check Flask logs.</p>`;
+            }
+        }
+
+        function closeModal() {
+            documentModal.classList.add('hidden');
+        }
+
+        /**
          * Renders the search results dynamically.
-         * @param {Array<Object>} results Array of search result objects.
-         * @param {string} query The original search query.
          */
         function displayResults(results, query) {
             resultsContainer.innerHTML = '';
@@ -206,21 +297,18 @@
                 return;
             }
 
-            // Check for image search simulation
             const isImageSearch = query.toLowerCase().includes('image');
 
             results.forEach((result, index) => {
                 const itemDiv = document.createElement('div');
-                itemDiv.className = 'p-4 bg-gray-700 rounded-lg border border-gray-600 flex items-start space-x-4';
+                itemDiv.className = 'p-4 bg-gray-700/50 rounded-lg border border-gray-600 flex items-start space-x-4 hover:bg-gray-700 transition duration-150';
                 
                 let iconHtml;
                 if (isImageSearch) {
-                    // Placeholder for simulated Image Search Result
                     iconHtml = `<div class="w-16 h-16 bg-blue-900 rounded-lg flex items-center justify-center flex-shrink-0">
                                     <i data-lucide="image" class="h-8 w-8 text-blue-300"></i>
                                 </div>`;
                 } else {
-                    // Default Document Search Result
                     iconHtml = `<div class="w-10 h-10 bg-green-700 rounded-full flex items-center justify-center flex-shrink-0">
                                     <i data-lucide="file-text" class="h-5 w-5 text-white"></i>
                                 </div>`;
@@ -229,9 +317,10 @@
                 itemDiv.innerHTML = `
                     ${iconHtml}
                     <div class="flex-grow">
-                        <p class="text-lg font-medium text-white">${result.filename}</p>
-                        <p class="text-sm text-gray-400">TF-IDF Score: <span class="text-yellow-400 font-bold">${result.score}</span></p>
-                        <p class="text-xs text-gray-500 mt-1">Found in: /doc_sets/${result.filename}</p>
+                        <p class="text-lg font-medium text-white cursor-pointer hover:text-blue-300" 
+                           onclick="openDocument('${result.filename}')">${result.filename}</p>
+                        <p class="text-sm text-gray-400">Relevance Score: <span class="text-yellow-400 font-bold">${result.score}</span></p>
+                        <p class="text-xs text-gray-500 mt-1">Click filename to view content and LLM summary.</p>
                     </div>
                 `;
                 resultsContainer.appendChild(itemDiv);
@@ -251,8 +340,6 @@
             resultsContainer.innerHTML = '';
 
             try {
-                // IMPORTANT: This URL points to your local server (Node.js/Flask/etc.)
-                // which must be running on your PC and executing the C program.
                 const response = await fetch(`${LOCAL_API_URL}?query=${encodeURIComponent(query)}`);
                 
                 if (!response.ok) {
@@ -261,10 +348,13 @@
 
                 const results = await response.json();
                 
-                // On success, update history
+                if (results && results[0] && results[0].error) {
+                    // C program returned a JSON error (e.g., folder not found)
+                    resultsContainer.innerHTML = `<p class="text-red-400 font-semibold">C Engine Error: ${results[0].error}</p>`;
+                    return;
+                }
+
                 updateRecentSearches(query);
-                
-                // Display results
                 displayResults(results, query);
 
             } catch (error) {
@@ -273,7 +363,7 @@
                     <div class="p-4 bg-red-800/30 border border-red-700 rounded-lg">
                         <p class="text-red-400 font-bold mb-2">Connection Error</p>
                         <p class="text-sm text-gray-300">Could not connect to the local server endpoint.</p>
-                        <p class="text-xs mt-1 text-red-300">Ensure your Node/Flask server is running and accessible at: <code>${LOCAL_API_URL}</code></p>
+                        <p class="text-xs mt-1 text-red-300">Ensure your Flask server is running and accessible at: <code>${LOCAL_API_URL}</code></p>
                     </div>
                 `;
             } finally {
@@ -281,58 +371,25 @@
             }
         }
 
+        // Removed analyzeQuery() function
+
+        function handleSearchClick() {
+            // This function is now just a direct wrapper for performSearch()
+            performSearch();
+        }
+
         // --- Initialization ---
         document.addEventListener('DOMContentLoaded', () => {
             lucide.createIcons(); // Initialize all Lucide icons
             renderRecentSearches();
+
+            // Bind the enter key to the search button's action if input is focused
+            searchInput.addEventListener('keydown', (event) => {
+                if (event.key === 'Enter') {
+                    handleSearchClick();
+                }
+            });
         });
-
-        // --- DEMO / DEBUG SIMULATION ---
-        // Since I cannot run your C code, this function mocks the JSON response 
-        // that your local server would send back. To test, uncomment the 
-        // line below the function definition.
-        
-        async function mockSearch() {
-            // Retrieve query internally, solving the 'undefined' error
-            const query = searchInput.value.trim(); 
-            
-            // Wait to simulate network latency
-            await new Promise(resolve => setTimeout(resolve, 800));
-
-            // Filter results to make the demo realistic (e.g., if query is too generic)
-            if (!query || query.length < 3) {
-                 loadingIndicator.classList.add('hidden');
-                 if(query) { // If the query is just too short (1 or 2 chars)
-                    resultsContainer.innerHTML = `<p class="text-red-400 font-semibold">Please enter a search query with at least 3 characters.</p>`;
-                 }
-                 return;
-            }
-
-            // Generate mock results
-            const mockResults = [
-                { filename: `Report_A_${query}.txt`, score: 98 },
-                { filename: `Summary_B_${query}.pdf`, score: 85 },
-                { filename: `Log_C_${query}.dat`, score: 71 },
-                { filename: `Image_D_${query}.jpg`, score: 62 },
-                { filename: `Old_E_${query}.docx`, score: 55 },
-            ];
-
-            // This is where you would replace the above mock data with the actual fetch call
-            // performSearch = performSearch; // Revert to actual function call
-
-            updateRecentSearches(query);
-            displayResults(mockResults, query);
-            loadingIndicator.classList.add('hidden');
-        }
-
-        // UNCOMMENT THIS LINE TO RUN THE MOCK DEMO WITHOUT A LOCAL SERVER:
-        //performSearch = mockSearch; 
-        
-        // Initial Message (If using the mock, perform a demo search)
-        /*if(performSearch === mockSearch) {
-            loadingIndicator.classList.add('hidden');
-            initialMessage.textContent = "Demo Mode: Mock results shown. Enter a query to test history and suggestions.";
-        }*/
     </script>
 </body>
 </html>
