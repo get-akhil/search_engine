@@ -77,10 +77,10 @@ def _call_gemini_api(text_to_summarize):
         return "Error: Could not parse API response."
 
 
-# --- REVERTED: SINGLE BLOCKING ROUTE FOR DOCUMENT CONTENT AND SUMMARY ---
-@app.route('/api/document/<path:filename>', methods=['GET'])
-def get_document_content(filename):
-    """Reads content, calls the slow LLM API, and returns both content and summary."""
+# --- NEW FAST ROUTE: ONLY RETURNS RAW FILE CONTENT ---
+@app.route('/api/document/content/<path:filename>', methods=['GET'])
+def get_document_raw_content(filename):
+    """Reads and returns only the raw content of a document instantly."""
     file_path = os.path.join(DOC_SETS_PATH, filename)
     
     if not os.path.exists(file_path):
@@ -89,16 +89,27 @@ def get_document_content(filename):
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
-            # This is the blocking call that makes the overall request slow
-            summary = _call_gemini_api(content) 
-
-            return jsonify({
-                "filename": filename,
-                "content": content,
-                "summary": summary
-            })
+            return jsonify({"content": content})
     except Exception as e:
         return jsonify({"error": f"Error reading document: {e}"}), 500
+
+# --- NEW SLOW ROUTE: RETURNS ONLY LLM SUMMARY ---
+@app.route('/api/document/summary/<path:filename>', methods=['GET'])
+def get_document_summary(filename):
+    """Reads content, calls the slow LLM API, and returns only the summary."""
+    file_path = os.path.join(DOC_SETS_PATH, filename)
+    
+    if not os.path.exists(file_path):
+        return jsonify({"error": f"Document file '{filename}' not found at path: {file_path}"}), 404
+    
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+            # This is the blocking call that performs the LLM generation
+            summary = _call_gemini_api(content) 
+            return jsonify({"summary": summary})
+    except Exception as e:
+        return jsonify({"error": f"Error reading document for summary: {e}"}), 500
 
 
 # --- Route 2: Base Route to Serve the Front End ---
