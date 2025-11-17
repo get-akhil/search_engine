@@ -3,8 +3,8 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Optimised Search Engine</title>
-    <!-- Load Tailwind CSS --><script src="https://cdn.tailwindcss.com"></script>
-    <!-- Load Lucide Icons --><script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         /* Custom font import for modern look */
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
@@ -65,48 +65,69 @@
 <body class="p-4 md:p-8 min-h-screen">
     
     <div class="search-container pt-10">
-        <!-- Header --><header class="text-center mb-10">
+        <header class="text-center mb-10">
             <h1 class="text-4xl md:text-5xl font-extrabold">
                 <span class="text-gradient bg-gradient-to-r from-green-400 to-emerald-500">Optimised Search Engine</span>
             </h1>
             <p class="text-white mt-2">Data Structures With C (Project Based Learning)</p>
         </header>
 
-        <!-- Search Input Bar with Suggestions --><div id="search-bar-wrapper" class="relative">
+        <div id="search-bar-wrapper" class="relative">
+            <select id="category-select" class="hidden">
+                <option value="All">All Categories</option>
+                <option value="Engineering">Engineering</option>
+                <option value="Animals">Animals</option>
+                <option value="Art">Art</option>
+                <option value="Food">Food</option>
+                <option value="Music">Music</option>
+                <option value="Famous_Landmarks">Famous_Landmarks</option>
+            </select>
+            
             <input type="text" id="search-input" placeholder="Enter query (e.g., 'data structure' or 'robotics engineering')"
                    class="w-full p-4 pl-12 text-lg rounded-xl border border-green-700 bg-gray-900 text-green-200 focus:ring-green-500 focus:border-green-500 shadow-custom transition duration-200"
                    onkeyup="handleInput(event)">
+            
             <i data-lucide="search" class="absolute left-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-green-500"></i>
             <button onclick="handleSearchClick()" id="searchButton"
                 class="absolute right-0 top-0 h-full px-5 text-black bg-green-500 rounded-r-xl hover:bg-green-600 transition duration-150 transform hover:scale-[1.01] hover:shadow-lg">
                 Search
             </button>
             
-            <!-- Suggestions Dropdown --><ul id="suggestion-list" class="absolute z-10 w-full mt-2 bg-gray-900 border border-green-700 rounded-xl shadow-lg max-h-48 overflow-y-auto hidden">
-                <!-- Suggestions will be rendered here --></ul>
+            <ul id="suggestion-list" class="absolute z-10 w-full mt-2 bg-gray-900 border border-green-700 rounded-xl shadow-lg max-h-48 overflow-y-auto hidden">
+                </ul>
         </div>
         
-        <!-- Main Content Area --><div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
 
-            <!-- Recent Searches / Suggestions Panel (Column 1) --><div class="md:col-span-1">
-                <div class="bg-gray-900 p-6 rounded-xl shadow-2xl border border-green-700 glow-shadow">
+            <div class="md:col-span-1">
+                
+                <div class="bg-gray-900 p-6 rounded-xl shadow-2xl border border-green-700 glow-shadow mb-8">
                     <h2 class="text-xl font-semibold mb-4 flex items-center text-green-400">
                         <i data-lucide="history" class="h-5 w-5 mr-2"></i> Recent Searches
                     </h2>
                     <ul id="recent-searches-list" class="space-y-2 text-sm">
-                        <!-- History items will be inserted here --><li class="text-gray-500 italic">No recent searches yet.</li>
+                        <li class="text-gray-500 italic">No recent searches yet.</li>
                     </ul>
                 </div>
+                
+                <div class="bg-gray-900 p-6 rounded-xl shadow-2xl border border-green-700 glow-shadow">
+                    <h2 class="text-xl font-semibold mb-4 flex items-center text-emerald-400">
+                        <i data-lucide="folder-tree" class="h-5 w-5 mr-2"></i> Browse Categories
+                    </h2>
+                    <ul id="category-browser-list" class="space-y-2 text-sm">
+                        </ul>
+                </div>
+                
             </div>
 
-            <!-- Search Results Area (Columns 2 & 3) --><div class="md:col-span-2">
+            <div class="md:col-span-2">
                 <div class="bg-gray-900 p-6 rounded-xl shadow-2xl border border-green-700 min-h-64">
-                    <h2 class="text-xl font-semibold mb-4 flex items-center text-green-400">
+                    <h2 class="text-xl font-semibold mb-4 flex items-center text-green-400" id="results-header">
                         <i data-lucide="list-checks" class="h-5 w-5 mr-2"></i> Search Results
                     </h2>
                     <div id="results-container" class="space-y-4">
-                        <p class="text-gray-500 italic" id="initial-message">Enter a query to see ranked results from the local C index.</p>
-                        <!-- Results are dynamically inserted here --></div>
+                        <p class="text-gray-500 italic" id="initial-message">Enter a query to see ranked results from the local C index, or click a category to browse files.</p>
+                        </div>
                     <div id="loading-indicator" class="hidden text-center mt-8">
                         <svg class="animate-spin h-8 w-8 text-green-400 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                             <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
@@ -119,7 +140,7 @@
         </div>
     </div>
 
-    <!-- Document Viewer Modal --><div id="documentModal" class="fixed inset-0 bg-black bg-opacity-80 backdrop-blur-sm hidden z-50 p-4 md:p-8">
+    <div id="documentModal" class="fixed inset-0 bg-black bg-opacity-80 backdrop-blur-sm hidden z-50 p-4 md:p-8">
         <div class="bg-gray-900 rounded-xl shadow-2xl max-w-4xl mx-auto mt-4 modal-content-scroll">
             <div class="sticky top-0 bg-gray-900 border-b border-gray-800 p-4 flex justify-between items-center z-10">
                 <h2 id="modalTitle" class="text-xl font-bold text-white">Document Viewer: [Filename]</h2>
@@ -128,25 +149,21 @@
                 </button>
             </div>
             <div class="p-4 md:p-6">
-                <!-- LLM Summary Section --><div class="mb-6 p-4 bg-gray-800 rounded-lg border border-green-700 shadow-lg">
+                <div class="mb-6 p-4 bg-gray-800 rounded-lg border border-green-700 shadow-lg">
                     <h3 class="text-lg font-semibold mb-2 text-emerald-400 flex items-center">
                         <i data-lucide="message-square" class="h-5 w-5 mr-2"></i> Summary
                     </h3>
                     <div id="modalSummary" class="text-base font-semibold text-gray-300">
-                        <div class="text-center py-2" id="summaryLoading">
-                            <svg class="animate-spin h-5 w-5 text-emerald-400 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-                                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                            </svg>
-                            <p class="mt-1 text-xs text-gray-400">Generating summary...</p>
+                        <p class="text-gray-500 italic">Click the button below to generate a concise LLM summary.</p>
                         </div>
-                    </div>
+                    <div id="summaryControls" class="mt-4">
+                        </div>
                 </div>
 
-                <!-- Raw Document Content --><h3 class="text-lg font-semibold mb-2 text-green-400 flex items-center mt-4">
+                <h3 class="text-lg font-semibold mb-2 text-green-400 flex items-center mt-4">
                     <i data-lucide="file-text" class="h-5 w-5 mr-2"></i> Raw Document Content
                 </h3>
-                <pre id="modalContent" class="bg-gray-800 p-4 rounded-lg text-sm text-white whitespace-pre-wrap font-mono border border-gray-700 overflow-x-auto"></pre>
+                <pre id="modalContent" class="bg-gray-800 p-4 rounded-lg text-sm text-white whitespace-pre-wrap font-mono border border-gray-700 overflow-x-auto">Loading raw content instantly...</pre>
             </div>
         </div>
     </div>
@@ -154,67 +171,303 @@
 
     <script>
         // --- Configuration ---
-        // This dynamically determines the host (e.g., crispy-space-carnival-...) 
-        // and forces the port to 3000, where the Flask server is running internally.
         const LOCAL_HOST_ORIGIN = window.location.origin.replace(/:\d+/, ':3000');
         const LOCAL_API_URL = LOCAL_HOST_ORIGIN + '/api/search';
-        const DOCUMENT_API_URL = LOCAL_HOST_ORIGIN + '/api/document/';
+        // API ENDPOINTS
+        const DOCUMENT_CONTENT_URL = LOCAL_HOST_ORIGIN + '/api/document/content/';
+        const DOCUMENT_SUMMARY_URL = LOCAL_HOST_ORIGIN + '/api/document/summary/'; 
         const MAX_RECENT_SEARCHES = 5;
+
+        // FIXED LIST OF CATEGORIES
+        const CATEGORIES = [
+            'Engineering',
+            'Animals',
+            'Art',
+            'Food',
+            'Music',
+            'Famous_Landmarks'
+        ];
 
         // --- DOM Elements ---
         const searchInput = document.getElementById('search-input');
+        const categorySelect = document.getElementById('category-select'); 
+        const categoryBrowserList = document.getElementById('category-browser-list');
         const resultsContainer = document.getElementById('results-container');
+        const resultsHeader = document.getElementById('results-header');
         const loadingIndicator = document.getElementById('loading-indicator');
         const recentSearchesList = document.getElementById('recent-searches-list');
-        const suggestionList = document.getElementById('suggestion-list');
-        const initialMessage = document.getElementById('initial-message');
+        const summaryControls = document.getElementById('summaryControls'); // NEW
+        const modalSummary = document.getElementById('modalSummary');
+        const modalContent = document.getElementById('modalContent');
         const documentModal = document.getElementById('documentModal');
         const modalTitle = document.getElementById('modalTitle');
-        const modalContent = document.getElementById('modalContent');
-        const modalSummary = document.getElementById('modalSummary');
-        const summaryLoading = document.getElementById('summaryLoading');
+
         
-        // --- Data Management ---
         let recentSearches = JSON.parse(localStorage.getItem('recentSearches') || '[]');
+        
+        // --- Core Functions ---
 
-        // --- Utility Functions ---
-
-        function updateRecentSearches(query) {
-            query = query.trim().toLowerCase();
-            if (!query) return;
-
-            recentSearches = recentSearches.filter(q => q !== query);
-            recentSearches.unshift(query);
+        function renderCategoryList() {
+            // ... (rest of renderCategoryList remains the same)
+            categoryBrowserList.innerHTML = '';
             
-            if (recentSearches.length > MAX_RECENT_SEARCHES) {
-                recentSearches.pop();
-            }
-
-            localStorage.setItem('recentSearches', JSON.stringify(recentSearches));
-            renderRecentSearches();
-        }
-
-        function renderRecentSearches() {
-            recentSearchesList.innerHTML = '';
-            if (recentSearches.length === 0) {
-                recentSearchesList.innerHTML = '<li class="text-gray-500 italic">No recent searches yet.</li>';
-                return;
-            }
-
-            recentSearches.forEach(query => {
+            CATEGORIES.forEach(category => {
                 const li = document.createElement('li');
-                li.className = 'cursor-pointer text-green-300 hover:text-green-400 hover:bg-gray-800 p-2 rounded-lg transition duration-150 flex items-center';
-                li.innerHTML = `<i data-lucide="chevrons-right" class="h-4 w-4 mr-2"></i>${query}`;
+                const displayName = category.replace('_', ' ');
+                
+                li.className = 'cursor-pointer text-emerald-300 hover:text-green-400 hover:bg-gray-800 p-2 rounded-lg transition duration-150 flex items-center font-medium';
+                li.innerHTML = `<i data-lucide="book-open-text" class="h-4 w-4 mr-2"></i>${displayName}`;
+                
                 li.onclick = () => {
-                    searchInput.value = query;
-                    handleSearchClick(); 
+                    categorySelect.value = category;
+                    searchInput.value = '';
+                    performSearch();
                 };
-                recentSearchesList.appendChild(li);
+                categoryBrowserList.appendChild(li);
             });
             lucide.createIcons();
         }
 
+        function displayResults(results, query) {
+            // ... (rest of displayResults remains the same)
+            resultsContainer.innerHTML = '';
+            initialMessage.classList.add('hidden');
+            const currentCategory = categorySelect.value;
+            const isBrowsing = query.length === 0 && currentCategory !== 'All';
+            const displayCategoryName = currentCategory.replace('_', ' ');
+
+            if (isBrowsing) {
+                 resultsHeader.innerHTML = `<i data-lucide="folder-open" class="h-5 w-5 mr-2"></i> Browsing Files in: ${displayCategoryName}`;
+            } else {
+                 resultsHeader.innerHTML = `<i data-lucide="list-checks" class="h-5 w-5 mr-2"></i> Search Results`;
+            }
+
+            if (results.length === 0) {
+                if (isBrowsing) {
+                    resultsContainer.innerHTML = `<p class="text-green-400 font-semibold">No files found in the ${displayCategoryName} folder. Check if files exist in the subdirectory.</p>`;
+                } else {
+                    resultsContainer.innerHTML = `<p class="text-green-400 font-semibold">No results found for "${query}" in the ${displayCategoryName} category.</p>`;
+                }
+                return;
+            }
+
+            results.forEach((result, index) => {
+                const itemDiv = document.createElement('div');
+                itemDiv.className = 'p-4 bg-gray-700/50 rounded-lg border border-green-800 flex items-start space-x-4 hover:bg-gray-800 transition duration-150';
+                
+                const iconHtml = isBrowsing 
+                    ? `<div class="w-10 h-10 bg-emerald-700 rounded-full flex items-center justify-center flex-shrink-0">
+                           <i data-lucide="file-text" class="h-5 w-5 text-white"></i>
+                       </div>`
+                    : `<div class="w-10 h-10 bg-green-700 rounded-full flex items-center justify-center flex-shrink-0">
+                           <span class="text-white font-bold">${index + 1}</span>
+                       </div>`;
+
+                itemDiv.innerHTML = `
+                    ${iconHtml}
+                    <div class="flex-grow">
+                        <p class="text-lg font-medium text-white cursor-pointer hover:text-green-300" 
+                           onclick="openDocument('${result.filename}')">${result.filename}</p>
+                        ${isBrowsing 
+                            ? `<p class="text-sm text-gray-400 mt-1">File Size/Type: TXT Document</p>` 
+                            : `<p class="text-sm text-gray-400">Relevance Score: <span class="text-emerald-400 font-bold">${result.score}</span></p>`
+                        }
+                    </div>
+                `;
+                resultsContainer.appendChild(itemDiv);
+            });
+            lucide.createIcons();
+        }
+
+        /**
+         * Core Search Logic.
+         */
+        async function performSearch() {
+            // ... (rest of performSearch remains the same)
+            const query = searchInput.value.trim();
+            const category = categorySelect.value; 
+
+            loadingIndicator.classList.remove('hidden');
+            document.getElementById('suggestion-list').classList.add('hidden'); // Assuming this exists from previous steps
+            resultsContainer.innerHTML = '';
+            
+            const url = `${LOCAL_API_URL}?query=${encodeURIComponent(query)}&category=${encodeURIComponent(category)}`;
+
+            try {
+                const response = await fetch(url);
+                
+                if (!response.ok) {
+                    throw new Error(`Server error: ${response.status}.`);
+                }
+
+                const results = await response.json();
+                
+                if (results && results[0] && results[0].error) {
+                    resultsContainer.innerHTML = `<p class="text-red-400 font-semibold">C Engine Error: ${results[0].error}</p>`;
+                    return;
+                }
+
+                if (query.length > 0) {
+                    updateRecentSearches(query);
+                }
+                
+                displayResults(results, query);
+
+            } catch (error) {
+                console.error("Search failed:", error);
+                resultsContainer.innerHTML = `
+                    <div class="p-4 bg-red-800/30 border border-red-700 rounded-lg">
+                        <p class="text-red-400 font-bold mb-2">Connection Error</p>
+                        <p class="text-sm text-gray-300">Could not connect to the local server endpoint.</p>
+                        <p class="text-xs mt-1 text-red-300">Ensure your Flask server is running.</p>
+                    </div>
+                `;
+            } finally {
+                loadingIndicator.classList.add('hidden');
+            }
+        }
+        
+        // --- NEW SUMMARY FUNCTIONS ---
+
+        /**
+         * Displays the loading state for the summary section.
+         */
+        function showSummaryLoading() {
+            summaryControls.innerHTML = `
+                <div class="text-center py-2">
+                    <svg class="animate-spin h-5 w-5 text-emerald-400 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    <p class="mt-1 text-xs text-gray-400">Generating summary, this may take a moment...</p>
+                </div>
+            `;
+        }
+        
+        /**
+         * Fetches and displays the LLM summary.
+         * @param {string} filename 
+         */
+        async function generateSummary(filename) {
+            showSummaryLoading();
+            const encodedFilename = encodeURIComponent(filename);
+
+            try {
+                const summaryResponse = await fetch(DOCUMENT_SUMMARY_URL + encodedFilename);
+
+                if (!summaryResponse.ok) {
+                    throw new Error(`Failed to fetch summary: ${summaryResponse.status}`);
+                }
+                const summaryData = await summaryResponse.json();
+                
+                modalSummary.innerHTML = summaryData.summary.trim().startsWith('Error:') 
+                    ? `<p class="text-red-400">${summaryData.summary}</p>` 
+                    : `<div class="markdown">${summaryData.summary}</div>`;
+                
+                summaryControls.innerHTML = ''; // Clear controls after success
+                lucide.createIcons();
+
+            } catch (error) {
+                console.error("Document summary fetch error:", error);
+                summaryControls.innerHTML = `
+                    <button onclick="generateSummary('${filename}')" class="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-150">
+                        Error. Try Again
+                    </button>
+                `;
+                modalSummary.innerHTML = `<p class="text-red-400">Failed to load or summarize document. Details: ${error.message}</p>`;
+            }
+        }
+
+
+        /**
+         * UPDATED: Makes parallel calls, but only starts content fetch automatically.
+         * @param {string} filename The name of the file to fetch.
+         */
+        async function openDocument(filename) {
+            documentModal.classList.remove('hidden');
+            modalTitle.textContent = `Document Viewer: ${filename}`;
+            modalContent.textContent = 'Loading raw content instantly...'; 
+            
+            // 1. Reset and prepare summary area for manual start
+            modalSummary.innerHTML = '<p class="text-gray-500 italic">Click the button below to generate a concise LLM summary.</p>';
+            summaryControls.innerHTML = `
+                <button onclick="generateSummary('${filename}')" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2 px-4 rounded transition duration-150 flex items-center justify-center">
+                    <i data-lucide="zap" class="h-5 w-5 mr-2"></i> Generate Summary
+                </button>
+            `;
+            lucide.createIcons();
+
+            const encodedFilename = encodeURIComponent(filename);
+
+            // --- A. FAST FETCH: RAW CONTENT (Auto-start) ---
+            try {
+                const contentResponse = await fetch(DOCUMENT_CONTENT_URL + encodedFilename);
+                
+                if (!contentResponse.ok) {
+                    throw new Error(`Failed to fetch content: ${contentResponse.status}`);
+                }
+                const contentData = await contentResponse.json();
+                
+                // DISPLAY CONTENT INSTANTLY
+                modalContent.textContent = contentData.content; 
+
+            } catch (error) {
+                console.error("Document content fetch error:", error);
+                modalContent.textContent = `Error fetching raw content: ${error.message}`;
+            }
+        }
+        
+        // --- Initialization ---
+
+        function handleSearchClick() {
+            if (document.getElementById('search-input').value.trim().length === 0) {
+                 document.getElementById('category-select').value = 'All';
+            }
+            performSearch();
+        }
+        
+        function closeModal() {
+            documentModal.classList.add('hidden');
+        }
+
+        // ... (rest of helper/utility functions remain as in previous step)
+        function updateRecentSearches(query) {
+             query = query.trim().toLowerCase();
+             if (!query) return;
+
+             recentSearches = recentSearches.filter(q => q !== query);
+             recentSearches.unshift(query);
+            
+             if (recentSearches.length > MAX_RECENT_SEARCHES) {
+                 recentSearches.pop();
+             }
+
+             localStorage.setItem('recentSearches', JSON.stringify(recentSearches));
+             renderRecentSearches();
+        }
+
+        function renderRecentSearches() {
+             document.getElementById('recent-searches-list').innerHTML = '';
+             if (recentSearches.length === 0) {
+                 document.getElementById('recent-searches-list').innerHTML = '<li class="text-gray-500 italic">No recent searches yet.</li>';
+                 return;
+             }
+
+             recentSearches.forEach(query => {
+                 const li = document.createElement('li');
+                 li.className = 'cursor-pointer text-green-300 hover:text-green-400 hover:bg-gray-800 p-2 rounded-lg transition duration-150 flex items-center';
+                 li.innerHTML = `<i data-lucide="chevrons-right" class="h-4 w-4 mr-2"></i>${query}`;
+                 li.onclick = () => {
+                     searchInput.value = query;
+                     handleSearchClick(); 
+                 };
+                 document.getElementById('recent-searches-list').appendChild(li);
+             });
+             lucide.createIcons();
+        }
+        
         function renderSuggestions(input) {
+            const suggestionList = document.getElementById('suggestion-list');
             suggestionList.innerHTML = '';
             const matchingQueries = recentSearches.filter(q => q.startsWith(input.toLowerCase()));
 
@@ -238,159 +491,30 @@
 
         function handleInput(event) {
             const input = searchInput.value.trim();
+            // Clear category when user starts typing a new query
+            if (input.length > 0 && categorySelect.value !== 'All') {
+                categorySelect.value = 'All'; 
+                resultsHeader.innerHTML = `<i data-lucide="list-checks" class="h-5 w-5 mr-2"></i> Search Results`;
+            }
+            
             renderSuggestions(input);
             if (event.key === 'Enter' && input.length > 0) {
-                handleSearchClick();
+                performSearch();
             }
         }
 
-        /**
-         * Opens the modal and fetches the document content and summary.
-         * @param {string} filename The name of the file to fetch.
-         */
-        async function openDocument(filename) {
-            documentModal.classList.remove('hidden');
-            modalTitle.textContent = `Document Viewer: ${filename}`;
-            modalContent.textContent = 'Loading raw content...';
-            
-            // Show loading for summary
-            modalSummary.innerHTML = '';
-            summaryLoading.classList.remove('hidden');
-            modalSummary.appendChild(summaryLoading);
-            
-            try {
-                const response = await fetch(DOCUMENT_API_URL + filename);
-                if (!response.ok) {
-                    throw new Error(`Failed to fetch document: ${response.status}`);
-                }
-                const data = await response.json();
-                
-                // Display content
-                modalContent.textContent = data.content;
-                
-                // Display summary
-                summaryLoading.classList.add('hidden');
-                modalSummary.innerHTML = data.summary.trim() === 'API failed to return text.' || data.summary.trim().startsWith('Error:') 
-                    ? `<p class="text-red-400">${data.summary}</p>` 
-                    : `<div class="markdown">${data.summary}</div>`;
-                
-                lucide.createIcons();
-
-            } catch (error) {
-                console.error("Document fetch error:", error);
-                modalContent.textContent = `Error fetching document: ${error.message}`;
-                summaryLoading.classList.add('hidden');
-                modalSummary.innerHTML = `<p class="text-red-400">Failed to load or summarize document. Check Flask logs or API key.</p>`;
-            }
-        }
-
-        function closeModal() {
-            documentModal.classList.add('hidden');
-        }
-
-        /**
-         * Renders the search results dynamically.
-         */
-        function displayResults(results, query) {
-            resultsContainer.innerHTML = '';
-            initialMessage.classList.add('hidden');
-
-            if (results.length === 0) {
-                resultsContainer.innerHTML = `<p class="text-green-400 font-semibold">No results found for "${query}".</p>`;
-                return;
-            }
-
-            const isImageSearch = query.toLowerCase().includes('image');
-
-            results.forEach((result, index) => {
-                const itemDiv = document.createElement('div');
-                itemDiv.className = 'p-4 bg-gray-700/50 rounded-lg border border-green-800 flex items-start space-x-4 hover:bg-gray-800 transition duration-150';
-                
-                let iconHtml;
-                if (isImageSearch) {
-                    // Using green for image search simulation
-                    iconHtml = `<div class="w-16 h-16 bg-green-900 rounded-lg flex items-center justify-center flex-shrink-0">
-                                    <i data-lucide="image" class="h-8 w-8 text-green-300"></i>
-                                </div>`;
-                } else {
-                    // Using deep green for document
-                    iconHtml = `<div class="w-10 h-10 bg-green-700 rounded-full flex items-center justify-center flex-shrink-0">
-                                    <i data-lucide="file-text" class="h-5 w-5 text-white"></i>
-                                </div>`;
-                }
-
-                itemDiv.innerHTML = `
-                    ${iconHtml}
-                    <div class="flex-grow">
-                        <p class="text-lg font-medium text-white cursor-pointer hover:text-green-300" 
-                           onclick="openDocument('${result.filename}')">${result.filename}</p>
-                        <p class="text-sm text-gray-400">Relevance Score: <span class="text-emerald-400 font-bold">${result.score}</span></p>
-                        <p class="text-xs text-gray-500 mt-1">Click filename to view content and LLM summary.</p>
-                    </div>
-                `;
-                resultsContainer.appendChild(itemDiv);
-            });
-            lucide.createIcons();
-        }
-
-        /**
-         * Main function to perform the search via the local server.
-         */
-        async function performSearch() {
-            const query = searchInput.value.trim();
-            if (!query) return;
-
-            loadingIndicator.classList.remove('hidden');
-            suggestionList.classList.add('hidden');
-            resultsContainer.innerHTML = '';
-
-            try {
-                const response = await fetch(`${LOCAL_API_URL}?query=${encodeURIComponent(query)}`);
-                
-                if (!response.ok) {
-                    throw new Error(`Server error: ${response.status}. Make sure your local server is running at ${LOCAL_API_URL}.`);
-                }
-
-                const results = await response.json();
-                
-                if (results && results[0] && results[0].error) {
-                    // C program returned a JSON error (e.g., folder not found)
-                    resultsContainer.innerHTML = `<p class="text-red-400 font-semibold">C Engine Error: ${results[0].error}</p>`;
-                    return;
-                }
-
-                updateRecentSearches(query);
-                displayResults(results, query);
-
-            } catch (error) {
-                console.error("Search failed:", error);
-                resultsContainer.innerHTML = `
-                    <div class="p-4 bg-red-800/30 border border-red-700 rounded-lg">
-                        <p class="text-red-400 font-bold mb-2">Connection Error</p>
-                        <p class="text-sm text-gray-300">Could not connect to the local server endpoint.</p>
-                        <p class="text-xs mt-1 text-red-300">Ensure your Flask server is running and accessible at: <code>${LOCAL_API_URL}</code></p>
-                    </div>
-                `;
-            } finally {
-                loadingIndicator.classList.add('hidden');
-            }
-        }
-
-        function handleSearchClick() {
-            performSearch();
-        }
-
-        // --- Initialization ---
         document.addEventListener('DOMContentLoaded', () => {
             lucide.createIcons(); 
             renderRecentSearches();
+            renderCategoryList(); 
 
-            // Bind the enter key to the search button's action if input is focused
             searchInput.addEventListener('keydown', (event) => {
                 if (event.key === 'Enter') {
-                    handleSearchClick();
+                    performSearch();
                 }
             });
+            
+            categorySelect.value = 'All';
         });
     </script>
 </body>

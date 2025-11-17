@@ -1,0 +1,399 @@
+Wheat is a widely consumed cereal grain.
+
+Rice is the staple food for many countries.
+
+Maize is commonly known as corn.
+
+Barley is used in soups and health drinks.
+
+Oats are rich in dietary fiber.
+
+Millet is a group of small-seeded grasses.
+
+Sorghum is known as jowar in India.
+
+Quinoa is a protein-rich pseudo grain.
+
+Buckwheat is naturally gluten-free.
+
+Rye is used to make dense bread.
+
+Amaranth is high in calcium and iron.
+
+Teff is used to make Ethiopian bread.
+
+Farro is an ancient grain with a nutty flavor.
+
+Spelt is a nutritious wheat variety.
+
+Wild rice is a semi-aquatic grass seed.
+
+Foxtail millet is easy to digest.
+
+Finger millet is rich in calcium.
+
+Pearl millet is used to make rotis.
+
+Little millet is high in minerals.
+
+Kodo millet grows well in dry regions.
+
+Barnyard millet is a fast-growing crop.
+
+Proso millet is used for bird feed and food.
+
+Bulgur is cracked wheat used in salads.
+
+Couscous is made from semolina.
+
+Semolina is used to make pasta and upma.
+
+Cornmeal is used to make cornbread.
+
+Corn flour is finely ground maize.
+
+Brown rice has more fiber than white rice.
+
+Basmati rice is aromatic and long-grain.
+
+Jasmine rice is known for its floral aroma.
+
+Arborio rice is used for risotto.
+
+Black rice is rich in antioxidants.
+
+Red rice contains high mineral levels.
+
+Sticky rice is used in Asian desserts.
+
+Parboiled rice is partially precooked.
+
+Polished rice has its bran removed.
+
+Cracked wheat is used in porridge.
+
+Broken rice is used in idli batter.
+
+Popcorn is a form of heated maize kernels.
+
+Corn grits are used in breakfast dishes.
+
+Einkorn is an ancient wheat species.
+
+Emmer is another ancient wheat grain.
+
+Sprouted grains are easier to digest.
+
+Steel-cut oats are minimally processed.
+
+Rolled oats are steamed and flattened.
+
+Instant oats cook quickly.
+
+Sorghum flour is used for baking.
+
+Millet flour is gluten-free.
+
+Rice flour is used in many desserts.
+
+Corn flakes are made from toasted corn.
+
+Muesli is a mix of grains, nuts, and seeds.
+
+Granola is baked oats with sweeteners.
+
+Bran is the outer layer of grains.
+
+Wheat bran improves digestion.
+
+Rice bran is used in oils.
+
+Malted barley is used in beverages.
+
+Malt extract sweetens foods naturally.
+
+Corn starch thickens sauces.
+
+Broken wheat cooks quickly.
+
+Flaked rice is used to make poha.
+
+Puffed rice is used in snacks.
+
+Flattened rice absorbs flavors easily.
+
+Sorghum seeds can be popped like popcorn.
+
+Millet flakes are eaten as cereal.
+
+Wheat berries are whole wheat kernels.
+
+Barley flakes cook like oatmeal.
+
+Buckwheat groats are used in porridge.
+
+Toasted buckwheat is called kasha.
+
+Corn kernels are used in many dishes.
+
+Corn oil is extracted from maize.
+
+Brown rice retains its bran layer.
+
+Broken barley is used in soups.
+
+Red quinoa has a crunchy texture.
+
+White quinoa cooks softly.
+
+Black quinoa is slightly sweet.
+
+Amaranth seeds pop when heated.
+
+Teff flour is used in injera bread.
+
+Barley water is consumed for health.
+
+Rice noodles are made from rice flour.
+
+Wheat noodles are made from durum wheat.
+
+Durum wheat is used for pasta.
+
+Couscous cooks very fast.
+
+Millet porridge is popular in rural areas.
+
+Rice pudding is made with milk and sugar.
+
+Corn tortillas are staples in Mexico.
+
+Wheat tortillas are softer and flexible.
+
+Baked granola bars contain grains.
+
+Cereal bars are grain-based snacks.
+
+Whole grains include all parts of the seed.
+
+Refined grains have the bran removed.
+
+Sprouted millet is nutritious.
+
+Sorghum syrup is sweet and thick.
+
+Corn syrup is used in sweets.
+
+Rice cakes are low-calorie snacks.
+
+Multigrain bread uses several grains.
+
+Whole wheat bread is healthier than white bread.
+
+Barley bread is dense and flavorful.
+
+Oat bread contains rolled oats.
+
+Sorghum roti is gluten-free.
+
+Millet dosa is a light meal.
+
+Corn soup is creamy and sweet.
+
+Barley soup is thick and filling.
+
+Oat soup is nutritious.
+
+Brown rice salad is a healthy dish.
+
+Quinoa salad is rich in protein.
+
+Wheat pasta is commonly consumed.
+
+Barley tea is popular in East Asia.
+
+Rice crackers are crispy snacks.
+
+Corn puffs are light and airy.
+
+Puffed wheat is used in cereals.
+
+Millet khichdi is easy to digest.
+
+Sorghum porridge is filling.
+
+Barley porridge is common in winter.
+
+Buckwheat pancakes are gluten-free.
+
+Rice rotis are common in South India.
+
+Corn rotis are eaten in Punjab.
+
+Millet rotis are eaten in villages.
+
+Sorghum rotis are nutritious.
+
+Quinoa bowls are filling meals.
+
+Grain bowls mix vegetables and grains.
+
+Oat cookies are made using rolled oats.
+
+Wheat biscuits are widely consumed.
+
+Corn chips are used in nachos.
+
+Rice chips are crispy and light.
+
+Grain crackers are savory snacks.
+
+Wheat laddus use roasted flour.
+
+Barley ladoos are healthy sweets.
+
+Millet ladoos have a nutty taste.
+
+Puffed rice ladoos are made with jaggery.
+
+Rice khichdi is a basic Indian dish.
+
+Basmati biryani uses long-grain rice.
+
+Steamed rice is the simplest form.
+
+Fried rice uses leftover grains.
+
+Veg pulao is made with aromatic rice.
+
+Corn pulao is a light dish.
+
+Wheat halwa is made with semolina.
+
+Barley halwa is nutritious.
+
+Millet halwa uses jaggery.
+
+Rice kheer is a dessert.
+
+Corn halwa is sweet and rich.
+
+Millet cookies are healthy snacks.
+
+Rice idlis are steamed cakes.
+
+Rice dosas are crispy pancakes.
+
+Wheat dosa is thin and soft.
+
+Corn soup uses sweet corn.
+
+Mixed millet flour is nutritious.
+
+Oat smoothies use rolled oats.
+
+Barley smoothies are rare but healthy.
+
+Rice milk is a dairy alternative.
+
+Oat milk is popular for health.
+
+Almonds pair well with grains in cereal.
+
+Seeds are often mixed with grains.
+
+Cereals are mainly made from grains.
+
+Instant cereal powders cook fast.
+
+Wheat flakes are eaten with milk.
+
+Rice flakes soften when soaked.
+
+Barley flakes are chewy.
+
+Millet flakes absorb liquid quickly.
+
+Cornflakes are toasted maize.
+
+Muesli contains oats and grains.
+
+Porridge is made from many grains.
+
+Grain soups are nutritious.
+
+Mixed grain flour improves nutrition.
+
+Brown rice is healthier than white rice.
+
+Wild rice is rich in minerals.
+
+Ancient grains are making a comeback.
+
+Whole grains improve digestion.
+
+Refined grains are lower in nutrients.
+
+Sorghum is drought-resistant.
+
+Millet grows well in dry areas.
+
+Rice requires a lot of water.
+
+Wheat grows in cool climates.
+
+Barley grows quickly.
+
+Oats need cold weather.
+
+Quinoa grows in tough climates.
+
+Buckwheat grows rapidly.
+
+Corn grows in warm climates.
+
+Teff grows well in Ethiopia.
+
+Spelt grows like wheat.
+
+Farro is an ancient wheat.
+
+Multi-grain mixtures combine many grains.
+
+Parboiled rice cooks faster.
+
+Steamed grains absorb flavors.
+
+Roasted grains enhance aroma.
+
+Broken grains cook quickly.
+
+Ground grains become flour.
+
+Grain flour is used in baking.
+
+Cooked grains are soft and fluffy.
+
+Dry grains last long in storage.
+
+Fresh grains spoil quickly.
+
+Organic grains are chemical-free.
+
+Polished grains lose nutrients.
+
+Unpolished grains retain fiber.
+
+Sprouted grains increase nutrients.
+
+Rolled grains flatten under pressure.
+
+Whole grain cereals are nutritious.
+
+Corn semolina is used in baking.
+
+Wheat semolina is used in pasta.
+
+Granulated grains are coarse.
+
+Grain powders mix easily.

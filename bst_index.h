@@ -7,7 +7,7 @@
 #include <string.h>
 
 #define MAX_WORD_LEN 100
-#define MAX_PATH_LEN 100
+#define MAX_PATH_LEN 512
 
 typedef struct DocNode {
     char filename[MAX_PATH_LEN];

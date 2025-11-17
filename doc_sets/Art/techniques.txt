@@ -1,0 +1,99 @@
+Shading creates light and dark areas in a drawing.
+
+Blending smooths pencil or charcoal marks.
+
+Hatching uses parallel lines for shading.
+
+Cross-hatching uses intersecting lines for depth.
+
+Stippling uses dots to create texture.
+
+Scumbling adds a rough, broken layer of color.
+
+Burnishing makes colored pencil shiny and smooth.
+
+Sgraffito scratches off a top layer to reveal color.
+
+Wet-on-wet is a watercolor technique for soft edges.
+
+Wet-on-dry creates sharp watercolor lines.
+
+Glazing adds transparent paint layers.
+
+Impasto uses thick paint for texture.
+
+Dry brushing creates rough, textured strokes.
+
+Underpainting creates a base layer for a painting.
+
+Lifting removes pigment from watercolor.
+
+Feathering softens edges between colors.
+
+Washes are large diluted areas of watercolor.
+
+Gradient washes blend colors smoothly.
+
+Masking keeps certain areas white.
+
+Layering builds color depth.
+
+Sponging adds natural textures.
+
+Splattering creates random paint dots.
+
+Smudging blends pencil with fingers or tools.
+
+Outlining defines the edges of shapes.
+
+Blocking in sets up large shapes first.
+
+Edge control makes sharp or soft boundaries.
+
+Smoothing evens out graphite areas.
+
+Tonal drawing focuses on values only.
+
+Gesture drawing captures quick motion.
+
+Line drawing uses only outlines.
+
+Negative drawing draws around the subject.
+
+Staining keeps pigment in the paper.
+
+Spray painting uses aerosol colors.
+
+Marbling creates floating ink patterns.
+
+Dabbing creates small textured marks.
+
+Highlighting shows the brightest spots.
+
+Shadowing shows the darkest areas.
+
+Scribbling builds texture with loose lines.
+
+Blocking color fills areas with flat tone.
+
+Color mixing blends two colors.
+
+Color lifting removes mistakes.
+
+Dry media techniques use pencils or charcoal.
+
+Wet media techniques use inks or paints.
+
+Digital painting uses software brushes.
+
+Smudge tools blend digital strokes.
+
+Layers separate parts of a digital artwork.
+
+Clipping masks control digital color areas.
+
+Soft shading creates gentle shadows.
+
+Hard shading creates sharp shadow edges.
+
+Soft gradients blend colors slowly.

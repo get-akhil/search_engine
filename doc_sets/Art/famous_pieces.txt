@@ -1,0 +1,399 @@
+Mona Lisa was painted by Leonardo da Vinci.
+
+The Last Supper was created by Leonardo da Vinci.
+
+Vitruvian Man was sketched by Leonardo da Vinci.
+
+Starry Night was painted by Vincent van Gogh.
+
+Sunflowers is a famous series by Vincent van Gogh.
+
+Café Terrace at Night was painted by Vincent van Gogh.
+
+The Scream was created by Edvard Munch.
+
+The Madonna was painted by Edvard Munch.
+
+The Dance of Life is also by Edvard Munch.
+
+Girl with a Pearl Earring was painted by Johannes Vermeer.
+
+The Milkmaid was painted by Johannes Vermeer.
+
+View of Delft is one of Vermeer’s masterpieces.
+
+The Persistence of Memory was painted by Salvador Dalí.
+
+The Elephants is another surrealist work by Dalí.
+
+Galatea of the Spheres was created by Dalí.
+
+Guernica was painted by Pablo Picasso.
+
+Les Demoiselles d’Avignon was created by Picasso.
+
+The Weeping Woman is a Picasso masterpiece.
+
+The Creation of Adam was painted by Michelangelo.
+
+The Sistine Chapel Ceiling was painted by Michelangelo.
+
+The Last Judgment is another work by Michelangelo.
+
+The Birth of Venus was painted by Sandro Botticelli.
+
+Primavera was created by Sandro Botticelli.
+
+Adoration of the Magi is also by Botticelli.
+
+The Kiss was painted by Gustav Klimt.
+
+Portrait of Adele Bloch-Bauer I was created by Klimt.
+
+The Tree of Life is another Klimt masterpiece.
+
+American Gothic was painted by Grant Wood.
+
+Daughter of Revolution is also by Grant Wood.
+
+Young Corn is a painting by Grant Wood.
+
+The Night Watch was painted by Rembrandt.
+
+Self-Portrait with Two Circles is by Rembrandt.
+
+The Storm on the Sea of Galilee is attributed to Rembrandt.
+
+The Arnolfini Portrait was painted by Jan van Eyck.
+
+Ghent Altarpiece was created by Jan van Eyck.
+
+Portrait of a Man in a Red Turban is by van Eyck.
+
+The Great Wave off Kanagawa was created by Hokusai.
+
+Thirty-Six Views of Mount Fuji is a Hokusai series.
+
+Fine Wind, Clear Morning is another Hokusai print.
+
+Water Lilies were painted by Claude Monet.
+
+Impression, Sunrise was created by Monet.
+
+Woman with a Parasol is also by Monet.
+
+The Sleeping Gypsy was painted by Henri Rousseau.
+
+Tiger in a Tropical Storm is by Henri Rousseau.
+
+The Snake Charmer is another Rousseau painting.
+
+Campbell’s Soup Cans were created by Andy Warhol.
+
+Marilyn Diptych is a Warhol masterpiece.
+
+Eight Elvises is another Warhol work.
+
+The Thinker was sculpted by Auguste Rodin.
+
+The Kiss sculpture is also by Rodin.
+
+The Gates of Hell is a major Rodin project.
+
+The School of Athens was painted by Raphael.
+
+Sistine Madonna is by Raphael.
+
+Transfiguration is another Raphael painting.
+
+A Sunday Afternoon on the Island of La Grande Jatte was painted by Georges Seurat.
+
+Bathers at Asnières is by Georges Seurat.
+
+The Circus is another pointillist work by Seurat.
+
+Nighthawks was painted by Edward Hopper.
+
+Automat is by Edward Hopper.
+
+Chop Suey is another Hopper masterpiece.
+
+The Garden of Earthly Delights was painted by Hieronymus Bosch.
+
+The Last Judgment triptych is by Bosch.
+
+The Haywain Triptych is another Bosch work.
+
+Liberty Leading the People was painted by Eugène Delacroix.
+
+The Death of Sardanapalus is by Delacroix.
+
+Woman with a Parrot is also by Delacroix.
+
+The Third of May 1808 was painted by Francisco Goya.
+
+Saturn Devouring His Son is a famous Goya painting.
+
+The Nude Maja is also by Goya.
+
+Whistler’s Mother was painted by James McNeill Whistler.
+
+Nocturne in Black and Gold is by Whistler.
+
+Symphony in White No. 1 is another Whistler work.
+
+Las Meninas was painted by Diego Velázquez.
+
+The Rokeby Venus is by Velázquez.
+
+Old Woman Frying Eggs is another Velázquez painting.
+
+The Hay Wain was painted by John Constable.
+
+Salisbury Cathedral from the Meadows is by Constable.
+
+The Cornfield is another Constable work.
+
+The Fighting Temeraire was painted by J.M.W. Turner.
+
+Rain, Steam and Speed is a Turner masterpiece.
+
+Snow Storm: Hannibal and his Army Crossing the Alps is by Turner.
+
+The Card Players were painted by Paul Cézanne.
+
+Mont Sainte-Victoire is by Cézanne.
+
+Still Life with Apples is another Cézanne work.
+
+The Dance was painted by Henri Matisse.
+
+Woman with a Hat is by Matisse.
+
+Red Room (Harmony in Red) is another Matisse painting.
+
+The Two Fridas was painted by Frida Kahlo.
+
+Self-Portrait with Thorn Necklace is by Kahlo.
+
+The Broken Column is another Kahlo work.
+
+Christina’s World was painted by Andrew Wyeth.
+
+Winter 1946 is by Wyeth.
+
+Trodden Weed is another Wyeth artwork.
+
+The Old Guitarist was painted by Pablo Picasso in his Blue Period.
+
+La Vie is from Picasso’s Blue Period.
+
+Family of Saltimbanques is from Picasso’s Rose Period.
+
+The Starry Night Over the Rhône is by Vincent van Gogh.
+
+Irises is another painting by van Gogh.
+
+Wheatfield with Crows is a late work by van Gogh.
+
+The Oath of the Horatii was painted by Jacques-Louis David.
+
+The Death of Marat is by Jacques-Louis David.
+
+Napoleon Crossing the Alps is another David work.
+
+The Gleaners was painted by Jean-François Millet.
+
+The Angelus is by Millet.
+
+Harvesters Resting is another Millet painting.
+
+The Peasant Wedding was painted by Pieter Bruegel the Elder.
+
+The Hunters in the Snow is by Bruegel.
+
+The Tower of Babel is another Bruegel work.
+
+The Kiss by Constantin Brâncuși is a minimalist sculpture.
+
+Bird in Space was sculpted by Brâncuși.
+
+Endless Column is another Brâncuși sculpture.
+
+The Sleeping Venus was painted by Giorgione.
+
+The Tempest is by Giorgione.
+
+The Three Philosophers is another Giorgione work.
+
+The Calling of St Matthew was painted by Caravaggio.
+
+Judith Beheading Holofernes is by Caravaggio.
+
+Bacchus is another Caravaggio masterpiece.
+
+The Birth of Venus by Alexandre Cabanel is a famous academic work.
+
+Fallen Angel is by Cabanel.
+
+Ophelia was painted by John Everett Millais.
+
+Christ in the House of His Parents is by Millais.
+
+The Blind Girl is another Millais work.
+
+The Sleeping Venus by Titian is a Renaissance masterpiece.
+
+Assumption of the Virgin is by Titian.
+
+Bacchus and Ariadne is another Titian painting.
+
+Olympia was painted by Édouard Manet.
+
+Luncheon on the Grass is by Manet.
+
+A Bar at the Folies-Bergère is another Manet work.
+
+The Basket of Apples was painted by Paul Cézanne.
+
+Vision After the Sermon was painted by Gauguin.
+
+Where Do We Come From? is a Gauguin masterpiece.
+
+Tahitian Women on the Beach is by Gauguin.
+
+The Isle of the Dead was painted by Arnold Böcklin.
+
+Madonna is by Edvard Munch.
+
+The Kiss by Munch is also famous.
+
+The Treachery of Images was painted by René Magritte.
+
+The Son of Man is by Magritte.
+
+Golconda is another Magritte artwork.
+
+Ophelia by Waterhouse is a famous Pre-Raphaelite painting.
+
+The Lady of Shalott is by Waterhouse.
+
+Hylas and the Nymphs is another Waterhouse work.
+
+The Garden of Love was painted by Rubens.
+
+The Descent from the Cross is by Rubens.
+
+Samson and Delilah is another Rubens painting.
+
+The Sleeping Shepherdess was painted by Jean-Honoré Fragonard.
+
+The Swing is Fragonard’s most famous work.
+
+Young Girl Reading is also by Fragonard.
+
+The Annunciation was painted by Fra Angelico.
+
+The Adoration of the Magi is by Fra Angelico.
+
+The Transfiguration is another Angelico work.
+
+The Tribute Money was painted by Masaccio.
+
+The Expulsion from the Garden is by Masaccio.
+
+Holy Trinity is another Masaccio artwork.
+
+The Kiss of Judas was painted by Giotto.
+
+Lamentation is by Giotto.
+
+The Last Judgment fresco is another Giotto masterpiece.
+
+The Sleeping Venus by Giorgione inspired many later works.
+
+The Gross Clinic was painted by Thomas Eakins.
+
+The Agnew Clinic is also by Eakins.
+
+Max Schmitt in a Single Scull is another Eakins painting.
+
+The Thinker is the most recognizable Rodin sculpture.
+
+The Burghers of Calais is also by Rodin.
+
+Balzac is another Rodin sculpture.
+
+The Ecstasy of Saint Teresa was sculpted by Bernini.
+
+Apollo and Daphne is by Gian Lorenzo Bernini.
+
+David is another Bernini sculpture.
+
+The Four Horsemen of the Apocalypse was engraved by Albrecht Dürer.
+
+Melencolia I is a Dürer masterpiece.
+
+Young Hare is another Dürer work.
+
+The Tower of Babel was painted by Bruegel the Elder.
+
+The Hunters in the Snow is one of Bruegel’s greatest works.
+
+The Potato Eaters was painted by Van Gogh.
+
+At Eternity’s Gate is another van Gogh painting.
+
+The Bedroom (Arles room) is also by van Gogh.
+
+The Kiss by Klimt is part of his Golden Phase.
+
+Hope II is a Klimt masterpiece.
+
+Portrait of Fritza Riedler is also by Klimt.
+
+The Birth of Venus is Botticelli’s most famous painting.
+
+Venus and Mars is another Botticelli work.
+
+Madonna of the Magnificat is also by Botticelli.
+
+The Raft of the Medusa was painted by Théodore Géricault.
+
+The Charging Chasseur is also by Géricault.
+
+Madwoman is another Géricault portrait.
+
+The Laughing Cavalier was painted by Frans Hals.
+
+The Gypsy Girl is by Hals.
+
+Portrait of René Descartes is another work by Hals.
+
+The Embarkation for Cythera was painted by Watteau.
+
+Pierrot is another Watteau work.
+
+Gilles is also attributed to Watteau.
+
+The Calling of St. Matthew is a key Baroque painting by Caravaggio.
+
+Narcissus is another Caravaggio masterpiece.
+
+Medusa shield painting is also by Caravaggio.
+
+Nighthawks by Hopper is a major icon of modern America.
+
+Room in New York is also by Hopper.
+
+Cape Cod Morning is another Hopper artwork.
+
+Guernica by Picasso is a political masterpiece.
+
+Three Musicians is also by Picasso.
+
+Girl Before a Mirror is another Picasso painting.
+
+The Sleeping Gypsy by Rousseau is iconic.
+
+The Dream by Rousseau is also widely celebrated.

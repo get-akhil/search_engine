@@ -1,0 +1,399 @@
+Chicken is the most widely consumed poultry.
+
+Mutton is meat from adult sheep or goats.
+
+Beef is meat from cattle.
+
+Pork is meat from pigs.
+
+Turkey is often eaten during holidays.
+
+Duck meat has a rich flavor.
+
+Quail meat is tender and delicate.
+
+Lamb is meat from young sheep.
+
+Chicken breast is low in fat.
+
+Chicken thighs are juicier than breast.
+
+Ground beef is used in burgers.
+
+Bacon comes from pork belly.
+
+Sausages are seasoned ground meat.
+
+Ham is cured pork.
+
+Salami is fermented sausage.
+
+Pepperoni is used on pizzas.
+
+Meatballs are rolled ground meat.
+
+Chicken wings are popular snacks.
+
+Chicken legs are flavorful.
+
+Fish is a lean source of protein.
+
+Prawns are small shellfish.
+
+Shrimp are similar to prawns.
+
+Crab meat is sweet and soft.
+
+Lobster is considered a delicacy.
+
+Salmon is rich in omega-3 fatty acids.
+
+Tuna is eaten raw or cooked.
+
+Sardines are small oily fish.
+
+Mackerel is rich in nutrients.
+
+Anchovies are salty preserved fish.
+
+Chicken liver is nutrient-rich.
+
+Beef liver has high iron content.
+
+Pork ribs are grilled or smoked.
+
+BBQ chicken is marinated and grilled.
+
+Roast turkey is slow-cooked.
+
+Steaks are thick cuts of beef.
+
+Chicken curry is a common dish.
+
+Grilled chicken is low in fat.
+
+Roasted chicken is crispy outside.
+
+Fish curry is made with spices.
+
+Prawn fry is a coastal favorite.
+
+Meat stew is rich and hearty.
+
+Mutton biryani is flavorful.
+
+Chicken biryani is widely loved.
+
+Beef broth is used in soups.
+
+Bone broth contains collagen.
+
+Chicken nuggets are breaded pieces.
+
+Chicken popcorn is small fried bites.
+
+Fried chicken is crispy and juicy.
+
+Pork chops are grilled.
+
+Meat kebabs are skewered.
+
+Shawarma is seasoned meat sliced thin.
+
+Doner kebab is rotisserie-cooked.
+
+Meat patties are used in burgers.
+
+Roast beef is sliced thin.
+
+Cold cuts are pre-cooked sliced meats.
+
+Chicken salami is processed poultry.
+
+Hot dogs are sausages in bread.
+
+Tuna salad is mixed with dressing.
+
+Chicken salad uses diced chicken.
+
+Mutton soup is nutritious.
+
+Fish fingers are breaded fish strips.
+
+Crab sticks are imitation crab.
+
+Chicken steak is marinated and grilled.
+
+Turkey bacon is a low-fat option.
+
+Lamb chops are tender cuts.
+
+Roast lamb is flavorful.
+
+Beef jerky is dried meat.
+
+Pork sausages come in many flavors.
+
+Chicken sausages are light.
+
+Meat curry is cooked with spices.
+
+Buffalo meat is called "buff" in some regions.
+
+Venison is deer meat.
+
+Rabbit meat is lean.
+
+Goose meat is fatty and flavorful.
+
+Octopus is used in seafood dishes.
+
+Squid is used to make calamari.
+
+Mussels are shellfish.
+
+Clams are steamed or grilled.
+
+Scallops are tender shellfish.
+
+Fish fillets are boneless cuts.
+
+Fish steak is thick cut fish.
+
+Salmon fillet is pink and flaky.
+
+Chicken kofta is minced meat balls.
+
+Meat sabzi combines meat and vegetables.
+
+Chicken roll is wrapped in bread.
+
+Beef roll is spicy.
+
+Pork roast is slow-cooked.
+
+Chicken tikka is marinated and grilled.
+
+Mutton tikka is smoky.
+
+Lamb roast is aromatic.
+
+Chicken soup is light and healthy.
+
+Fish soup is mild.
+
+Meat gravy is rich and thick.
+
+Pork curry is spicy.
+
+Chicken kebab is a common street food.
+
+Chicken shawarma is widely loved.
+
+Lamb shawarma is rich.
+
+Beef kebab is flavorful.
+
+Tandoori chicken is cooked in a clay oven.
+
+Mutton seekh kebab is skewered.
+
+Chicken seekh kebab is grilled.
+
+Fish fry is crispy.
+
+Mutton fry is spicy.
+
+Chicken masala is popular.
+
+Mutton masala is gravy-based.
+
+Beef masala is rich.
+
+Chicken handi is creamy.
+
+Mutton handi is flavorful.
+
+Chicken manchurian is Indo-Chinese.
+
+Chili chicken is spicy.
+
+Chicken lollipop is deep-fried.
+
+Crab curry is coastal.
+
+Prawn curry is tangy.
+
+Fish molly is mild.
+
+Fish biryani is aromatic.
+
+Mutton kheema is minced meat curry.
+
+Chicken kheema is lighter.
+
+Beef kheema is flavorful.
+
+Chicken mayo sandwich is creamy.
+
+Tuna sandwich is protein-rich.
+
+Chicken burger is widely eaten.
+
+Fish burger is a seafood variation.
+
+Beef burger is classic.
+
+Chicken pizza has grilled toppings.
+
+Pepperoni pizza uses salami slices.
+
+BBQ chicken pizza is smoky.
+
+Seafood pizza has shrimp and fish.
+
+Chicken pasta uses creamy sauce.
+
+Seafood pasta has prawns and squid.
+
+Meat lasagna is layered.
+
+Chicken noodles are stir-fried.
+
+Beef noodles have bold flavors.
+
+Shrimp noodles are light.
+
+Chicken rice is a complete meal.
+
+Mutton rice is rich.
+
+Chicken stew is mild.
+
+Mutton stew is comforting.
+
+Chicken porridge is soft.
+
+Fish porridge is light.
+
+Meat roast is festive.
+
+Chicken pepper fry is spicy.
+
+Mutton pepper fry has strong flavor.
+
+Seafood platter includes many items.
+
+Chicken satay is served with peanut sauce.
+
+Fish satay is grilled on sticks.
+
+Mutton curry puff is a baked snack.
+
+Chicken curry puff is common.
+
+Beef curry puff is savory.
+
+Chicken cutlet is breadcrumb-coated.
+
+Fish cutlet is crispy.
+
+Mutton cutlet is rich.
+
+Chicken pakora is deep-fried.
+
+Fish pakora is crunchy.
+
+Prawn pakora is light.
+
+Meat grill platter has assorted meats.
+
+Chicken drumstick is a favorite.
+
+Chicken shami kebab is soft.
+
+Mutton shami kebab is flavorful.
+
+Chicken haleem is a slow-cooked dish.
+
+Mutton haleem is rich in taste.
+
+Beef haleem is hearty.
+
+Chicken mince is used in momos.
+
+Pork mince is used in dumplings.
+
+Beef mince is versatile.
+
+Chicken roasted leg is popular.
+
+Fish roasted with herbs is aromatic.
+
+Chicken curry cut is bone-in.
+
+Boneless chicken cooks faster.
+
+Lamb mince is used in kebabs.
+
+Chicken bone broth boosts immunity.
+
+Beef bone broth is nutritious.
+
+Fish bone broth is clear and mild.
+
+Meat tends to be high in protein.
+
+Poultry cooks faster than red meat.
+
+Seafood is generally low-fat.
+
+Chicken can be grilled easily.
+
+Mutton needs slow cooking.
+
+Beef requires marination.
+
+Pork is versatile.
+
+Turkey is lean.
+
+Fish cooks very quickly.
+
+Shellfish needs precise cooking.
+
+Meat can be canned.
+
+Poultry can be smoked.
+
+Fish can be dried.
+
+Meat can be cured.
+
+Chicken can be stir-fried.
+
+Mutton can be roasted.
+
+Pork can be pickled.
+
+Beef can be grilled.
+
+Fish can be steamed.
+
+Chicken can be boiled.
+
+Turkey can be baked.
+
+Lamb can be sautéed.
+
+Seafood can be poached.
+
+Duck can be roasted.
+
+Meat can be minced.
+
+Poultry can be shredded.
+
+Fish can be flaked.
+
+Meat can be marinated.

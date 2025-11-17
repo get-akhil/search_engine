@@ -1,0 +1,399 @@
+Shading is used to show light and dark in drawings.
+
+It helps objects look three-dimensional.
+
+Light always comes from a direction.
+
+The side facing the light is bright.
+
+The side away from the light is dark.
+
+The darkest part is called the shadow.
+
+Shading makes drawings realistic.
+
+Artists use pencils for shading.
+
+The HB pencil is good for basic shading.
+
+2B pencils make softer, darker lines.
+
+4B pencils make even darker shades.
+
+6B pencils are very dark and smooth.
+
+Hard pencils give light shades.
+
+Soft pencils give dark shades.
+
+Every pencil has its own effect.
+
+Shading needs slow hand movement.
+
+The lighter you press, the lighter the shade.
+
+The harder you press, the darker the shade.
+
+Smooth shading looks neat.
+
+Rough shading gives texture.
+
+Always hold your pencil at an angle.
+
+Do not hold the pencil upright for shading.
+
+Artists commonly shade using “values”.
+
+Value means how dark or light something is.
+
+Good shading uses many values.
+
+Shading starts with the lightest tone.
+
+Then medium tone is added.
+
+Then the darkest tone is added last.
+
+Smooth gradients look professional.
+
+A gradient is a slow change from light to dark.
+
+Shading shows the surface of an object.
+
+Some surfaces are smooth.
+
+Some surfaces are rough.
+
+Some surfaces are shiny.
+
+Each surface needs a different shading style.
+
+Smooth objects need smooth shading.
+
+Rough objects need textured shading.
+
+Shiny objects need sharp highlights.
+
+Highlights are bright white areas.
+
+You must leave highlights blank.
+
+Never press too hard in highlight areas.
+
+Artists use erasers to create highlights.
+
+A kneaded eraser is good for small highlights.
+
+Cotton can be used to blend shading.
+
+Tissue paper blends softly.
+
+Blending makes shading even.
+
+Do not blend too much.
+
+Over-blending removes texture.
+
+Blending stumps are tools for shading.
+
+They give smooth blending.
+
+Cross-hatching is a shading technique.
+
+It uses criss-cross lines.
+
+Cross-hatching gives depth.
+
+It is used in pen drawings.
+
+Hatching uses lines in one direction.
+
+Lines placed close together look dark.
+
+Lines placed far apart look light.
+
+This technique helps control value.
+
+Stippling uses dots for shading.
+
+Many dots together look darker.
+
+Few dots look lighter.
+
+Stippling takes more time.
+
+It is great for texture.
+
+Scrumbling uses scribbles.
+
+It gives a rough, textured look.
+
+It is used for hair, grass, and fur.
+
+Flat shading is simple.
+
+It uses one shade everywhere.
+
+It looks graphic and clean.
+
+Gradient shading is realistic.
+
+It slowly transitions from light to dark.
+
+It is used for round objects.
+
+Sphere shading starts with light tone.
+
+Then medium tone is added.
+
+Then dark tone is added on one side.
+
+Cast shadow is the shadow on the ground.
+
+It shows where the light is coming from.
+
+Strong light makes sharp shadows.
+
+Soft light makes blurry shadows.
+
+Shading depends on the light source.
+
+The light can be from left.
+
+Or from right.
+
+Or from above.
+
+Or from below.
+
+Or from behind.
+
+The light direction changes shading.
+
+Artists study light to shade well.
+
+Practice improves shading.
+
+Consistent pencil pressure is important.
+
+Sketch lightly first.
+
+Add darker tones later.
+
+Keep your hand steady.
+
+Do not rush shading.
+
+Move the pencil slowly.
+
+Use side of the pencil.
+
+This gives wide, soft shading.
+
+Use the tip for details.
+
+Shadow edges show clarity.
+
+Hard edges show strong shadows.
+
+Soft edges show soft shadows.
+
+Contrast is important.
+
+Contrast means difference between light and dark.
+
+High contrast looks dramatic.
+
+Low contrast looks soft.
+
+Artists decide contrast based on mood.
+
+Reflective light appears on dark areas.
+
+It is a faint light from surroundings.
+
+It adds realism.
+
+Reflective light should be light, not too bright.
+
+Background shading adds depth.
+
+White backgrounds can look flat.
+
+Light shaded backgrounds look better.
+
+Backgrounds highlight the main object.
+
+Graphite smudges easily.
+
+Keep paper clean.
+
+Put a paper under your hand.
+
+Avoid touching shaded areas.
+
+Use fixative spray to protect your work.
+
+Fixative prevents smudging.
+
+Practice shading basic shapes.
+
+Start with sphere.
+
+Then cube.
+
+Then cylinder.
+
+Then cone.
+
+Each shape has different shading logic.
+
+Sphere has smooth gradient.
+
+Cube has sharp edges.
+
+Cylinder has curved gradient.
+
+Cone has a mix of both.
+
+Shading clothes helps wrinkles show.
+
+Wrinkles have dark and light parts.
+
+Shadows show folds.
+
+Highlights show raised areas.
+
+Study real clothes to practice.
+
+Hair shading uses layers.
+
+Start with base shading.
+
+Add darker strands.
+
+Add highlights last.
+
+Do not shade hair as one block.
+
+Fur shading uses small strokes.
+
+Shade in hair direction.
+
+Avoid long lines for fur.
+
+Tree bark shading shows rough texture.
+
+Use random lines for bark.
+
+Rock shading uses rough strokes.
+
+Use dark tones under cracks.
+
+Still life shading improves fundamentals.
+
+Observe real objects carefully.
+
+Study shadows on tables.
+
+Shadows fall opposite the light.
+
+Soft pencils are good for shadows.
+
+Hard pencils are good for details.
+
+Use multiple pencils for best results.
+
+Mechanical pencils are good for fine shading.
+
+They give sharp, thin lines.
+
+Wooden pencils give variety.
+
+Sharpen pencils often.
+
+Dull pencils give rough shading.
+
+Smooth paper gives smooth shading.
+
+Rough paper gives textured shading.
+
+Try different papers.
+
+Learn how each behaves.
+
+Draw slowly at first.
+
+Increase speed as you improve.
+
+Use references always.
+
+Study how shadows fall in nature.
+
+Look at light on your hand.
+
+Observe shadows on walls.
+
+Practice shading a ball daily.
+
+Practice shading a cube weekly.
+
+Try shading from multiple light directions.
+
+Try dramatic lighting.
+
+Try soft lighting.
+
+Avoid over-darkening your drawing.
+
+Keep mid tones balanced.
+
+Do not shade everything dark.
+
+Leave some white spaces.
+
+This gives breathing room.
+
+Work from light to dark.
+
+Do not start dark.
+
+Add layers slowly.
+
+Layering gives good control.
+
+Evaluate your drawing from a distance.
+
+Check if shading looks even.
+
+Fix areas that look patchy.
+
+Avoid random dark spots.
+
+Blend only when needed.
+
+Do not blend if texture is required.
+
+Practice line control.
+
+Practice dot control.
+
+Practice pressure control.
+
+Try shading with different grips.
+
+Study shading of other artists.
+
+Try copying simple shading exercises.
+
+Do not be afraid to erase.
+
+Erasing creates highlights.
+
+Take breaks while shading.
+
+Fresh eyes spot mistakes.
+
+Keep improving daily.
+
+Shading is a skill—practice makes you perfect.

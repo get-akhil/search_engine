@@ -1,0 +1,238 @@
+Monarch Butterfly migrates thousands of kilometers from North America to Mexico.
+
+Swallowtail Butterfly is large and colorful, found worldwide.
+
+Painted Lady Butterfly migrates in large numbers across continents.
+
+Red Admiral Butterfly has black wings with orange bands.
+
+Blue Morpho Butterfly is native to Central and South America, iridescent blue wings.
+
+Common Buckeye Butterfly has eye-like patterns on wings.
+
+Honeybee produces honey and pollinates flowers.
+
+Bumblebee is large, fuzzy, and an important pollinator.
+
+Carpenter Bee bores holes in wood for nesting.
+
+Africanized Bee is highly defensive hybrid honeybee.
+
+Leafcutter Ant cuts leaves and carries them to underground nests.
+
+Fire Ant is aggressive, delivers painful sting.
+
+Army Ant forms large foraging swarms in tropical forests.
+
+Bullet Ant has one of the most painful stings in the insect world.
+
+Red Imported Fire Ant is invasive species in many countries.
+
+Ladybug is small beetle, beneficial for controlling aphids.
+
+Stag Beetle is large beetle with antler-like mandibles.
+
+Rhinoceros Beetle is strong, can lift many times its body weight.
+
+Hercules Beetle is one of the largest beetles in the world.
+
+Dung Beetle feeds on feces, rolls balls for food and breeding.
+
+Goliath Beetle is among heaviest insects on Earth.
+
+Weevil is small beetle, often agricultural pest.
+
+Japanese Beetle damages crops and ornamental plants.
+
+Housefly spreads bacteria, common worldwide.
+
+Fruit Fly is small, used in genetics research.
+
+Horsefly bites mammals to feed on blood.
+
+Deer Fly is bloodsucking insect, found in wetlands.
+
+Mosquito is vector of diseases like malaria and dengue.
+
+Anopheles Mosquito transmits malaria.
+
+Aedes Mosquito spreads dengue, Zika, and chikungunya.
+
+Culex Mosquito can transmit West Nile Virus.
+
+Dragonfly is skilled predator, eats mosquitoes and flies.
+
+Common Green Darner is migratory dragonfly of North America.
+
+Emperor Dragonfly is one of the largest dragonflies worldwide.
+
+Damselfly is small, delicate, similar to dragonfly.
+
+Luna Moth is large green moth, nocturnal and harmless.
+
+Atlas Moth is one of the largest moths, found in Asia.
+
+Hawk Moth is fast-flying, can hover like hummingbird.
+
+Death’s-head Hawkmoth has skull-like marking on thorax.
+
+Black Widow Spider is venomous, found worldwide.
+
+Tarantula is large hairy spider, often kept as pet.
+
+Jumping Spider has excellent vision, jumps to catch prey.
+
+Wolf Spider hunts without webs, fast and agile.
+
+Orb-weaver Spider spins large circular webs.
+
+Brown Recluse Spider has necrotic venom, hides in dark places.
+
+Scorpion is arachnid with venomous stinger, nocturnal.
+
+Emperor Scorpion is one of the largest scorpion species.
+
+Bark Scorpion is small, highly venomous, native to North America.
+
+Praying Mantis is predatory insect, known for folded forelimbs.
+
+Orchid Mantis mimics flower to ambush prey.
+
+European Mantis is common mantis in Europe.
+
+Grasshopper is herbivorous, jumps long distances.
+
+Locust is migratory grasshopper, forms swarms that destroy crops.
+
+Field Cricket chirps by rubbing wings, nocturnal.
+
+House Cricket is common in human habitats.
+
+Cockroach is resilient, survives in diverse environments.
+
+American Cockroach is largest cockroach in the Americas.
+
+German Cockroach is small, common indoor pest.
+
+Firefly is beetle producing bioluminescent light.
+
+Glow-worm produces light to attract prey or mates.
+
+Termite is social insect, feeds on cellulose, builds colonies.
+
+Subterranean Termite lives underground, forms large nests.
+
+Drywood Termite infests dry wood, damages structures.
+
+Dampwood Termite prefers damp environments.
+
+Cicada is large insect, produces loud mating calls.
+
+Periodical Cicada emerges every 13 or 17 years.
+
+Annual Cicada emerges yearly.
+
+Paper Wasp builds papery nests, social insect.
+
+Yellowjacket is aggressive wasp, feeds on insects and human food.
+
+Hornet is large predatory wasp, painful sting.
+
+Aphid is small plant-sucking insect, reproduces rapidly.
+
+Flea is parasitic insect, feeds on blood of mammals and birds.
+
+Head Louse lives in human hair, spreads by contact.
+
+Body Louse lives on clothing, feeds on human blood.
+
+Pubic Louse infests coarse body hair.
+
+Leafhopper feeds on plant sap, sometimes transmits disease.
+
+Planthopper is small plant-feeding insect, jumps to escape predators.
+
+Mealybug is sap-sucking pest with white waxy coating.
+
+Scale Insect attaches to plants, produces honeydew.
+
+Stick Insect mimics twigs to avoid predators.
+
+Leaf Insect mimics leaves for camouflage.
+
+Silkworm is caterpillar producing silk thread.
+
+Bombyx Mori is domesticated silkworm from Asia.
+
+Atlas Moth Caterpillar produces silk, large larva.
+
+Ladybug Larva consumes aphids voraciously.
+
+Praying Mantis Nymph looks like miniature adult mantis.
+
+Dragonfly Nymph lives in water before becoming adult.
+
+Damselfly Nymph is aquatic larva of damselfly.
+
+Honeybee Larva grows inside wax cell, fed by worker bees.
+
+Bumblebee Larva grows in colony, nurtured by workers.
+
+Ant Larva develops inside colony, cared by workers.
+
+Butterfly Caterpillar feeds on leaves before metamorphosis.
+
+Moth Caterpillar is larva of moth species, many are colorful.
+
+Beetle Larva often called grub, develops into adult beetle.
+
+Wasp Larva is carnivorous or fed by adult wasps.
+
+Termite Nymph grows into worker, soldier, or reproductive.
+
+Flea Larva develops in dust or animal bedding.
+
+Mosquito Larva called “wriggler,” lives in water.
+
+Cicada Nymph lives underground, feeds on roots for years.
+
+Grasshopper Nymph molts several times before adulthood.
+Butterflies – Monarch, Swallowtail, Painted Lady.
+
+Bees – Honeybee, Bumblebee, Carpenter Bee.
+
+Ants – Leafcutter, Fire Ant, Army Ant.
+
+Beetles – Ladybug, Stag Beetle, Rhinoceros Beetle.
+
+Flies – Housefly, Fruit Fly, Horsefly.
+
+Mosquitoes – Malaria-carrying, Aedes, Culex.
+
+Dragonflies – Common Green Darner, Emperor Dragonfly.
+
+Moths – Luna Moth, Atlas Moth, Hawk Moth.
+
+Spiders – Black Widow, Tarantula, Jumping Spider.
+
+Scorpions – Emperor Scorpion, Bark Scorpion.
+
+Grasshoppers & Crickets – Locusts, Field Cricket.
+
+Praying Mantis – Orchid Mantis, European Mantis.
+
+Cockroaches – American Cockroach, German Cockroach.
+
+Fireflies – Bioluminescent beetles, glow in the dark.
+
+Termites – Subterranean, Drywood, Dampwood.
+
+Cicadas – Annual and Periodical cicadas.
+
+Wasps – Paper Wasp, Yellowjacket, Hornet.
+
+Aphids – Plant-sucking insects.
+
+Fleas – Parasitic insects on mammals and birds.
+
+Lice – Head louse, body louse

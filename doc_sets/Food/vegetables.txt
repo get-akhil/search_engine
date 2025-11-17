@@ -1,0 +1,399 @@
+Carrots are root vegetables rich in beta-carotene.
+
+Potatoes are versatile tubers used in many dishes.
+
+Tomatoes are technically fruits but used as vegetables.
+
+Onions add flavor to almost every cuisine worldwide.
+
+Spinach is a leafy green rich in iron.
+
+Broccoli contains high levels of vitamin C and fiber.
+
+Cauliflower is a cruciferous vegetable used in curries.
+
+Cabbage is used in salads, soups, and stir-fries.
+
+Peas are small green seeds rich in plant protein.
+
+Beans are legumes used in many traditional recipes.
+
+Eggplants have a spongy texture and absorb flavors well.
+
+Bitter gourd is known for its medicinal properties.
+
+Bottle gourd is commonly used in Indian households.
+
+Ridge gourd is soft and easy to digest.
+
+Pumpkin is a sweet vegetable used in curries and desserts.
+
+Green chilies add spice to dishes and chutneys.
+
+Red chilies are dried for making chili powder.
+
+Bell peppers come in green, red, and yellow varieties.
+
+Corn is eaten boiled, roasted, or as kernels in dishes.
+
+Garlic adds aroma and medicinal value.
+
+Ginger is a spice root used in teas and curries.
+
+Mushrooms are fungi used in soups and stir-fries.
+
+Sweet potatoes are nutritious and rich in fiber.
+
+Turnips have a crisp texture and mild flavor.
+
+Radishes have a peppery taste and crunchy texture.
+
+Beetroot is rich in iron and used in salads.
+
+Lettuce is a key ingredient in salads and wraps.
+
+Kale is a nutrient-dense leafy green.
+
+Celery is crunchy and often used in soups.
+
+Cucumbers have high water content and cool the body.
+
+Zucchini is used in continental recipes.
+
+Squash comes in winter and summer varieties.
+
+Artichokes are edible flower buds.
+
+Asparagus is a green spring vegetable.
+
+Leeks belong to the onion family.
+
+Shallots are mild onion-like bulbs.
+
+Yam is a starchy tuber used in many cuisines.
+
+Okra is known for its slimy texture when cooked.
+
+Drumsticks are used in Indian sambhar.
+
+Ivy gourd is a small green vegetable common in India.
+
+Snake gourd is a long curling vegetable.
+
+Fenugreek leaves are used for their aroma.
+
+Coriander leaves garnish and enhance taste.
+
+Mint leaves add freshness to dishes.
+
+Spring onions are used in Chinese cuisine.
+
+Amaranth leaves are used in Indian dishes.
+
+Mustard greens are common in North Indian cuisine.
+
+Swiss chard has colorful stems and green leaves.
+
+Arugula has a peppery taste.
+
+Bok choy is used in Asian cooking.
+
+Lotus stem is crunchy and used in stir-fries.
+
+Taro root is used in curries and chips.
+
+Raw banana is used as a vegetable in South India.
+
+Plantain stem is used in healthy Indian recipes.
+
+Red cabbage adds color to salads.
+
+White pumpkin is used in curries.
+
+Ash gourd is used in juice and soups.
+
+Malabar spinach is a climbing leafy vegetable.
+
+Water chestnuts are eaten raw or boiled.
+
+Bamboo shoots are used in North Eastern cuisine.
+
+Broccolini is a hybrid between broccoli and kai-lan.
+
+Kai-lan is Chinese broccoli with long stems.
+
+Edamame are immature soybeans.
+
+Snow peas have soft edible pods.
+
+Sugar snap peas are sweet crunchy legumes.
+
+Brussel sprouts resemble mini cabbages.
+
+Parsnips are sweet root vegetables.
+
+Kohlrabi tastes similar to cabbage and turnip.
+
+Radicchio is a bitter leafy vegetable.
+
+Endive is a leafy green used in salads.
+
+Water spinach grows easily near water bodies.
+
+Maca root is used for its nutritional benefits.
+
+Jicama is a crisp, sweet root vegetable.
+
+Cassava is used to make tapioca.
+
+Chayote is a green pear-shaped vegetable.
+
+Tinda is a small Indian gourd.
+
+Cluster beans are used in Indian dishes.
+
+Broad beans are large and protein-rich.
+
+Lima beans are creamy textured legumes.
+
+Black-eyed peas are legumes used in stews.
+
+Yardlong beans are extremely long green beans.
+
+Nopal cactus pads are eaten in Mexican cuisine.
+
+Red carrots are used in Indian halwa.
+
+Yellow carrots are slightly sweeter.
+
+Parsley is used mainly as a garnish.
+
+Dill leaves add a strong aroma to dishes.
+
+Turmeric root is used for its color and health benefits.
+
+Galangal root is similar to ginger but more aromatic.
+
+Horseradish has a strong spicy flavor.
+
+Wasabi is a pungent Japanese root vegetable.
+
+Daikon radish is long and mild.
+
+Elephant yam is used in curries in South India.
+
+Drumstick leaves are highly nutritious.
+
+Purslane has a slightly lemony flavor.
+
+Sorrel leaves are tangy and used in soups.
+
+Watercress grows in water streams.
+
+Plant sprouts are eaten as microgreens.
+
+Microgreens are young vegetable shoots.
+
+Lotus seeds come from lotus pods.
+
+Colocasia leaves are used to make rolls.
+
+Scarlet gourd is red in color and slightly tart.
+
+Teasel gourd is a spiky vegetable used in curries.
+
+Roselle leaves are tangy and used in chutneys.
+
+Black carrots are used in traditional drinks.
+
+Green pumpkin is used for soups.
+
+Raw papaya is used in salads and curries.
+
+Green mango is used as a souring agent.
+
+Sweet corn kernels are used in salads and soups.
+
+Pearl onions are tiny onions used in pickles.
+
+Green beans are young tender beans.
+
+Kohlrabi leaves are also edible.
+
+Turnip greens are nutritious leafy tops.
+
+Beet greens are edible leaves of beets.
+
+Potato skins contain nutrients.
+
+Sweet potato leaves are edible in some cuisines.
+
+Pumpkin seeds are edible and nutritious.
+
+Carrot greens are edible with a mild bitter taste.
+
+Sprouted beans are used in salads.
+
+Lentil sprouts are protein-rich.
+
+Chickpea sprouts have a nutty taste.
+
+Bamboo root is edible and crunchy.
+
+Mustard microgreens are spicy.
+
+Wheatgrass is used in healthy juices.
+
+Barley grass is nutrient dense.
+
+Fiddlehead ferns are curly edible shoots.
+
+Seaweed is eaten in many Asian countries.
+
+Kelp is a type of sea vegetable.
+
+Dulse is a red seaweed eaten dried.
+
+Wakame is used in soups and salads.
+
+Kombu is used to make broths.
+
+Lotus roots are sliced for crispy chips.
+
+Green onions are used in omelets.
+
+Red onions are commonly used for salads.
+
+White onions are milder than red onions.
+
+Sweet onions are used for caramelizing.
+
+Purple cabbage contains anthocyanins.
+
+Raw beetroot is crunchy and sweet.
+
+Carrot sticks are served as snacks.
+
+Lettuce cups are used as healthy wraps.
+
+Mushroom stems are also edible.
+
+Shiitake mushrooms have a strong flavor.
+
+Button mushrooms are the most common type.
+
+Oyster mushrooms are soft and delicate.
+
+Enoki mushrooms have long thin stems.
+
+Portobello mushrooms are large and meaty.
+
+Cremini mushrooms are baby portobellos.
+
+Sweet peppers vary in colors.
+
+Jalapeños are mild chili peppers.
+
+Habanero peppers are extremely spicy.
+
+Anaheim peppers are used for stuffing.
+
+Banana peppers are mild and tangy.
+
+Ghost peppers are very spicy.
+
+Paprika comes from dried peppers.
+
+Celery stems are rich in water.
+
+Celery leaves are also edible.
+
+Tomato pulp is used in sauces.
+
+Green tomatoes are unripe and tangy.
+
+Cherry tomatoes are small and sweet.
+
+Roma tomatoes are used in sauces.
+
+Heirloom tomatoes come in many colors.
+
+Baby corn is used in stir-fries.
+
+Sweet corn cobs are roasted or boiled.
+
+Corn silk is also used in herbal teas.
+
+Fresh peas are shelled before cooking.
+
+Frozen peas are convenient for daily use.
+
+Mashed potatoes are served as a side dish.
+
+Potato wedges are baked or fried.
+
+Baby potatoes are used in curries.
+
+Purple potatoes have antioxidants.
+
+Yellow potatoes are creamy and soft.
+
+Red potatoes hold shape during cooking.
+
+Sweet potato fries are a healthy snack.
+
+Taro leaves make delicious rolls.
+
+Mushroom soup is a popular comfort food.
+
+Pumpkin soup is sweet and creamy.
+
+Tomato soup is made with fresh tomatoes.
+
+Spinach soup is rich in iron.
+
+Lentil and vegetable soup is nutritious.
+
+Vegetable stock is used in many dishes.
+
+Stir-fried vegetables are quick and healthy.
+
+Mixed vegetable curry is common in Indian homes.
+
+Vegetable biryani uses mixed vegetables.
+
+Vegetable noodles include a variety of veggies.
+
+Grilled vegetables are served as sides.
+
+Steamed vegetables retain nutrients.
+
+Roasted vegetables develop rich flavors.
+
+Sautéed vegetables are cooked in oil or butter.
+
+Pickled vegetables are preserved in brine.
+
+Sun-dried vegetables are used in curries.
+
+Vegetable salads include raw veggies.
+
+Vegetable juice blends are consumed for health.
+
+Boiled vegetables are easy to digest.
+
+Fermented vegetables improve gut health.
+
+Vegetable patties are used in burgers.
+
+Vegetable cutlets are deep-fried or baked.
+
+Stuffed vegetables are filled with spices.
+
+Vegetable skewers are grilled with marinade.
+
+Vegetable pizza toppings include many options.
+
+Vegetable wraps use fresh fillings.
+
+Vegetable stew combines many vegetables.

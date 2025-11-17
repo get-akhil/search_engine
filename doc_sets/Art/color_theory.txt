@@ -1,0 +1,399 @@
+Color theory explains how colors work together.
+
+The color wheel shows color relationships.
+
+Primary colors are red, blue, and yellow.
+
+Primary colors cannot be made by mixing.
+
+Secondary colors are green, orange, and purple.
+
+Secondary colors are made by mixing primaries.
+
+Green = blue + yellow.
+
+Orange = red + yellow.
+
+Purple = red + blue.
+
+Tertiary colors come from mixing primary and secondary.
+
+Red-orange is a tertiary color.
+
+Yellow-orange is a tertiary color.
+
+Yellow-green is a tertiary color.
+
+Blue-green is a tertiary color.
+
+Blue-purple is a tertiary color.
+
+Red-purple is a tertiary color.
+
+Hue means the pure color.
+
+Tint means adding white to a color.
+
+Shade means adding black to a color.
+
+Tone means adding grey to a color.
+
+Value describes lightness or darkness of a color.
+
+High value means light color.
+
+Low value means dark color.
+
+Saturation means intensity of a color.
+
+High saturation is bright.
+
+Low saturation is dull.
+
+Warm colors are red, orange, and yellow.
+
+Warm colors feel energetic.
+
+Cool colors are blue, green, and purple.
+
+Cool colors feel calm.
+
+Complementary colors are opposite on the wheel.
+
+Red and green are complementary.
+
+Blue and orange are complementary.
+
+Yellow and purple are complementary.
+
+Complementary colors create contrast.
+
+Analogous colors are next to each other.
+
+Analogous palettes look harmonious.
+
+Red, red-orange, and orange are analogous.
+
+Blue, blue-green, and green are analogous.
+
+Triadic colors are evenly spaced on the wheel.
+
+Red, blue, yellow form a triadic palette.
+
+Triadic combinations are balanced.
+
+Split complementary colors form a Y-shape.
+
+Red splits into red-green and red-blue combinations.
+
+Tetradic colors use two complementary pairs.
+
+They create rich color schemes.
+
+Monochromatic palettes use one hue.
+
+Monochromatic uses tints and shades.
+
+It looks clean and simple.
+
+Neutral colors are black, white, grey, and brown.
+
+Neutrals balance bright colors.
+
+Color harmony refers to pleasing combinations.
+
+Too many colors create chaos.
+
+Limited palettes look professional.
+
+Red symbolizes passion.
+
+Blue symbolizes calm.
+
+Yellow symbolizes happiness.
+
+Green symbolizes nature.
+
+Orange symbolizes warmth.
+
+Purple symbolizes royalty.
+
+Pink symbolizes softness.
+
+Black symbolizes power.
+
+White symbolizes purity.
+
+Grey symbolizes neutrality.
+
+Brown symbolizes earthiness.
+
+Colors evoke emotions.
+
+Designers use colors for mood.
+
+Soft colors create relaxation.
+
+Bright colors create excitement.
+
+Pastel colors are soft tints.
+
+Pastels feel light and airy.
+
+Neon colors are bright and glowing.
+
+Neons feel energetic.
+
+Earth tones are natural colors.
+
+Earth tones feel grounded.
+
+Muted colors are low saturation.
+
+Muted colors feel gentle.
+
+Vibrant colors are high saturation.
+
+Vibrant colors attract attention.
+
+Color temperature affects mood.
+
+Warm lighting shifts colors yellow.
+
+Cool lighting shifts colors blue.
+
+Shadows affect color appearance.
+
+Reflective colors bounce off surfaces.
+
+Skin tones vary with undertones.
+
+Warm skin tones have yellow or golden undertones.
+
+Cool skin tones have blue or pink undertones.
+
+Neutral skin tones have balanced undertones.
+
+Artists study undertones for portraits.
+
+Color mixing is essential for painting.
+
+Too much water lightens watercolor.
+
+Too little water makes watercolor opaque.
+
+Acrylic colors dry darker.
+
+Oil colors stay wet longer.
+
+Digital colors use RGB.
+
+RGB means red, green, blue.
+
+RGB is used for screens.
+
+CMYK is used for printing.
+
+CMYK means cyan, magenta, yellow, black.
+
+Screens show more vibrant colors.
+
+Prints show slightly duller colors.
+
+Color contrast improves readability.
+
+Dark text on light background is clear.
+
+Light text on dark background works too.
+
+Avoid similar colors for text.
+
+Brightness contrast is crucial.
+
+Color accessibility is important.
+
+Some people have color blindness.
+
+Red-green color blindness is common.
+
+Designers avoid relying only on color.
+
+Color hierarchy guides attention.
+
+Strong colors attract first.
+
+Soft colors attract later.
+
+Background colors must be subtle.
+
+Foreground colors must stand out.
+
+Color gradients add depth.
+
+Gradients blend colors smoothly.
+
+Flat colors are clean and modern.
+
+Shadows add realism to colors.
+
+Highlights add shine.
+
+Glossy objects reflect strong highlights.
+
+Matte objects look soft.
+
+Artists choose colors based on theme.
+
+Horror themes use dark tones.
+
+Fantasy themes use vibrant tones.
+
+Minimal themes use monochrome.
+
+Nature themes use earth tones.
+
+Retro themes use warm, faded colors.
+
+Vintage themes use sepia tones.
+
+Neon themes use bright glowing colors.
+
+Pop art uses bold primary colors.
+
+Impressionism uses broken color strokes.
+
+Realism uses accurate color representation.
+
+Surrealism uses imaginative colors.
+
+Expressionism uses emotional colors.
+
+Colors can create depth.
+
+Warm colors seem closer.
+
+Cool colors seem farther.
+
+Light colors appear distant.
+
+Dark colors appear near.
+
+Backgrounds use lighter colors.
+
+Foregrounds use darker colors.
+
+Color psychology is used in marketing.
+
+Red attracts attention quickly.
+
+Blue builds trust.
+
+Green shows safety.
+
+Yellow catches the eye.
+
+Purple shows luxury.
+
+Pink shows femininity.
+
+Black shows elegance.
+
+White shows simplicity.
+
+Brands choose colors for identity.
+
+McDonald's uses red and yellow.
+
+Facebook uses blue.
+
+Starbucks uses green.
+
+Apple uses white and silver.
+
+Coca-Cola uses red.
+
+Nike uses black and white.
+
+Color consistency builds brand recognition.
+
+Artists experiment with palettes.
+
+Limited palettes force creativity.
+
+Color blocking uses solid areas.
+
+Color blending uses gradients.
+
+Harmony is key for pleasing visuals.
+
+Too many bright colors cause chaos.
+
+Too many dark colors feel dull.
+
+Color balance solves this.
+
+Complementary colors add excitement.
+
+Analogous colors add calm.
+
+Monochromatic adds simplicity.
+
+Dark tones add moodiness.
+
+Light tones add gentleness.
+
+Middle tones balance artwork.
+
+Painters often start with mid-tones.
+
+Highlights are added later.
+
+Shadows are added last.
+
+Color layering adds richness.
+
+Transparent layers give depth.
+
+Opaque layers cover mistakes.
+
+Glazing is thin color layering.
+
+Mixing too many colors creates muddy tones.
+
+Clean brushes prevent muddy colors.
+
+Artists test colors on scrap paper.
+
+Digital artists use color swatches.
+
+Swatches save time.
+
+Color wheels guide mixing.
+
+Study real-life colors for accuracy.
+
+Light changes color appearance.
+
+Natural light shows true color.
+
+Artificial light can distort color.
+
+Shadows contain color too.
+
+Shadows are not pure black.
+
+They often contain cool tones.
+
+Highlights contain warm tones.
+
+Understanding color takes practice.
+
+Observing nature improves skill.
+
+Every artist develops their own palette.
+
+Color choices express style.
+
+Good color use improves any artwork.
+
+Color theory helps artists communicate emotions.

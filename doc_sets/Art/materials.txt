@@ -1,0 +1,399 @@
+Pencils are basic drawing tools.
+
+Graphite pencils vary in hardness.
+
+HB pencils are medium hardness.
+
+2B pencils create darker lines.
+
+4B pencils are used for shading.
+
+Charcoal sticks create deep black strokes.
+
+Willow charcoal is soft and blendable.
+
+Compressed charcoal is darker than willow.
+
+Charcoal pencils offer more control.
+
+Erasers help correct mistakes in drawing.
+
+Kneaded erasers lift graphite gently.
+
+Vinyl erasers are firmer for strong removal.
+
+Blending stumps help soften pencil shading.
+
+Tortillons are used for fine blending.
+
+Sketchbooks store rough ideas.
+
+Drawing paper is smooth for pencils.
+
+Cartridge paper is good for sketching.
+
+Watercolor paper absorbs paint well.
+
+Hot press paper is smooth for details.
+
+Cold press paper has a textured surface.
+
+Rough watercolor paper has heavy texture.
+
+Brushes are essential painting tools.
+
+Round brushes are used for detailing.
+
+Flat brushes cover large areas.
+
+Fan brushes blend colors softly.
+
+Filbert brushes have curved edges.
+
+Mop brushes hold lots of water.
+
+Bristle brushes are stiff for acrylics.
+
+Synthetic brushes are durable.
+
+Natural hair brushes hold more water.
+
+Palette knives mix thick paint.
+
+Metal palette knives last long.
+
+Plastic palette knives are lightweight.
+
+Paint palettes hold and mix colors.
+
+Wooden palettes are classic.
+
+Plastic palettes are easy to clean.
+
+Ceramic palettes do not stain.
+
+Acrylic paints dry quickly.
+
+Watercolors are transparent.
+
+Gouache paints are opaque.
+
+Oil paints dry slowly.
+
+Fabric paints adhere to cloth.
+
+Poster colors are beginner-friendly.
+
+Inks are used for fine line work.
+
+Alcohol markers provide smooth blends.
+
+Permanent markers produce bold lines.
+
+Highlighters add neon accents.
+
+Gel pens add shiny effects.
+
+Metallic pens produce gold or silver lines.
+
+Calligraphy pens have a flat nib.
+
+Brush pens create varying line widths.
+
+Dip pens use separate ink pots.
+
+Fountain pens are refillable.
+
+Crayons are soft wax drawing tools.
+
+Oil pastels blend smoothly.
+
+Soft pastels have chalky texture.
+
+Hard pastels are better for lines.
+
+Pastel pencils combine pastel and graphite.
+
+Chalk sticks are used for murals.
+
+Colored pencils offer many shades.
+
+Watercolor pencils activate with water.
+
+Mechanical pencils give consistent line width.
+
+Pencil sharpeners shape pencil tips.
+
+Sandpaper blocks refine pencil points.
+
+Masking tape secures paper edges.
+
+Washi tape is decorative and gentle.
+
+Fixative spray protects charcoal art.
+
+Varnish protects acrylic paintings.
+
+Oil varnish adds gloss to oil paintings.
+
+Easels hold canvases upright.
+
+Table easels are compact.
+
+Standing easels are adjustable.
+
+H-frame easels are sturdy.
+
+A-frame easels are lightweight.
+
+Portable easels fold easily.
+
+Canvas boards are used for painting.
+
+Stretched canvas is durable.
+
+Linen canvas is premium.
+
+Cotton canvas is affordable.
+
+Gesso prepares surfaces for paint.
+
+Primer reduces paint absorption.
+
+Cutting mats protect surfaces.
+
+Craft knives cut paper precisely.
+
+Safety rulers prevent blade slips.
+
+Glue sticks bond paper lightly.
+
+White glue dries clear.
+
+Hot glue guns bond materials strongly.
+
+Mod Podge seals art projects.
+
+Spray adhesive gives even coverage.
+
+Paper cutters trim sheets cleanly.
+
+Scissors are basic cutting tools.
+
+Decorative scissors create patterned edges.
+
+Stamps add consistent designs.
+
+Stamp pads contain colored ink.
+
+Stencils help create uniform shapes.
+
+Templates guide technical drawing.
+
+Compasses draw perfect circles.
+
+Rulers measure and guide strokes.
+
+Set squares help draw angles.
+
+Protractors measure angles.
+
+French curves draw smooth curves.
+
+Drawing mannequins help study poses.
+
+Lightboxes trace designs easily.
+
+Projectors enlarge artwork.
+
+Airbrushes spray fine paint.
+
+Spray bottles apply water or paint.
+
+Sponges create textured effects.
+
+Texture tools add pattern to paint.
+
+Clay tools shape sculpture.
+
+Rolling pins flatten clay.
+
+Loop tools carve clay.
+
+Wire cutters slice through clay.
+
+Kilns fire ceramic art.
+
+Slip is liquid clay used in ceramics.
+
+Pottery wheels shape clay forms.
+
+Aprons protect clothes while painting.
+
+Rags clean brushes.
+
+Paint cups hold water for rinsing.
+
+Spray bottles keep paint moist.
+
+Brush cleaners remove residue.
+
+Brush soap restores brush softness.
+
+Pencil extenders lengthen short pencils.
+
+Pipettes drop controlled amounts of water.
+
+Droppers help mix liquid colors.
+
+Syringes control paint flow.
+
+Mixing jars store colors.
+
+Paper towels blot excess water.
+
+Cotton swabs adjust small details.
+
+Toothpicks create fine textures.
+
+Clay extruders create shapes.
+
+Wooden tools refine pottery edges.
+
+Sculpting knives carve details.
+
+Modeling clay is reusable.
+
+Polymer clay hardens when baked.
+
+Air-dry clay needs no firing.
+
+Armatures support sculptures.
+
+Wire frames hold clay structures.
+
+Masking fluid protects areas from paint.
+
+Palette paper prevents mess.
+
+Zip bags store art supplies.
+
+Brush holders keep brushes organized.
+
+Pencil cases protect tools.
+
+Toolboxes store art materials.
+
+Drying racks hold wet paintings.
+
+Art portfolios store finished work.
+
+Sleeves protect artwork from dust.
+
+Fixing spray prevents smudges.
+
+Canvas pliers stretch canvas.
+
+Gesso brushes apply primer.
+
+Craft sticks mix paint.
+
+Water containers clean brushes.
+
+Art sponges apply gradients.
+
+Charcoal fixatives preserve drawings.
+
+Graph rulers aid architectural sketches.
+
+Masking sheets block areas while spraying.
+
+Airbrush compressors power airbrushes.
+
+Color wheels help choose palettes.
+
+Pastel blenders soften pastel strokes.
+
+Glue rollers apply adhesive evenly.
+
+Paper punches create shapes.
+
+Cutting blades replace worn-out tips.
+
+Embossing tools create raised textures.
+
+Ink rollers spread ink for printing.
+
+Printing plates transfer designs.
+
+Barens press prints evenly.
+
+Brayers roll ink onto surfaces.
+
+Calligraphy inks come in many colors.
+
+Dip nibs vary in thickness.
+
+Cutting dies shape paper quickly.
+
+Craft tweezers handle tiny pieces.
+
+Heat guns dry paint faster.
+
+UV lamps cure resin.
+
+Resin molds create 3D designs.
+
+Mixing sticks blend resin and color.
+
+Safety gloves protect hands.
+
+Dust masks protect from fine particles.
+
+Odorless thinners reduce paint fumes.
+
+Brush rest prevents paint dripping.
+
+Pipette bottles store liquid colors.
+
+Silicon mats are used in resin art.
+
+Glue dots stick small decorations.
+
+Transfer paper helps trace designs.
+
+Craft boards support projects.
+
+Cutting rulers have metal edges.
+
+Masking sheets protect surfaces.
+
+Spectrum lights reveal true colors.
+
+Blending markers create smooth transitions.
+
+Water brushes hold water inside.
+
+Marker paper prevents bleeding.
+
+Bristol board is smooth for markers.
+
+Sketching charcoal is softer than pencil.
+
+Graphite sticks cover large areas.
+
+Ink droppers create splash effects.
+
+Canvas pads contain primed sheets.
+
+Paper palettes are disposable.
+
+Art folders organize references.
+
+Brush rolls store brushes safely.
+
+Craft aprons have pockets.
+
+Sticky notes mark sketchbook pages.
+
+Art supply kits combine many tools.

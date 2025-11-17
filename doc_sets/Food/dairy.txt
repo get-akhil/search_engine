@@ -1,0 +1,399 @@
+Milk is rich in calcium.
+
+Butter is used for cooking.
+
+Cheese is made from fermented milk.
+
+Yogurt improves digestion.
+
+Cream is used in desserts.
+
+Ghee is clarified butter.
+
+Paneer is made by curdling milk.
+
+Buttermilk cools the body.
+
+Ice cream is a frozen dessert.
+
+Custard is made using milk.
+
+Milk powder is dried milk.
+
+Condensed milk is sweetened.
+
+Evaporated milk is thick.
+
+Cottage cheese is soft.
+
+Swiss cheese has holes.
+
+Mozzarella melts easily.
+
+Cheddar cheese is sharp.
+
+Feta cheese is salty.
+
+Ricotta cheese is creamy.
+
+Parmesan cheese is hard.
+
+Butter milkshake is refreshing.
+
+Milkshake is made with flavors.
+
+Frozen yogurt is sour.
+
+Sour cream is tangy.
+
+Whipped cream is light.
+
+Cream cheese is soft.
+
+Chocolate milk is sweet.
+
+Milk tea uses boiled milk.
+
+Latte contains steamed milk.
+
+Cappuccino has milk foam.
+
+Coffee creamers add flavor.
+
+Yogurt smoothies are healthy.
+
+Buttermilk aids digestion.
+
+Ghee improves immunity.
+
+Paneer curry is popular.
+
+Cheese sandwich is common.
+
+Milk is used in baking.
+
+Cheese melts when heated.
+
+Ice cream comes in many flavors.
+
+Yogurt bowl is nutritious.
+
+Cream enhances desserts.
+
+Butter adds richness.
+
+Paneer is rich in protein.
+
+Lassi is made from curd.
+
+Milk provides essential nutrients.
+
+Cheese adds flavor to pizza.
+
+Curd rice is cooling.
+
+Flavored milk is sweetened.
+
+Mango lassi is popular.
+
+Salted lassi quenches thirst.
+
+Creamy pasta uses cheese.
+
+Cheese cubes are soft.
+
+Yogurt dip is tangy.
+
+Butter naan is fluffy.
+
+Coffee with milk is common.
+
+Paneer tikka is grilled.
+
+Butter chicken uses cream.
+
+Rasgulla is made using chhena.
+
+Rasmalai is soaked in milk.
+
+Kulfi is a frozen dairy dessert.
+
+Basundi is thickened milk.
+
+Rabri is made by reducing milk.
+
+Kheer is a milk-based dessert.
+
+Rice pudding uses milk.
+
+Milk chocolate is smooth.
+
+Milk candy is sweet.
+
+Cheese crackers are crispy.
+
+Cheese sauce is creamy.
+
+Butter cookies are soft.
+
+Ghee rice is aromatic.
+
+Yogurt marinates meat.
+
+Buttermilk prevents heatstroke.
+
+Cheese puff is crunchy.
+
+Creamy soup uses milk.
+
+Paneer wrap is filling.
+
+Butter dosa is crispy.
+
+Milk coffee is light.
+
+Ice cream shake is thick.
+
+Yogurt parfait is layered.
+
+Cheese pizza is popular.
+
+Cream biscuits are sweet.
+
+Ghee paratha is rich.
+
+Curd helps gut health.
+
+Milk adds moisture to cakes.
+
+Cheese toast is easy.
+
+Paneer roll is popular.
+
+Ghee chapati stays soft.
+
+Butter popcorn is tasty.
+
+Cream roll is sweet.
+
+Cheese omelette is filling.
+
+Sweet lassi is thick.
+
+Paneer pakora is fried.
+
+Yogurt hair mask is natural.
+
+Cheese soup is rich.
+
+Milk is used in tea.
+
+Curd chutney is spicy.
+
+Cream cheese frosting is smooth.
+
+Buttermilk jalebi is crisp.
+
+Milk cake is dense.
+
+Ghee laddu is aromatic.
+
+Paneer bhurji is scrambled.
+
+Cheese burst pizza is gooey.
+
+Butter paneer is creamy.
+
+Milk in smoothies increases thickness.
+
+Flavored yogurt is sweet.
+
+Buttermilk is low in fat.
+
+Cheese blocks are firm.
+
+Curd in kadhi gives tanginess.
+
+Milk sweets are festive.
+
+Butter rice is smooth.
+
+Cheese burger is juicy.
+
+Cream pasta is rich.
+
+Ghee enhances aroma.
+
+Paneer pulao is mild.
+
+Milk boosts bone strength.
+
+Yogurt has probiotics.
+
+Butter gravy is heavy.
+
+Ice cream sundae is layered.
+
+Cheese nachos are crunchy.
+
+Cream soup is thick.
+
+Ghee boosts metabolism.
+
+Paneer tikka masala is spicy.
+
+Cheese chips are salty.
+
+Milkshakes are chilled.
+
+Yogurt rice is soothing.
+
+Butter corn is tasty.
+
+Cheese dosa is creamy.
+
+Cream buns are soft.
+
+Paneer momos are steamed.
+
+Milk is used in cereals.
+
+Curd with sugar is calming.
+
+Ghee improves skin.
+
+Butter adds texture.
+
+Cheese fries are cheesy.
+
+Cream custard is smooth.
+
+Paneer sandwich is filling.
+
+Milk pudding is soft.
+
+Curd helps cool the stomach.
+
+Cheese dip is rich.
+
+Butter chole is creamy.
+
+Paneer tikki is tasty.
+
+Cream chicken is mild.
+
+Kefir is fermented milk.
+
+Yogurt bowl gives energy.
+
+Milk is essential for tea.
+
+Cheese slices melt easily.
+
+Butter garlic bread is popular.
+
+Cream coffee is sweet.
+
+Buttermilk curry is tangy.
+
+Chhena is used in sweets.
+
+Paneer is used in biryani.
+
+Milk masala drink is flavored.
+
+Butter pav bhaji is rich.
+
+Cheese corn balls are fried.
+
+Cream paneer is smooth.
+
+Milk barfi is sweet.
+
+Curd smoothie is chilled.
+
+Yogurt ice cream is light.
+
+Buttermilk detoxes the body.
+
+Cheese garlic naan is tasty.
+
+Paneer parantha is heavy.
+
+Milk tea is common.
+
+Curd upma is soft.
+
+Cheese quiche is baked.
+
+Cream cheese bagel is popular.
+
+Milk thandai is festive.
+
+Butter gravy softens rotis.
+
+Paneer cutlet is crisp.
+
+Cheese crackers are salty.
+
+Creamy dip is smooth.
+
+Ghee tadka is aromatic.
+
+Yogurt curry is mild.
+
+Milk halwa is rich.
+
+Butter cake is soft.
+
+Cream rolls are sweet.
+
+Paneer kofta is creamy.
+
+Milk thalipeeth is nutritious.
+
+Cheese bites are small.
+
+Creamy coffee is light.
+
+Yogurt tart is tangy.
+
+Buttermilk soothes acidity.
+
+Paneer cutlet is tasty.
+
+Milk chocolate drinks are sweet.
+
+Cheese roti is filling.
+
+Cream tea is smooth.
+
+Yogurt sandwich is soft.
+
+Butter kulcha is fluffy.
+
+Ghee idli is aromatic.
+
+Cheese parantha is cheesy.
+
+Milk sabudana is light.
+
+Curd idli is soft.
+
+Cream kadhi is thick.
+
+Paneer pulao is light.
+
+Butter puri is soft.
+
+Cheese uttapam is tasty.
+
+Milk custard is thick.
+
+Curd chaat is tangy.
+
+Butter biscuits are mild.
+
+Paneer noodles are flavorful.
+
+Cheese balls are crispy.

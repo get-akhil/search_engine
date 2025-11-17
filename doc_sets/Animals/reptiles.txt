@@ -1,0 +1,199 @@
+Komodo Dragon is the largest living lizard, found in Indonesia.
+
+Green Iguana is a large arboreal lizard from Central and South America.
+
+Basilisk Lizard is known as the “Jesus Christ lizard” for running on water.
+
+Gila Monster is a venomous lizard from southwestern USA and Mexico.
+
+Bearded Dragon is popular pet lizard from Australia.
+
+Chameleon is known for changing skin color, found in Africa and Madagascar.
+
+Panther Chameleon is vibrant species from Madagascar.
+
+Jackson’s Chameleon has three horns, native to East Africa.
+
+Gecko is small lizard, famous for climbing walls and sticky feet.
+
+Tokay Gecko is large, vocal species from Southeast Asia.
+
+Leopard Gecko is popular pet species from Asia.
+
+Crocodile is large aquatic predator, found in Africa, Asia, Americas.
+
+Saltwater Crocodile is largest living reptile, found in Indo-Pacific.
+
+Nile Crocodile is large African freshwater predator.
+
+American Crocodile is found in Central America and Caribbean.
+
+Alligator is freshwater predator, native to USA and China.
+
+American Alligator is largest reptile in North America.
+
+Chinese Alligator is critically endangered species from China.
+
+Caiman is small crocodilian, native to Central and South America.
+
+Spectacled Caiman is widespread in South America.
+
+Gharial is fish-eating crocodilian with long narrow snout, found in India.
+
+Snapping Turtle is freshwater predator, native to Americas.
+
+Alligator Snapping Turtle is large turtle with spiky shell.
+
+Leatherback Turtle is largest sea turtle, migrates across oceans.
+
+Green Sea Turtle is marine herbivore, found in tropical waters.
+
+Hawksbill Turtle is endangered marine turtle, known for patterned shell.
+
+Loggerhead Turtle is large sea turtle, strong jaws.
+
+Olive Ridley Turtle is small sea turtle, nests in mass arribadas.
+
+Kemp’s Ridley Turtle is critically endangered sea turtle from Mexico.
+
+Diamondback Terrapin is brackish water turtle from USA.
+
+Box Turtle is terrestrial turtle with domed shell.
+
+Red-eared Slider is popular pet turtle worldwide.
+
+Tortoise is land-dwelling herbivore with domed shell.
+
+Galápagos Tortoise is giant tortoise native to Galápagos Islands.
+
+Aldabra Tortoise is giant tortoise from Aldabra Atoll.
+
+Snakes are legless reptiles, carnivorous and diverse.
+
+King Cobra is venomous snake from Asia, longest venomous snake.
+
+Indian Cobra is venomous snake, cultural symbol in India.
+
+Black Mamba is fastest venomous snake, native to Africa.
+
+Inland Taipan is world’s most venomous snake, found in Australia.
+
+Python is large constrictor snake, found in Africa, Asia, Australia.
+
+Burmese Python is large snake, invasive in Florida Everglades.
+
+Ball Python is small pet-friendly constrictor from Africa.
+
+Reticulated Python is world’s longest snake, native to Southeast Asia.
+
+Boa Constrictor is large snake from Central and South America.
+
+Garter Snake is common harmless snake from North America.
+
+Rat Snake is non-venomous snake found in Asia and North America.
+
+Viper is venomous snake with long hinged fangs.
+
+Gaboon Viper has longest fangs and strongest venom in Africa.
+
+Pit Viper is venomous snake with heat-sensing pits.
+
+Rattlesnake is venomous North American snake with rattle on tail.
+
+Copperhead is venomous pit viper from North America.
+
+Cottonmouth is venomous water snake, native to North America.
+
+Sea Snake is fully aquatic venomous snake from Indo-Pacific.
+
+Coral Snake is small venomous snake with bright red, yellow, black bands.
+
+Anaconda is large constrictor snake from South America.
+
+Green Anaconda is one of the heaviest snakes in the world.
+
+Yellow Anaconda is smaller anaconda from South America.
+
+Monitor Lizard is large lizard genus, includes Komodo Dragon.
+
+Nile Monitor is large African lizard, semi-aquatic predator.
+
+Savannah Monitor is African lizard, popular in pet trade.
+
+Caiman Lizard is semi-aquatic lizard from South America.
+
+Frilled Lizard is small lizard with neck frill, native to Australia.
+
+Flying Dragon is gliding lizard from Southeast Asia.
+
+Horned Lizard is spiny lizard from North America, eats ants.
+
+Plated Lizard is armored lizard from Africa.
+
+Skink is smooth-scaled lizard, found worldwide.
+
+Blue-tongued Skink has bright blue tongue, Australia.
+
+Legless Lizard resembles snakes but has eyelids and ears.
+
+Glass Lizard is legless lizard from North America.
+
+Tuatara is reptile from New Zealand, only surviving member of its order.
+
+Sea Turtle Hatchlings are vulnerable to predators on beaches.
+
+Green Iguana Hatchlings stay in trees for protection.
+
+Monitor Lizard Hatchlings are independent from birth.
+
+Alligator Hatchlings stay in nests guarded by mother.
+
+Crocodile Hatchlings hide in vegetation near water.
+
+Snake Hatchlings are independent immediately.
+
+Python Hatchlings may stay near mother for a short time.
+
+King Cobra Hatchlings are independent from birth.
+
+Rattlesnake Hatchlings are venomous from birth.
+
+Chameleon Hatchlings can change color immediately.
+
+Gecko Hatchlings cling to walls using pads.
+
+Frilled Lizard Hatchlings can display frill to deter predators.
+
+Tortoise Hatchlings dig out of sand to reach surface.
+
+Box Turtle Hatchlings are small and vulnerable.
+
+Snapping Turtle Hatchlings have strong jaws at birth.
+
+Sea Snake Hatchlings swim immediately after hatching.
+
+Coral Snake Hatchlings display bright warning colors.
+
+Monitor Hatchlings are solitary hunters from birth.
+
+Anaconda Hatchlings may hunt small prey immediately.
+
+Gila Monster Hatchlings have venom from birth.
+
+Basilisk Hatchlings can run on water at young age.
+
+Horned Lizard Hatchlings can squirt blood from eyes for defense.
+
+Glass Lizard Hatchlings can detach tails to escape predators.
+
+Skink Hatchlings are independent immediately.
+
+Blue-tongued Skink Hatchlings display tongue to deter predators.
+
+Tuatara Hatchlings are slow-growing, take years to mature.
+
+Flying Dragon Hatchlings glide from trees after birth.
+
+Frilled Lizard Juveniles use frill display to avoid predation.
+
+Caiman Lizard Hatchlings hunt small aquatic prey.

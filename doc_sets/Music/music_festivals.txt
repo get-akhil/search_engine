@@ -1,0 +1,159 @@
+Coachella is held in the USA, started in 1999, famous performers include Beyoncé, Radiohead, and Lady Gaga.
+
+Glastonbury is held in the UK, started in 1970, famous performers include Coldplay, Adele, and The Rolling Stones.
+
+Tomorrowland is held in Belgium, started in 2005, famous DJs include Tiësto, Armin van Buuren, and Martin Garrix.
+
+Lollapalooza is held in the USA, started in 1991, famous performers include Kanye West, Foo Fighters, and The Strokes.
+
+Rock in Rio is held in Brazil, started in 1985, famous performers include Queen, Beyoncé, and Iron Maiden.
+
+Ultra Music Festival is held in Miami, USA, started in 1999, famous DJs include David Guetta, Calvin Harris, and Marshmello.
+
+Burning Man is held in Nevada, USA, started in 1986, features electronic music and art installations.
+
+SXSW (South by Southwest) is held in Austin, USA, started in 1987, features artists like Billie Eilish and The Black Keys.
+
+Fuji Rock Festival is held in Japan, started in 1997, famous performers include Red Hot Chili Peppers and Beck.
+
+Montreux Jazz Festival is held in Switzerland, started in 1967, famous performers include Miles Davis, Prince, and B.B. King.
+
+Sziget Festival is held in Hungary, started in 1993, famous performers include Muse, Dua Lipa, and The Killers.
+
+Reading and Leeds Festivals are held in the UK, started in 1961, famous performers include Arctic Monkeys and Green Day.
+
+Isle of Wight Festival is held in the UK, started in 1968, famous performers include Jimi Hendrix, The Who, and David Bowie.
+
+Pinkpop is held in the Netherlands, started in 1970, famous performers include Foo Fighters and Metallica.
+
+Donauinselfest is held in Austria, started in 1983, free festival featuring performers like Robbie Williams and Sting.
+
+Rock am Ring is held in Germany, started in 1985, famous performers include Metallica, Muse, and Rammstein.
+
+Benicàssim Festival is held in Spain, started in 1995, famous performers include The Cure, Kendrick Lamar, and Arctic Monkeys.
+
+Ozzfest is held in the USA, started in 1996, famous performers include Ozzy Osbourne, Slipknot, and Black Sabbath.
+
+Download Festival is held in the UK, started in 2003, famous performers include Iron Maiden, Linkin Park, and System of a Down.
+
+Primavera Sound is held in Spain, started in 2001, famous performers include Arcade Fire, The Strokes, and Lorde.
+
+Hellfest is held in France, started in 2006, famous performers include Iron Maiden, Slayer, and Slipknot.
+
+Wireless Festival is held in the UK, started in 2005, famous performers include Drake, Cardi B, and Justin Bieber.
+
+Creamfields is held in the UK, started in 1998, famous DJs include Calvin Harris, Tiësto, and Deadmau5.
+
+TomorrowWorld is held in Belgium, started in 2013, famous DJs include David Guetta, Armin van Buuren, and Avicii.
+
+Awakenings Festival is held in the Netherlands, started in 1997, famous DJs include Carl Cox, Adam Beyer, and Nina Kraviz.
+
+Ultra Europe is held in Croatia, started in 2013, famous DJs include Hardwell, Martin Garrix, and Alesso.
+
+Exit Festival is held in Serbia, started in 2000, famous performers include Muse, Arctic Monkeys, and Bastille.
+
+Open'er Festival is held in Poland, started in 2002, famous performers include Foo Fighters, Arctic Monkeys, and The Weeknd.
+
+Lowlands is held in the Netherlands, started in 1993, famous performers include Radiohead, The Cure, and Arctic Monkeys.
+
+Pukkelpop is held in Belgium, started in 1985, famous performers include Muse, Arctic Monkeys, and The Killers.
+
+Rock en Seine is held in France, started in 2003, famous performers include Muse, Radiohead, and The Killers.
+
+Southside Festival is held in Germany, started in 1999, famous performers include Green Day, Muse, and Arctic Monkeys.
+
+Northside Festival is held in Denmark, started in 2009, famous performers include The National, Arcade Fire, and Florence + The Machine.
+
+Summerfest is held in the USA, started in 1968, famous performers include Paul McCartney, Elton John, and Ed Sheeran.
+
+Firefly Music Festival is held in the USA, started in 2012, famous performers include The Killers, Billie Eilish, and Florence + The Machine.
+
+Governors Ball is held in the USA, started in 2011, famous performers include Kendrick Lamar, Foo Fighters, and Travis Scott.
+
+Pitchfork Music Festival is held in the USA, started in 2006, famous performers include LCD Soundsystem, Arcade Fire, and Bon Iver.
+
+Coastline Festival is held in Australia, started in 2005, famous performers include Tame Impala and Flume.
+
+Splendour in the Grass is held in Australia, started in 2001, famous performers include Arctic Monkeys, Florence + The Machine, and The Strokes.
+
+Big Day Out is held in Australia, started in 1992, famous performers include Metallica, Pearl Jam, and Radiohead.
+
+Rock Werchter is held in Belgium, started in 1975, famous performers include U2, Coldplay, and The Cure.
+
+V Festival is held in the UK, started in 1996, famous performers include Coldplay, Muse, and Beyoncé.
+
+Reading Festival is held in the UK, started in 1971, famous performers include Green Day, Foo Fighters, and Arctic Monkeys.
+
+Leeds Festival is held in the UK, started in 1999, famous performers include Radiohead, The Killers, and Arctic Monkeys.
+
+Isle of Wight Festival is held in the UK, started in 1968, famous performers include Jimi Hendrix, The Who, and David Bowie.
+
+Rock in Rio Lisboa is held in Portugal, started in 2004, famous performers include Beyoncé, Justin Bieber, and Coldplay.
+
+Rock in Rio Madrid is held in Spain, started in 2008, famous performers include Metallica, Katy Perry, and Rihanna.
+
+Festival Internacional de Benicàssim is held in Spain, started in 1995, famous performers include The Cure, Kendrick Lamar, and Arctic Monkeys.
+
+Exit Festival is held in Serbia, started in 2000, famous performers include Muse, Arctic Monkeys, and Bastille.
+
+Summer Sonic is held in Japan, started in 2000, famous performers include Red Hot Chili Peppers, Muse, and Green Day.
+
+Fuji Rock Festival is held in Japan, started in 1997, famous performers include Beck, Red Hot Chili Peppers, and Radiohead.
+
+Rock in Japan Festival is held in Japan, started in 2000, famous performers include Bump of Chicken and Radwimps.
+
+Flow Festival is held in Finland, started in 2004, famous performers include Kendrick Lamar, Florence + The Machine, and The Cure.
+
+Øyafestivalen is held in Norway, started in 1999, famous performers include Florence + The Machine and Arcade Fire.
+
+Hultsfred Festival is held in Sweden, started in 1986, famous performers include Metallica, Red Hot Chili Peppers, and Muse.
+
+Way Out West is held in Sweden, started in 2007, famous performers include The Cure, Muse, and The National.
+
+Roskilde Festival is held in Denmark, started in 1971, famous performers include Radiohead, The Cure, and Arctic Monkeys.
+
+T in the Park is held in Scotland, started in 1994, famous performers include Foo Fighters, The Killers, and Arctic Monkeys.
+
+Primavera Sound is held in Spain, started in 2001, famous performers include Arcade Fire, Lorde, and The Strokes.
+
+Balaton Sound is held in Hungary, started in 2007, famous DJs include David Guetta, Armin van Buuren, and Tiësto.
+
+Sziget Festival is held in Hungary, started in 1993, famous performers include Muse, Dua Lipa, and The Killers.
+
+Open'er Festival is held in Poland, started in 2002, famous performers include Arctic Monkeys, Foo Fighters, and The Weeknd.
+
+Lowlands is held in the Netherlands, started in 1993, famous performers include Radiohead, Arctic Monkeys, and The Cure.
+
+Pinkpop Festival is held in the Netherlands, started in 1970, famous performers include Foo Fighters, Muse, and Metallica.
+
+Hurricane Festival is held in Germany, started in 1997, famous performers include Muse, Green Day, and Arctic Monkeys.
+
+Southside Festival is held in Germany, started in 1999, famous performers include Foo Fighters, Muse, and Green Day.
+
+Northside Festival is held in Denmark, started in 2009, famous performers include Arcade Fire, Florence + The Machine, and The National.
+
+Awakenings Festival is held in the Netherlands, started in 1997, famous DJs include Adam Beyer, Carl Cox, and Nina Kraviz.
+
+Electric Daisy Carnival is held in the USA, started in 1997, famous DJs include Tiësto, Martin Garrix, and Calvin Harris.
+
+Tomorrowland Winter is held in France, started in 2019, famous DJs include David Guetta, Armin van Buuren, and Martin Garrix.
+
+Creamfields is held in the UK, started in 1998, famous DJs include Deadmau5, Calvin Harris, and Tiësto.
+
+Ultra Music Festival is held in Miami, USA, started in 1999, famous DJs include Martin Garrix, Armin van Buuren, and Tiësto.
+
+Electric Zoo is held in New York, USA, started in 2009, famous DJs include Tiësto, Hardwell, and David Guetta.
+
+Mysteryland is held in the Netherlands, started in 1993, famous DJs include Armin van Buuren, Hardwell, and Tiësto.
+
+Balaton Sound is held in Hungary, started in 2007, famous DJs include Martin Garrix, David Guetta, and Tiësto.
+
+Sunburn Festival is held in India, started in 2007, famous DJs include Armin van Buuren, David Guetta, and Martin Garrix.
+
+NH7 Weekender is held in India, started in 2010, famous performers include Amit Trivedi, Parikrama, and The Raghu Dixit Project.
+
+Rock in Rio Lisboa is held in Portugal, started in 2004, famous performers include Beyoncé, Coldplay, and Justin Bieber.
+
+Rock in Rio Madrid is held in Spain, started in 2008, famous performers include Rihanna, Katy Perry, and Metallica.
+
+Corona Capital is held in Mexico, started in 2010, famous performers include Foo Fighters, Arctic Monkeys, and Muse

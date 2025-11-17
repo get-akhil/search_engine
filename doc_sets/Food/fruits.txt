@@ -1,0 +1,398 @@
+Apple is a sweet fruit
+
+Banana gives instant energy
+
+Orange is rich in vitamin C
+
+Mango is a seasonal fruit
+
+Grapes grow in bunches
+
+Papaya helps digestion
+
+Strawberry is used in desserts
+
+Blueberry contains antioxidants
+
+Pineapple has a tangy taste
+
+Watermelon keeps the body hydrated
+
+Kiwi is rich in fiber
+
+Pomegranate contains seeds
+
+Guava boosts immunity
+
+Pear has a soft texture
+
+Peach is sweet and juicy
+
+Litchi is a summer fruit
+
+Fig is rich in minerals
+
+Apricot is orange colored
+
+Plum has a sour taste
+
+Cherries are small and red
+
+Coconut has water and flesh
+
+Muskmelon is sweet
+
+Blackberries are dark berries
+
+Raspberries are soft fruits
+
+Cranberries are tangy berries
+
+Dragon fruit is pink and white
+
+Jackfruit is a large fruit
+
+Custard apple has creamy flesh
+
+Starfruit has a star shape
+
+Avocado is creamy
+
+Sapota is sweet and brown
+
+Jamun is a purple fruit
+
+Dates are sweet and chewy
+
+Lemon is sour
+
+Lime is used in drinks
+
+Persimmon is orange and firm
+
+Passion fruit has seeds
+
+Mulberry grows on trees
+
+Gooseberry boosts vitamin C
+
+Tamarind is sour
+
+Ber is an Indian fruit
+
+Wood apple is hard-shelled
+
+Mango varieties are many
+
+Banana varieties differ
+
+Apples are stored in cold
+
+Grapes make raisins
+
+Oranges make juice
+
+Berries grow in cold places
+
+Kiwi grows on vines
+
+Papaya is tropical
+
+Mango grows in summer
+
+Banana grows all year
+
+Watermelon grows in fields
+
+Pineapple grows on bushes
+
+Dates grow in deserts
+
+Strawberry grows in winter
+
+Guava grows widely
+
+Pear grows in Europe
+
+Peach grows in warm climates
+
+Plum grows in orchards
+
+Cherry grows on trees
+
+Coconut grows on palms
+
+Dragon fruit grows on cactus
+
+Custard apple grows in tropics
+
+Jackfruit grows in India
+
+Muskmelon grows in summer
+
+Kiwi grows in New Zealand
+
+Fig grows in Mediterranean
+
+Blueberry grows in shrubs
+
+Raspberry grows in clusters
+
+Blackberry grows in bushes
+
+Avocado grows in Mexico
+
+Lemon grows in orchards
+
+Mango is used in shakes
+
+Banana is used in smoothies
+
+Apple is used in pies
+
+Orange is used in desserts
+
+Papaya is used in salads
+
+Grapes are used in wines
+
+Pineapple is used in pizzas
+
+Strawberry is used in jams
+
+Kiwi is used in fruit bowls
+
+Guava is used in juices
+
+Pear is used in tarts
+
+Plum is used in cakes
+
+Peach is used in drinks
+
+Watermelon is eaten raw
+
+Cantaloupe is sweet
+
+Apricot is dried as snack
+
+Raisins come from grapes
+
+Prunes come from plums
+
+Figs are eaten dried
+
+Dates are used in sweets
+
+Lemon is used in tea
+
+Pomegranate is used in salads
+
+Apple is eaten raw
+
+Banana is eaten raw
+
+Mango is eaten raw
+
+Papaya is eaten raw
+
+Orange is eaten raw
+Apples are rich in fiber and antioxidants.
+
+Bananas provide natural energy and potassium.
+
+Mangoes are known as the king of fruits in India.
+
+Strawberries contain high levels of vitamin C.
+
+Blueberries are powerful antioxidant-rich berries.
+
+Oranges are widely consumed citrus fruits.
+
+Pineapples contain bromelain, an enzyme aiding digestion.
+
+Grapes can be green, red, or purple varieties.
+
+Watermelon has high water content and keeps the body hydrated.
+
+Papaya contains papain which helps digestion.
+
+Guava is one of the richest natural sources of vitamin C.
+
+Kiwi fruits have a tangy flavor and high nutrient density.
+
+Litchi is a sweet tropical fruit available in summer.
+
+Pomegranate seeds are rich in minerals and antioxidants.
+
+Cherries are used in desserts and have anti-inflammatory benefits.
+
+Pears are soft, sweet fruits with high fiber.
+
+Plums aid in digestion and provide several vitamins.
+
+Apricots contain vitamin A and beneficial compounds.
+
+Figs are soft fruits rich in natural sugars and calcium.
+
+Coconut provides refreshing water and nutrient-rich flesh.
+
+Dragon fruit has a mild taste and unique appearance.
+
+Jamun is a seasonal fruit known for controlling sugar levels.
+
+Custard apple has creamy, sweet pulp.
+
+Sweet lime is soothing and used in juices.
+
+Starfruit has a distinctive shape and mild taste.
+
+Avocado is rich in healthy fats and fiber.
+
+Blackberries are nutrient-packed and slightly tart.
+
+Raspberries have tiny drupelets and antioxidants.
+
+Muskmelon has high water content and vitamins.
+
+Gooseberries provide vitamins and boost immunity.
+
+Sapota is a sweet fruit commonly eaten in India.
+
+Passion fruit has a strong aroma and pulpy texture.
+
+Pomelo is a large citrus fruit with tangy segments.
+
+Red bananas have a creamy texture and sweet flavor.
+
+Green apples are known for their tart taste.
+
+Persimmons have a smooth texture when ripe.
+
+Mulberries grow on trees and have a sweet-tart flavor.
+
+Rambutan resembles litchi but has a distinct taste.
+
+Longan is a small, sweet tropical fruit.
+
+Cranberries are extremely tangy and antioxidant-rich.
+
+Jackfruit is the largest tree fruit in the world.
+
+Dates offer natural sweetness and minerals.
+
+Olive fruit is used for extracting olive oil.
+
+Tangerines are small citrus fruits with loose skin.
+
+Clementines are seedless citrus fruits.
+
+Sugarcane is chewed for its sweet juice.
+
+Fig pears are a hybrid of pear and fig in appearance.
+
+Red grapes are used in making juices and wines.
+
+Green grapes are crisp and refreshing.
+
+Raisins are dried grapes used in sweets.
+
+Prunes are dried plums used for digestion.
+
+Soursop has a creamy texture and unique flavor.
+
+Blue mangoes are rare varieties with a distinct taste.
+
+Honeydew melons are sweet and juicy.
+
+Ice apples are cooling fruits available in summer.
+
+Ber is a small Indian fruit commonly eaten fresh.
+
+Peach fruits have fuzzy skin and soft flesh.
+
+Nectarines are smooth-skinned peaches.
+
+Wild berries grow naturally in forests.
+
+Kumquats are tiny citrus fruits eaten whole.
+
+Red currants are tangy berries used in syrups.
+
+White currants are milder in flavor.
+
+Cloudberries are rare berries found in cold climates.
+
+Quince is used mainly in making jellies.
+
+Loganberries are hybrids of raspberries and blackberries.
+
+Boysenberries are juicy berry hybrids.
+
+Rose apples have a floral aroma and crunchy texture.
+
+Sea buckthorn berries are extremely vitamin-rich.
+
+Madras berries are eaten fresh or used in drinks.
+
+Wood apple is tangy and used in sherbets.
+
+Pummelo varieties vary in sweetness.
+
+Banana berries are tiny fruits found on banana plants.
+
+Noni fruit is used for medicinal purposes.
+
+Wild figs grow on large trees in tropical regions.
+
+Apple pears are crisp fruits resembling apples.
+
+Plantains are starchy bananas used for cooking.
+
+Mandarin oranges are sweet and easy to peel.
+
+Blackcurrants are rich in vitamin C.
+
+Golden berries are small tangy fruits.
+
+Miracle fruit temporarily changes taste perception.
+
+Breadfruit is cooked as a vegetable.
+
+Jujube fruits are chewy and sweet.
+
+Velvet apples have a soft and aromatic flesh.
+
+Kei apples grow on thorny shrubs.
+
+Tamarillo has a tangy flavor and smooth skin.
+
+Feijoa has a strong aroma and sweet-tart taste.
+
+Jabuticaba grows directly on the tree trunk.
+
+Mamey sapote is a sweet tropical fruit.
+
+Langsat is a small fruit with translucent pulp.
+
+Loquat fruits are small and orange.
+
+Buddha’s hand is a fragrant citrus variety.
+
+Mangosteen is called the queen of fruits.
+
+Ambarella is crunchy with a sour taste.
+
+Nashi pear is crisp and juicy.
+
+Star gooseberry is extremely sour.
+
+Ackee is used in Caribbean cuisine.
+
+Velvet tamarind is tangy and sweet.
+
+Apple banana is a small sweet variety.
+
+Elephant apple has fibrous, tangy flesh.
+
+Pitanga, also called Surinam cherry, has a strong flavor.

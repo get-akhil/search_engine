@@ -1,0 +1,199 @@
+African Elephant is the largest land mammal, found in savannas and forests of Africa.
+
+Asian Elephant is smaller than African elephant, found in forests of South and Southeast Asia.
+
+Bengal Tiger is native to India and Bangladesh, known for its orange coat with black stripes.
+
+Siberian Tiger is the largest tiger subspecies, found in Russian Far East forests.
+
+African Lion is native to Africa, known as the “King of the Jungle.”
+
+Asiatic Lion is found in Gir Forest, India, endangered species.
+
+Cheetah is the fastest land animal, native to Africa.
+
+Leopard is found in Africa and Asia, known for stealth and spotted coat.
+
+Snow Leopard is native to Central Asia mountains, elusive and endangered.
+
+Jaguar is native to South America, powerful big cat.
+
+Cougar is native to Americas, also called mountain lion or puma.
+
+Bobcat is a small wild cat found in North America.
+
+Tiger Cat is found in Central and South America, small feline predator.
+
+Lynx is native to Europe, Asia, and North America, medium-sized wild cat.
+
+Red Fox is found in North America, Europe, Asia, known for bushy tail.
+
+Arctic Fox is native to Arctic, famous for white winter fur.
+
+Fennec Fox is small desert fox from North Africa with large ears.
+
+Gray Wolf is native to North America and Eurasia, pack hunter.
+
+Red Wolf is critically endangered, found in southeastern USA.
+
+Coyote is found in North America, highly adaptable canid.
+
+Dingo is wild dog of Australia, introduced species.
+
+Domestic Dog is derived from wolves, kept as pets worldwide.
+
+Domestic Cat is companion animal, domesticated from African wildcat.
+
+Horse is domesticated herbivore used for riding, transport, and sports.
+
+Zebra is native to Africa, black and white striped herbivore.
+
+Giraffe is tallest land mammal, native to African savannas.
+
+Hippopotamus is large semi-aquatic herbivore of Africa.
+
+Rhinoceros is large herbivore with horn, native to Africa and Asia.
+
+Black Rhinoceros is critically endangered species in Africa.
+
+White Rhinoceros is largest rhino species, native to southern Africa.
+
+Wildebeest is African herbivore famous for annual migration.
+
+Buffalo is large herbivore, African species is Cape buffalo.
+
+Water Buffalo is domesticated in Asia for agriculture and milk.
+
+Moose is largest deer species, native to North America and Europe.
+
+Elk is large deer species, found in North America and Asia.
+
+Reindeer is herbivore of Arctic regions, also called caribou.
+
+White-tailed Deer is common in North America.
+
+Red Deer is native to Europe and Asia, large antlers in males.
+
+Sika Deer is native to East Asia, introduced worldwide.
+
+Pronghorn is North American herbivore, fastest land mammal in the Western Hemisphere.
+
+Bison is native to North America, also called American buffalo.
+
+Asian Water Deer is native to China and Korea, small deer with tusks.
+
+Camel is desert herbivore in Africa and Asia, known for humps.
+
+Dromedary Camel has one hump, domesticated in Middle East and Africa.
+
+Bactrian Camel has two humps, native to Central Asia.
+
+Llama is domesticated in South America for wool and transport.
+
+Alpaca is South American camelid, bred for soft wool.
+
+Vicuna is wild South American camelid, endangered species.
+
+Guanaco is wild relative of llama, native to South America.
+
+Pangolin is insectivorous mammal covered in protective scales.
+
+Armadillo is armored mammal of the Americas.
+
+Sloth is slow-moving herbivore, native to Central and South America.
+
+Anteater is insect-eating mammal of Americas, long snout and tongue.
+
+Aardvark is African nocturnal insectivore with long ears and tongue.
+
+Hedgehog is small nocturnal mammal with spines.
+
+Porcupine is rodent with quills for defense.
+
+Beaver is aquatic rodent, builds dams and lodges.
+
+Capybara is largest rodent, native to South America.
+
+Squirrel is small rodent, found worldwide, famous for bushy tail.
+
+Chipmunk is small North American rodent with stripes.
+
+Rat is rodent found worldwide, adaptable and intelligent.
+
+Mouse is small rodent, often kept as pet or lab animal.
+
+Hamster is small rodent kept as pet worldwide.
+
+Guinea Pig is small South American rodent kept as pet.
+
+Rabbit is herbivorous mammal, burrowing and fast breeder.
+
+Hare is similar to rabbit, native to Europe, Asia, Africa, fast runner.
+
+Bat is flying mammal, active at night, eats insects or fruits.
+
+Flying Fox is large fruit bat from Asia and Australia.
+
+Horseshoe Bat is insectivorous bat, echolocation expert.
+
+Dolphin is intelligent aquatic mammal, found worldwide.
+
+Orca is largest dolphin species, apex predator in oceans.
+
+Porpoise is small cetacean, similar to dolphin.
+
+Blue Whale is largest animal on Earth, found in oceans worldwide.
+
+Fin Whale is second largest whale species.
+
+Humpback Whale is famous for breaching and complex songs.
+
+Gray Whale migrates long distances along Pacific coast.
+
+Sperm Whale is deep-diving predator, largest brain of any animal.
+
+Seal is aquatic carnivore, found in polar and temperate regions.
+
+Sea Lion is marine mammal with external ears and strong flippers.
+
+Walrus is large Arctic marine mammal with tusks.
+
+Manatee is slow-moving herbivorous aquatic mammal, also called sea cow.
+
+Elephant Seal is largest seal species, found in Southern Hemisphere.
+
+Opossum is nocturnal marsupial from Americas.
+
+Kangaroo is large hopping marsupial from Australia.
+
+Red Kangaroo is largest marsupial species.
+
+Wallaby is smaller relative of kangaroo, found in Australia.
+
+Koala is tree-dwelling marsupial, feeds on eucalyptus leaves.
+
+Wombat is burrowing marsupial from Australia.
+
+Tasmanian Devil is carnivorous marsupial, found in Tasmania.
+
+Quokka is small herbivorous marsupial, native to Western Australia.
+
+Bandicoot is small omnivorous marsupial from Australia.
+
+Sugar Glider is small gliding marsupial, native to Australia and New Guinea.
+
+Oryx is antelope native to Africa and Middle East, adapted to deserts.
+
+Springbok is medium-sized antelope from Africa.
+
+Gazelle is fast African herbivore.
+
+Impala is medium-sized African antelope, known for jumping ability.
+
+Bighorn Sheep is native to North America, famous for curved horns.
+
+Mountain Goat is alpine herbivore in North America.
+
+Yak is long-haired bovine from Himalayan region.
+
+Water Deer is small deer from China and Korea, known for tusks.

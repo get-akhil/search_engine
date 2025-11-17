@@ -1,0 +1,401 @@
+
+
+Realism aims to depict subjects accurately.
+
+Hyperrealism focuses on extreme detail.
+
+Impressionism captures light and moments.
+
+Expressionism emphasizes emotion over accuracy.
+
+Cubism breaks subjects into geometric shapes.
+
+Surrealism showcases dreamlike imagery.
+
+Minimalism uses simple, clean forms.
+
+Abstract art does not represent real objects.
+
+Pop art uses bright colors and media imagery.
+
+Modernism focuses on innovation.
+
+Postmodern art critiques tradition.
+
+Contemporary art refers to current practices.
+
+Conceptual art focuses on ideas over form.
+
+Photorealism resembles high-quality photos.
+
+Figurative art represents human forms.
+
+Symbolism uses symbols to express themes.
+
+Romanticism emphasizes emotion and drama.
+
+Baroque art features high contrast and motion.
+
+Renaissance focuses on proportion and balance.
+
+Gothic art uses elongated figures and arches.
+
+Art Nouveau uses flowing organic lines.
+
+Art Deco features bold geometric patterns.
+
+Fauvism uses bright, unnatural colors.
+
+Neo-expressionism revives emotional painting.
+
+Street art includes murals and graffiti.
+
+Calligraphy is artistic handwriting.
+
+Mandala art uses circular geometric patterns.
+
+Zentangle art focuses on structured patterns.
+
+Line art uses only lines for depiction.
+
+Doodle art features spontaneous sketches.
+
+Anime art is inspired by Japanese animation.
+
+Manga art is Japanese comic style.
+
+Chibi art simplifies characters with big heads.
+
+Comic art uses panels and bold outlines.
+
+Watercolor painting uses water-based pigments.
+
+Wet-on-wet creates soft blended edges.
+
+Wet-on-dry creates sharp details.
+
+Wash technique uses diluted paint layers.
+
+Glazing adds transparent color layers.
+
+Lifting removes color from paper.
+
+Dry brushing creates textured effects.
+
+Splatter technique adds dynamic droplets.
+
+Salt technique produces crystal textures.
+
+Alcohol drops create bloom effects.
+
+Acrylic painting dries quickly.
+
+Impasto technique uses thick paint.
+
+Scumbling adds thin broken layers.
+
+Sgraffito scratches wet paint for lines.
+
+Stippling builds form using dots.
+
+Hatching creates shading with parallel lines.
+
+Cross-hatching increases depth.
+
+Ink wash thins ink for gradients.
+
+Pen illustration emphasizes clean lines.
+
+Marker rendering blends alcohol markers.
+
+Gouache painting provides opaque layers.
+
+Tempera painting uses egg binders.
+
+Oil painting dries slowly for blending.
+
+Alla prima completes a painting in one sitting.
+
+Underpainting sets tonal foundations.
+
+Glazing builds depth with transparent layers.
+
+Palette knife painting creates texture.
+
+Frosting technique spreads thick paint.
+
+Spray paint art creates smooth gradients.
+
+Airbrush art uses compressed air.
+
+Collage combines different materials.
+
+Mixed media blends multiple art types.
+
+Decoupage layers paper cutouts.
+
+Resin art uses epoxy for glossy finishes.
+
+Pour painting creates fluid abstract effects.
+
+Marble art swirls colors like stone.
+
+Tie-dye art creates colorful patterns.
+
+Batik applies wax and dye on fabric.
+
+Mosaic art uses small colored pieces.
+
+Stencil art produces repeated shapes.
+
+Printmaking transfers inked designs.
+
+Linocut carving creates prints.
+
+Woodcut uses carved wooden blocks.
+
+Etching uses acid to create lines.
+
+Screen printing uses mesh screens.
+
+Monotype creates one-of-a-kind prints.
+
+Sculpture art works in 3D.
+
+Carving removes material to shape forms.
+
+Modeling adds soft material to sculpt.
+
+Casting forms objects using molds.
+
+Kinetic art includes movement.
+
+Installation art transforms spaces.
+
+Performance art uses live actions.
+
+Fiber art uses fabric-based materials.
+
+Textile art involves weaving and sewing.
+
+Embroidery decorates fabric with thread.
+
+Quilting stitches layered fabrics.
+
+Needle felting shapes wool with needles.
+
+Weaving creates patterns on looms.
+
+Crochet creates stitches with a hooked needle.
+
+Knitting uses two needles to loop yarn.
+
+Calligraphy brush technique changes stroke width.
+
+Gothic calligraphy uses angular strokes.
+
+Copperplate calligraphy uses flowing lines.
+
+Brush lettering uses pressure variation.
+
+Balloon lettering uses rounded bubble-like shapes.
+
+Digital art uses software instead of physical media.
+
+Pixel art creates images with small squares.
+
+Vector art uses mathematical curves.
+
+Matte painting creates cinematic backgrounds.
+
+3D modeling builds digital structures.
+
+Sculpting software shapes 3D forms.
+
+Digital painting simulates real painting.
+
+Layering technique organizes digital elements.
+
+Blending modes modify layer interaction.
+
+Gradient mapping adds tonal changes.
+
+Noise texture adds grain effects.
+
+Soft shading smooths transitions.
+
+Hard shading uses sharp edges.
+
+Cel shading mimics animation style.
+
+Voxel art uses cube-based modeling.
+
+Motion graphics animate visual elements.
+
+Animation uses sequential frames.
+
+Storyboarding maps scenes visually.
+
+Stop-motion uses real objects for animation.
+
+Claymation uses clay figures in animation.
+
+Typography art designs text as artwork.
+
+Lettering creates decorative text.
+
+Graffiti uses spray paint on walls.
+
+Tagging is a stylized signature.
+
+Wildstyle graffiti uses complex lettering.
+
+3D graffiti creates dimensional effects.
+
+Architectural drawing uses precise perspective.
+
+Perspective drawing creates depth.
+
+One-point perspective has one vanishing point.
+
+Two-point perspective uses two vanishing points.
+
+Three-point perspective adds vertical depth.
+
+Foreshortening shortens parts to show distance.
+
+Gesture drawing captures movement quickly.
+
+Contour drawing outlines shapes.
+
+Blind contour drawing avoids looking at paper.
+
+Negative space drawing focuses on empty areas.
+
+Thumbnail sketches explore composition.
+
+Silhouette drawing focuses on outlines.
+
+Chiaroscuro contrasts light and dark.
+
+Tenebrism exaggerates dramatic lighting.
+
+Atmospheric perspective changes color in distance.
+
+Flat shading removes depth.
+
+Warm color schemes use reds and yellows.
+
+Cool color schemes use blues and greens.
+
+Complementary colors are opposite on color wheel.
+
+Analogous colors sit beside each other.
+
+Monochrome uses one color in variations.
+
+Split complementary color scheme adds contrast.
+
+Triadic color scheme uses three evenly spaced colors.
+
+Tetradic color scheme uses four colors.
+
+Pointillism uses individual color dots.
+
+Hard edge painting has crisp boundaries.
+
+Soft edge painting has blurred edges.
+
+Flat illustration avoids gradients.
+
+Stylized art exaggerates features.
+
+Caricature distorts features humorously.
+
+Portrait art focuses on faces.
+
+Landscape art depicts scenery.
+
+Still life art shows arranged objects.
+
+Figurative art shows human forms.
+
+Anatomy drawing studies muscles and bones.
+
+Fashion illustration emphasizes garments.
+
+Architectural sketches show buildings.
+
+Botanical illustration focuses on plants.
+
+Wildlife art depicts animals.
+
+Marine art shows ocean subjects.
+
+Fantasy art portrays imaginary worlds.
+
+Sci-fi art explores futuristic concepts.
+
+Gothic art emphasizes dark themes.
+
+Horror art creates eerie imagery.
+
+Cute art simplifies subjects charmingly.
+
+Kawaii art is a cute Japanese style.
+
+Real-time sketching captures moments quickly.
+
+Shadow mapping defines light direction.
+
+Blocking shapes sets the base composition.
+
+Underpainting establishes tonal values.
+
+Color blocking separates major hues.
+
+Edge control adjusts softness and crispness.
+
+Value study explores light and dark.
+
+Texture study analyzes surface details.
+
+Highlight placement adds realism.
+
+Saturation control manages intensity.
+
+Composition arranges elements effectively.
+
+Rule of thirds divides canvas into nine parts.
+
+Golden ratio improves harmony.
+
+Symmetry adds balance.
+
+Asymmetry creates movement.
+
+Radial composition centers around a point.
+
+Minimal composition uses few elements.
+
+Cluttered composition appears chaotic.
+
+Leading lines guide viewer’s eyes.
+
+Focal point draws attention.
+
+Depth cues add 3D illusion.
+
+Overlapping objects show distance.
+
+Large foreground objects increase depth.
+
+High contrast highlights important areas.
+
+Low contrast creates softness.
+
+Warm light changes color perception.
+
+Cool light creates different mood.
+
+Mixed lighting adds complexity.

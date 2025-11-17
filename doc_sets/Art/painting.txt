@@ -1,0 +1,399 @@
+Painting is one of the oldest art forms.
+
+Artists use brushes to apply paint.
+
+Acrylic paint dries quickly.
+
+Oil paint dries slowly.
+
+Watercolors create soft transparent layers.
+
+Gouache is opaque watercolor.
+
+Artists mix colors on a palette.
+
+Warm colors include red, yellow, and orange.
+
+Cool colors include blue, green, and purple.
+
+Complementary colors sit opposite on the color wheel.
+
+A canvas is used as a painting surface.
+
+Stretched canvas is mounted on a wooden frame.
+
+Paper is used for watercolor painting.
+
+Painters use easels for support.
+
+Abstract art uses shapes and colors creatively.
+
+Realism tries to show subjects accurately.
+
+Portrait painting focuses on human faces.
+
+Landscape painting shows nature or scenery.
+
+Figurative art represents human figures.
+
+Still life painting shows objects.
+
+Artists use light and shadow to create depth.
+
+Highlights show the brightest parts.
+
+Shadows create contrast.
+
+Perspective creates the illusion of distance.
+
+Linear perspective uses vanishing points.
+
+Atmospheric perspective fades distant objects.
+
+Color blending creates smooth transitions.
+
+Impasto uses thick textured paint.
+
+Glazing adds transparent color layers.
+
+Wash techniques dilute paint with water.
+
+Dry brushing leaves rough strokes.
+
+Artists sketch before painting.
+
+Charcoal drawings guide initial shapes.
+
+Underpainting sets the base tones.
+
+Mondrian used bold lines in abstract art.
+
+Picasso used cubist styles.
+
+Van Gogh used expressive brush strokes.
+
+Da Vinci mastered realism.
+
+Monet painted impressionist landscapes.
+
+Frida Kahlo painted symbolic self-portraits.
+
+Pollock used drip painting techniques.
+
+Warhol created pop art.
+
+Painters study anatomy for figure drawing.
+
+Painters learn color theory.
+
+Hue refers to pure color.
+
+Saturation refers to intensity.
+
+Value refers to lightness or darkness.
+
+Artists use reference images.
+
+Sketchbooks hold initial ideas.
+
+Artists experiment with color palettes.
+
+Brushes vary in shape and size.
+
+Flat brushes cover large areas.
+
+Round brushes create thin and thick lines.
+
+Fan brushes blend edges.
+
+Liner brushes make fine details.
+
+Palette knives apply thick paint.
+
+Mixing mediums change paint texture.
+
+Gesso prepares canvas surfaces.
+
+Varnish protects finished paintings.
+
+Frames enhance artwork.
+
+Museums display paintings.
+
+Galleries showcase contemporary works.
+
+Artists sign their paintings.
+
+Art collectors buy original artwork.
+
+Exhibitions show themed works.
+
+Critics review paintings.
+
+Art movements change styles over time.
+
+Renaissance revived classical techniques.
+
+Baroque used dramatic lighting.
+
+Romanticism focused on emotion.
+
+Impressionism captured fleeting moments.
+
+Expressionism emphasized inner feelings.
+
+Surrealism explored dreams.
+
+Cubism broke objects into shapes.
+
+Pop art used everyday symbols.
+
+Minimalism used simple forms.
+
+Modern art focuses on ideas.
+
+Contemporary art reflects current times.
+
+Street art uses public spaces.
+
+Mural painting decorates large walls.
+
+Fresco is painting on wet plaster.
+
+Tempera uses egg yolk as binder.
+
+Encaustic uses melted wax.
+
+Acrylics can mimic other mediums.
+
+Oils allow long blending time.
+
+Watercolors require planning.
+
+Artists layer colors for complexity.
+
+Foreground shows nearest objects.
+
+Background shows distant scenery.
+
+Midground connects foreground and background.
+
+Painters choose color schemes.
+
+Monochrome uses one color.
+
+Analogous colors sit side by side.
+
+Triadic schemes use three spaced colors.
+
+Complementary schemes use opposite colors.
+
+Artists use masking tape for clean edges.
+
+Painters use fixatives for dry media.
+
+Gridding helps scale drawings.
+
+Light sources define shadows.
+
+Cast shadows fall on surfaces.
+
+Reflected light softens edges.
+
+Painters observe color temperature.
+
+Cool shadows bring calmness.
+
+Warm highlights add energy.
+
+Textured canvas affects strokes.
+
+Smooth boards allow detail.
+
+Artists create custom brushes.
+
+Water control is crucial in watercolor.
+
+Acrylic mediums add gloss or texture.
+
+Oil mediums reduce drying time.
+
+Painters use glazes for luminosity.
+
+Alla prima means wet-on-wet painting.
+
+Grisaille uses grayscale underpainting.
+
+Negative space enhances composition.
+
+Rule of thirds guides balance.
+
+Central composition draws focus.
+
+Diagonal lines add movement.
+
+Horizontal lines bring calmness.
+
+Vertical lines show strength.
+
+Curved lines create softness.
+
+Painters sketch thumbnails first.
+
+Value studies refine lighting.
+
+Artists study color mixing charts.
+
+Tint is adding white to color.
+
+Shade is adding black to color.
+
+Tone is adding gray to color.
+
+Painters test colors before use.
+
+Wet-on-wet creates soft transitions.
+
+Wet-on-dry creates sharp edges.
+
+Blending requires clean brushes.
+
+Overworking muddies colors.
+
+Artists step back to evaluate work.
+
+Painters rotate canvas for perspective.
+
+Art studios store supplies.
+
+Natural light helps accuracy.
+
+Artificial lights affect color perception.
+
+Artists keep rags for cleaning.
+
+Turpentine cleans oil brushes.
+
+Water cleans acrylic brushes.
+
+Painters organize palettes.
+
+Painting requires patience.
+
+Practice improves technique.
+
+Artists study master painters.
+
+Paintings express emotions.
+
+Art communicates ideas.
+
+Paintings preserve memories.
+
+Artists experiment with textures.
+
+Impasto creates sculptural effects.
+
+Smooth blending creates softness.
+
+Spattering adds dynamic texture.
+
+Stippling creates dotted effects.
+
+Cross-hatching builds shadows.
+
+Scumbling adds broken color.
+
+Color contrast enhances focus.
+
+Depth is created using perspective.
+
+Light direction affects mood.
+
+Soft edges create atmosphere.
+
+Hard edges draw attention.
+
+Artists use glazing for glow.
+
+Paintings take hours or months.
+
+Artists protect work from dust.
+
+Paint must dry before varnishing.
+
+Varnish restores color vibrancy.
+
+Paintings are displayed with lighting.
+
+High humidity affects canvas.
+
+Sunlight fades pigments.
+
+Conservation protects old paintings.
+
+Restoration repairs damage.
+
+Framing enhances presentation.
+
+Art schools teach painting techniques.
+
+Online tutorials help beginners.
+
+Artists collaborate in studios.
+
+Art communities share feedback.
+
+Painting reduces stress.
+
+Creativity grows with practice.
+
+Artists use imagination freely.
+
+Mixed media combines materials.
+
+Painters experiment with tools.
+
+Artists explore different styles.
+
+Mood influences color choices.
+
+Light reflections affect realism.
+
+Experimentation leads to discovery.
+
+Mistakes are part of the process.
+
+Reducing errors improves skill.
+
+Paint leftovers can be reused.
+
+Cleaning tools extends their life.
+
+Good brushes last for years.
+
+Paint layers must dry properly.
+
+Strong compositions guide the viewer.
+
+Contrast adds drama.
+
+Soft tones create calm.
+
+Bold colors show energy.
+
+Artists choose meaningful subjects.
+
+Paintings tell stories.
+
+Small studies lead to better artworks.
+
+Revisions refine results.
+
+Artists strive for originality.
+
+Inspiration comes from nature.
+
+Practice builds confidence.
+
+Painting is a lifelong skill.

@@ -1,0 +1,399 @@
+Burger is made with a patty and bun.
+
+French fries are deep-fried potato sticks.
+
+Pizza contains cheese and toppings.
+
+Hot dog is served in a soft bun.
+
+Sandwich has layers of fillings.
+
+Wrap is rolled with vegetables or meat.
+
+Taco is a folded tortilla with filling.
+
+Nachos are tortilla chips with cheese.
+
+Fried chicken is crispy and juicy.
+
+Nuggets are bite-sized chicken pieces.
+
+Popcorn chicken is crunchy.
+
+Shawarma is served in pita bread.
+
+Burrito is wrapped with rice and beans.
+
+Quesadilla is grilled with cheese.
+
+Garlic bread is toasted with butter.
+
+Onion rings are deep-fried.
+
+Cheese sticks are melted inside.
+
+Samosa is a fried snack.
+
+Kachori is spicy and crispy.
+
+Vada pav is a popular Indian fast food.
+
+Dabeli is stuffed with masala.
+
+Pav bhaji is buttery and spicy.
+
+Chole bhature is heavy and tasty.
+
+Misal pav is spicy.
+
+Aloo tikki burger is crispy.
+
+Momos are steamed or fried dumplings.
+
+Spring roll is stuffed and fried.
+
+Pizza roll is cheesy.
+
+Chicken puff is flaky.
+
+Veg puff is stuffed with potatoes.
+
+Donut is sweet and soft.
+
+Pretzel is twisted bread.
+
+Bagel sandwich is heavy.
+
+Sub sandwich is long.
+
+Fried fish is crispy.
+
+Prawn fry is crunchy.
+
+Chicken popcorn is bite-sized.
+
+Chicken wrap is juicy.
+
+Corn dog is fried on a stick.
+
+Meatball sub is cheesy.
+
+Falafel wrap is vegetarian.
+
+Gyro is served with pita.
+
+Jalapeno popper is spicy.
+
+Cheese burger is loaded.
+
+Double patty burger is large.
+
+Chicken burger is popular.
+
+Veggie burger uses plant patty.
+
+Paneer burger is creamy.
+
+BBQ pizza has smoky flavor.
+
+Pepperoni pizza is common.
+
+Margherita pizza is simple.
+
+Thin crust pizza is crispy.
+
+Thick crust pizza is chewy.
+
+Cheese burst pizza is gooey.
+
+Garlic pizza is aromatic.
+
+Taco bowl is crunchy.
+
+Pasta salad is creamy.
+
+Loaded fries have toppings.
+
+Masala fries are spicy.
+
+Cheese fries are heavy.
+
+Peri peri fries are tangy.
+
+Chicken fries are thin.
+
+Potato wedges are thick.
+
+Buffalo wings are spicy.
+
+BBQ wings are smoky.
+
+Honey wings are sweet.
+
+Boneless wings are juicy.
+
+Fried shrimp is crunchy.
+
+Tempura prawns are light.
+
+Chicken strips are long.
+
+Veg fingers are crispy.
+
+Corn fritters are soft.
+
+Cheese balls are fried.
+
+Pizza pockets are stuffed.
+
+Stuffed paratha is heavy.
+
+Frankie roll is tasty.
+
+Kathi roll is popular.
+
+Paneer roll is creamy.
+
+Chicken roll is spicy.
+
+Egg roll is soft.
+
+Chicken shawarma is juicy.
+
+Mushroom burger is vegetarian.
+
+Cheese toast is easy.
+
+Garlic toast is crisp.
+
+Chicken tostada is crunchy.
+
+Nacho platter is loaded.
+
+Burrito bowl is colorful.
+
+Veg taco is crunchy.
+
+Soft taco is tender.
+
+Hard taco is crisp.
+
+Fajita wrap is spicy.
+
+BBQ wrap is smoky.
+
+Chicken quesadilla is cheesy.
+
+Veg quesadilla is mild.
+
+Paneer quesadilla is soft.
+
+Meatball pizza is heavy.
+
+Spinach pizza is light.
+
+Corn pizza is sweet.
+
+Cheese slice pizza is simple.
+
+Focaccia sandwich is soft.
+
+Panini is grilled.
+
+Mexican corn cup is tangy.
+
+Loaded nachos are cheesy.
+
+Tortilla wrap is stuffed.
+
+KFC-style chicken is crispy.
+
+Subway sandwich is fresh.
+
+Spicy chicken burger is hot.
+
+Mayo fries are creamy.
+
+Masala toast is spicy.
+
+Veggi kebab is grilled.
+
+Chicken kebab is juicy.
+
+Mutton kebab is tender.
+
+Fish wrap is flavorful.
+
+Paneer tikka roll is creamy.
+
+Tandoori chicken roll is smoky.
+
+Nuggets meal is popular.
+
+Chicken combo box is filling.
+
+Veg combo meal is light.
+
+Pasta box is creamy.
+
+Fried rice bowl is savory.
+
+Noodle box is spicy.
+
+Manchurian dry is tangy.
+
+Honey chilli potato is sweet.
+
+Crispy baby corn is crunchy.
+
+Schezwan fries are hot.
+
+Popcorn fries are tiny.
+
+Tandoori momos are smoky.
+
+Fried momos are crisp.
+
+Cheese momos are creamy.
+
+Steamed momos are soft.
+
+Tacos with salsa are tangy.
+
+Chicken sandwich is juicy.
+
+Club sandwich is layered.
+
+Grilled sandwich is crisp.
+
+Pan pizza is thick.
+
+Italian pizza is flavorful.
+
+Stuffed garlic bread is cheesy.
+
+Cheese burst roll is creamy.
+
+Double cheese pizza is heavy.
+
+Crispy burger is crunchy.
+
+Onion fritters are spicy.
+
+Chicken nuggets meal is common.
+
+Veg nuggets are light.
+
+Toasted sub is crisp.
+
+Loaded hot dog is heavy.
+
+Cheesy hot dog is creamy.
+
+Masala hot dog is spicy.
+
+Chicken corn dog is tasty.
+
+Veg corn dog is sweet.
+
+Cheese maggi is creamy.
+
+Masala maggi is spicy.
+
+Butter maggi is smooth.
+
+Chow mein is stir-fried.
+
+Hakka noodles are soft.
+
+Schezwan noodles are spicy.
+
+Garlic noodles are aromatic.
+
+Veg fried rice is mild.
+
+Chicken fried rice is filling.
+
+Egg fried rice is soft.
+
+Paneer fried rice is light.
+
+Manchow soup is spicy.
+
+Sweet corn soup is mild.
+
+Wonton soup is aromatic.
+
+Loaded burger is huge.
+
+Crispy wrap is crunchy.
+
+Chicken salad wrap is refreshing.
+
+Veg salad wrap is light.
+
+Paneer salad wrap is creamy.
+
+Tandoori fries are flavorful.
+
+Peri peri burger is spicy.
+
+Veg delight pizza is colorful.
+
+Corn capsicum pizza is sweet.
+
+Mushroom pizza is earthy.
+
+Chicken sausage pizza is heavy.
+
+Paneer tikka pizza is spicy.
+
+Hawaiian pizza is sweet.
+
+Taco pizza is creative.
+
+Alfredo pasta is creamy.
+
+Arrabbiata pasta is spicy.
+
+Pink sauce pasta is balanced.
+
+Mac and cheese is cheesy.
+
+Lasagna is layered.
+
+Chicken spaghetti is saucy.
+
+Veg spaghetti is light.
+
+Cheese ravioli is soft.
+
+Meatball pasta is rich.
+
+Chicken garlic noodles are aromatic.
+
+Cheese chilli toast is spicy.
+
+Veg crispy is crunchy.
+
+Szechuan tofu is spicy.
+
+Chicken lollipop is crispy.
+
+Veg lollipop is mild.
+
+Sweet potato fries are soft.
+
+Loaded potato skins are cheesy.
+
+Cheesy wedges are heavy.
+
+Veg pizza pocket is small.
+
+Chicken pizza pocket is juicy.
+
+Crispy rice balls are fried.
+
+Mozzarella balls are cheesy.
+
+Cheese garlic bites are soft.

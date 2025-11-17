@@ -1,0 +1,399 @@
+Tea is one of the most widely consumed drinks.
+
+Coffee contains caffeine for alertness.
+
+Lemonade is made from lemon and sugar.
+
+Orange juice is rich in Vitamin C.
+
+Milkshake is made with milk and ice cream.
+
+Hot chocolate is a sweet cocoa drink.
+
+Green tea contains antioxidants.
+
+Black tea has a strong flavor.
+
+Cold coffee is served chilled.
+
+Lassi is a yogurt-based drink.
+
+Coconut water keeps the body hydrated.
+
+Buttermilk aids digestion.
+
+Smoothies are blended fruit drinks.
+
+Energy drinks boost alertness.
+
+Soft drinks are carbonated beverages.
+
+Sparkling water has added carbonation.
+
+Mango juice is sweet and pulpy.
+
+Watermelon juice is refreshing.
+
+Apple juice is naturally sweet.
+
+Grape juice is often used as a wine substitute.
+
+Herbal tea is made from herbs and spices.
+
+Iced tea is served cold with ice.
+
+Masala chai includes spices like cloves and ginger.
+
+Hot coffee is brewed using roasted beans.
+
+Cappuccino has milk foam on top.
+
+Latte has more milk than cappuccino.
+
+Espresso is a concentrated coffee shot.
+
+Mocha combines coffee and chocolate.
+
+Protein shakes help in muscle recovery.
+
+Almond milk is a dairy-free alternative.
+
+Soy milk is plant-based.
+
+Oat milk is creamy and nutritious.
+
+Sugarcane juice is sweet and refreshing.
+
+Jaljeera is a spicy Indian drink.
+
+Rose milk is flavored with rose syrup.
+
+Falooda is a sweet Indian beverage.
+
+Mint lemonade has a cooling effect.
+
+Kombucha is a fermented tea.
+
+Kefir is a fermented milk drink.
+
+Turmeric milk boosts immunity.
+
+Blue pea tea changes color with lemon.
+
+Ginger tea helps with colds.
+
+Hibiscus tea lowers blood pressure.
+
+Cranberry juice prevents UTIs.
+
+Tomato juice is used in cocktails.
+
+Pineapple juice is tangy.
+
+Carrot juice is good for eyesight.
+
+Beetroot juice boosts stamina.
+
+Pomegranate juice increases hemoglobin.
+
+Cucumber juice is hydrating.
+
+Avocado smoothie is creamy and thick.
+
+Banana milkshake is sweet and filling.
+
+Strawberry smoothie is widely loved.
+
+Chocolate milk is sweetened cocoa milk.
+
+Cappuccino shake is a café favorite.
+
+Americano is diluted espresso.
+
+Frappuccino is a blended coffee drink.
+
+Lemon soda is fizzy and refreshing.
+
+Masala soda is spicy and tangy.
+
+Green smoothie contains leafy vegetables.
+
+Orange soda is artificially flavored.
+
+Tonic water contains quinine.
+
+Classic mojito is made with mint and lime.
+
+Virgin mojito is a non-alcoholic version.
+
+Sweet lassi is made with sugar.
+
+Salted lassi helps digestion.
+
+Banana smoothie is creamy.
+
+Dates milkshake is nutritious.
+
+Cold brew coffee is steeped overnight.
+
+Matcha tea is powdered green tea.
+
+Espresso tonic is a trending drink.
+
+Fennel water improves digestion.
+
+Chia drinks are rich in fiber.
+
+Fruit punch mixes various fruit juices.
+
+Ginger ale is a fizzy ginger drink.
+
+Root beer is a sweet soda.
+
+Hot lemon water aids detox.
+
+Cinnamon tea boosts metabolism.
+
+Peppermint tea reduces nausea.
+
+Masala buttermilk includes spices.
+
+Tender coconut smoothie is refreshing.
+
+Caramel latte is sweet and creamy.
+
+Irish coffee includes cream.
+
+Turmeric latte is trendy worldwide.
+
+Filter coffee is popular in South India.
+
+Kashmiri kahwa is a spiced tea.
+
+Badam milk includes almonds and saffron.
+
+Khus sharbat is cooling.
+
+Blueberry smoothie is antioxidant-rich.
+
+Raspberry juice is tangy.
+
+Aam panna is made from raw mango.
+
+Mango lassi is sweet and creamy.
+
+Taro milk tea is purple in color.
+
+Bubble tea contains chewy pearls.
+
+Thai iced tea is sweet and spiced.
+
+Black coffee has no milk.
+
+Ginger shots boost immunity.
+
+Carrot-beet juice is nutritious.
+
+Rose sharbat is aromatic.
+
+Water is the simplest beverage.
+
+Barley water is recommended in summers.
+
+Aloe vera juice improves digestion.
+
+Lemon iced tea is refreshing.
+
+Peach iced tea is sweet.
+
+Strawberry milk is pink in color.
+
+Maple latte is flavored with maple syrup.
+
+Brown sugar bubble tea is popular.
+
+Lychee juice is sweet and floral.
+
+Pear juice is light and fruity.
+
+Blackcurrant drink is tangy.
+
+Mixed fruit juice blends many fruits.
+
+Banana coffee is an experimental drink.
+
+Mint cooler refreshes instantly.
+
+Classic cold coffee uses instant coffee.
+
+Protein-enriched milk is fortified.
+
+Fortified juices contain added vitamins.
+
+Chikku milkshake is sweet and smooth.
+
+Oreo shake is blended with cookies.
+
+Vanilla milkshake is a classic choice.
+
+Beer is a fermented drink.
+
+Wine is made from fermented grapes.
+
+Whiskey is distilled from grains.
+
+Vodka is a clear distilled spirit.
+
+Rum is made from sugarcane.
+
+Gin contains juniper flavors.
+
+Martini is a cocktail.
+
+Sangria mixes wine with fruit.
+
+Mocktails are non-alcoholic drinks.
+
+Soda water is carbonated water.
+
+Espresso martini includes coffee liqueur.
+
+Margarita is a lime-based cocktail.
+
+Pina colada contains pineapple and coconut.
+
+Hot toddy is made with spices.
+
+Fruit-infused water improves hydration.
+
+Apple cider vinegar drink aids digestion.
+
+Cinnamon water supports metabolism.
+
+Coconut smoothie uses tender coconut.
+
+Kiwi smoothie is green and tangy.
+
+Dates shake provides natural sweetness.
+
+Peanut butter shake is protein-rich.
+
+Matcha latte uses whipped matcha.
+
+Dark chocolate drink is rich in flavor.
+
+Hot cocoa is creamy and sweet.
+
+Ginger-lime drink boosts immunity.
+
+Strawberry lemonade is colorful.
+
+Masala chai latte is a fusion drink.
+
+Hibiscus cooler is refreshing.
+
+Tamarind juice is tangy.
+
+Basil seed drink is cooling.
+
+Celery juice is used in detox diets.
+
+Apple cinnamon tea is aromatic.
+
+Spice tea contains cloves and cardamom.
+
+Fruit kefir is probiotic.
+
+Milk kefir supports gut health.
+
+Kombucha lemonade is trending.
+
+Rose chai is fragrant.
+
+Pumpkin spice latte is seasonal.
+
+Grape soda is fizzy and sweet.
+
+Melon juice is refreshing.
+
+Kiwi lemonade is tangy.
+
+Cold turmeric tea boosts health.
+
+Chamomile tea promotes sleep.
+
+Iced matcha latte is cool and creamy.
+
+Lemon barley drink is traditional.
+
+Passion fruit drink is tropical.
+
+Assam tea is strong and malty.
+
+Darjeeling tea is light and floral.
+
+Green apple soda is sour and sweet.
+
+Fresh lime soda is popular in India.
+
+Saffron milk improves strength.
+
+Mulberry juice is rare but tasty.
+
+Mixed berry smoothie is colorful.
+
+Avocado milkshake is thick.
+
+Protein coffee boosts energy.
+
+Ginger buttermilk is soothing.
+
+Fruit slush drinks are icy.
+
+Cranberry cooler is refreshing.
+
+Pina cooler mixes pineapple and ice.
+
+Blue lagoon is blue and citrusy.
+
+Mint tea has a cooling effect.
+
+Spiced milk includes nutmeg.
+
+Kokum sharbat is tangy and cooling.
+
+Mango smoothie is pulpy.
+
+Brownie shake contains chocolate brownie.
+
+Rose lassi is fragrant.
+
+Pineapple mojito is tropical.
+
+Lemon ginger tea relieves sore throat.
+
+Strawberry mojito is fruity.
+
+Kiwi mojito is tangy.
+
+Cucumber mint cooler is refreshing.
+
+Almond shake is rich.
+
+Custard apple shake is sweet.
+
+Honey lemon tea soothes the throat.
+
+Apple iced tea is light.
+
+Orange iced tea is fruity.
+
+Banana chocolate shake is creamy.
+
+Salted caramel latte is trendy.
+
+Cardamom milk is aromatic.
+
+Grapefruit juice is bitter-sour.
+
+Pineapple juice cooler is refreshing.

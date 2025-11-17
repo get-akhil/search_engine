@@ -1,0 +1,199 @@
+Bald Eagle is the national bird of the USA, known for white head and tail.
+
+Golden Eagle is found in North America, Europe, and Asia, powerful predator.
+
+Harpy Eagle is one of the largest and strongest eagles in the world.
+
+Peregrine Falcon is the fastest bird in diving flight.
+
+Red-tailed Hawk is common in North America, known for red tail feathers.
+
+Snowy Owl is native to Arctic regions, known for white plumage.
+
+Great Horned Owl is North American nocturnal predator with ear tufts.
+
+Barn Owl is widespread, famous heart-shaped face.
+
+Eastern Screech Owl is small owl from North America.
+
+Burrowing Owl nests underground in North and South America.
+
+Kingfisher is brightly colored bird that dives for fish.
+
+Common Kingfisher is small and bright blue, found in Europe and Asia.
+
+Belted Kingfisher is North American species with distinctive call.
+
+Blue Jay is North American bird, known for intelligence and mimicry.
+
+European Robin is small bird with red breast, found in Europe.
+
+American Robin is widely distributed in North America, famous for red-orange chest.
+
+Northern Cardinal is bright red bird of North America.
+
+Scarlet Macaw is colorful parrot from Central and South America.
+
+Blue-and-yellow Macaw is large parrot from South America.
+
+Hyacinth Macaw is the largest flying parrot, native to Brazil.
+
+Cockatoo is Australian parrot with crest, intelligent and social.
+
+Sulphur-crested Cockatoo is large white Australian parrot.
+
+Kea is intelligent alpine parrot from New Zealand.
+
+Kakapo is nocturnal, flightless parrot from New Zealand, critically endangered.
+
+African Grey Parrot is highly intelligent, native to West and Central Africa.
+
+Amazon Parrot is green parrot native to South America.
+
+Budgerigar is small parrot from Australia, popular pet worldwide.
+
+Lorikeet is colorful parrot from Australia and New Guinea.
+
+Peacock is male Indian peafowl, famous for colorful tail feathers.
+
+Peahen is female peafowl, less colorful than male.
+
+Flamingo is wading bird with pink feathers, found in Africa and Americas.
+
+Greater Flamingo is the largest flamingo species.
+
+American Flamingo is bright pink bird from Caribbean and Americas.
+
+Mallard Duck is common duck worldwide, male has green head.
+
+Wood Duck is colorful North American species, nests in trees.
+
+Mandarin Duck is ornamental bird from East Asia, male very colorful.
+
+Canada Goose is migratory bird, known for V-shaped flight formation.
+
+Mute Swan is large white bird, known for graceful neck.
+
+Trumpeter Swan is largest swan, native to North America.
+
+Whooper Swan is large swan from Eurasia.
+
+Emperor Penguin is largest penguin species, native to Antarctica.
+
+King Penguin is second largest penguin, native to sub-Antarctic islands.
+
+Adélie Penguin is small Antarctic penguin, breeds in colonies.
+
+Chinstrap Penguin is Antarctic penguin with black line under chin.
+
+Macaroni Penguin has distinctive yellow crest, native to sub-Antarctic.
+
+Rockhopper Penguin has spiky yellow crest, known for hopping on rocks.
+
+Albatross is seabird with longest wingspan, found in Southern Ocean.
+
+Wandering Albatross has wingspan up to 3.5 meters.
+
+Royal Albatross is large seabird native to New Zealand.
+
+Shearwater is long-distance migratory seabird.
+
+Petrel is oceanic seabird, nests on cliffs and islands.
+
+Storm Petrel is small seabird found worldwide.
+
+Seagull is coastal bird, scavenger, found globally.
+
+Herring Gull is large gull of Northern Hemisphere.
+
+Black-headed Gull is small migratory gull, Europe and Asia.
+
+Tern is slender seabird with forked tail, excellent diver.
+
+Arctic Tern migrates longest distance, from Arctic to Antarctic.
+
+Common Tern breeds in temperate regions worldwide.
+
+Penguin Colony at South Georgia is famous for dense breeding colonies.
+
+Ostrich is largest flightless bird, native to Africa.
+
+Emu is large flightless bird, native to Australia.
+
+Cassowary is large flightless bird, native to New Guinea and Australia.
+
+Rhea is large flightless bird from South America.
+
+Kiwi is nocturnal, flightless bird, national symbol of New Zealand.
+
+Hummingbird is small bird, capable of hovering and rapid wing flaps.
+
+Ruby-throated Hummingbird is common in North America.
+
+Anna’s Hummingbird is small, resident in western North America.
+
+Bee Hummingbird is world’s smallest bird, native to Cuba.
+
+Hornbill is tropical bird with large curved bill, Asia and Africa.
+
+Rhinoceros Hornbill is large Southeast Asian bird with casque on bill.
+
+Indian Peafowl is native to India, males have ornate tail feathers.
+
+Green Peafowl is native to Southeast Asia, endangered.
+
+Pigeon is widespread urban bird, domesticated worldwide.
+
+Rock Pigeon is common in cities globally.
+
+Dove is symbol of peace, found worldwide.
+
+Sparrow is small passerine bird, common in urban areas.
+
+House Sparrow is most widespread sparrow species.
+
+Tree Sparrow is smaller than house sparrow, found in Europe and Asia.
+
+Finch is small passerine bird, includes species like zebra finch.
+
+Goldfinch is brightly colored small bird, Europe and North America.
+
+Canary is small songbird, originally from Canary Islands.
+
+Robin is insect-eating bird, found in Europe and North America.
+
+Wren is small, energetic bird found worldwide.
+
+Swallow is migratory bird, known for aerial acrobatics.
+
+Barn Swallow is widespread, nests on human structures.
+
+House Martin is small swallow-like bird, migrates in Europe and Asia.
+
+Crow is highly intelligent, found worldwide.
+
+Raven is large, black corvid, known for problem-solving skills.
+
+Magpie is black-and-white corvid, known for mimicry.
+
+Jay is colorful corvid, Europe and North America.
+
+Stork is large wading bird, migratory in Europe, Asia, Africa.
+
+White Stork migrates from Europe to Africa.
+
+Marabou Stork is scavenger bird, native to Africa.
+
+Heron is long-legged wading bird, found worldwide.
+
+Great Blue Heron is North American heron species.
+
+Egret is white heron, found worldwide.
+
+Bittern is secretive marsh bird, found in wetlands.
+
+Pelican is large waterbird with distinctive throat pouch.
+
+Brown Pelican is coastal bird of Americas.
+
+Australian Pelican is large bird with enormous bill, native to Australia.

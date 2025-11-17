@@ -1,0 +1,299 @@
+The Beatles were an English rock band formed in Liverpool.
+
+John Lennon was a member of The Beatles.
+
+Paul McCartney played bass in The Beatles.
+
+George Harrison was the lead guitarist of The Beatles.
+
+Ringo Starr was the drummer of The Beatles.
+
+Michael Jackson was known as the King of Pop.
+
+He released the album Thriller in 1982.
+
+Freddie Mercury was the lead singer of Queen.
+
+Queen was a British rock band formed in 1970.
+
+Brian May is the guitarist of Queen.
+
+Roger Taylor is the drummer of Queen.
+
+John Deacon is the bassist of Queen.
+
+Madonna is known as the Queen of Pop.
+
+She released the hit song Like a Virgin.
+
+Elton John is a British singer and pianist.
+
+He wrote the song Rocket Man.
+
+David Bowie was known for his alter ego Ziggy Stardust.
+
+He released the album Heroes.
+
+Bob Dylan is an American singer-songwriter.
+
+He won the Nobel Prize in Literature in 2016.
+
+Beyoncé is a member of Destiny’s Child and a solo artist.
+
+She released the album Lemonade.
+
+Jay-Z is an American rapper and music producer.
+
+He released the album 4:44.
+
+Rihanna is a Barbadian singer and businesswoman.
+
+She released the song Umbrella.
+
+Whitney Houston was an American singer and actress.
+
+She released the song I Will Always Love You.
+
+Aretha Franklin is the Queen of Soul.
+
+She sang Respect.
+
+Kurt Cobain was the lead singer of Nirvana.
+
+Nirvana was a grunge band from the USA.
+
+They released the song Smells Like Teen Spirit.
+
+Dave Grohl was the drummer of Nirvana.
+
+Foo Fighters was formed by Dave Grohl after Nirvana.
+
+Prince was an American singer and multi-instrumentalist.
+
+He released the song Purple Rain.
+
+Stevie Wonder is a blind American singer and composer.
+
+He released the song Superstition.
+
+Marvin Gaye was a Motown singer.
+
+He released the song What’s Going On.
+
+Tina Turner is known as the Queen of Rock ‘n’ Roll.
+
+She released the song Simply the Best.
+
+Adele is a British singer-songwriter.
+
+She released the album 21.
+
+Ed Sheeran is a British singer-songwriter.
+
+He released the song Shape of You.
+
+Ariana Grande is an American pop singer.
+
+She released the song Thank U, Next.
+
+Billie Eilish is an American singer and songwriter.
+
+Justin Bieber is a Canadian singer.
+
+He released the album Purpose.
+
+Shreya Ghoshal is an Indian playback singer.
+
+She sings in Bollywood films.
+
+Arijit Singh is a popular Indian playback singer.
+
+He sang the song Tum Hi Ho.
+
+Lata Mangeshkar was a legendary Indian singer.
+
+She is known as the Nightingale of India.
+
+Kishore Kumar was an Indian playback singer and actor.
+
+He sang the song Mere Sapno Ki Rani.
+
+A.R. Rahman is an Indian music composer.
+
+He won two Academy Awards for Slumdog Millionaire.
+
+Sonu Nigam is an Indian playback singer.
+
+He released the album Deewana.
+
+Sunidhi Chauhan is an Indian pop and Bollywood singer.
+
+She sang Sheila Ki Jawani.
+
+Neha Kakkar is a popular Indian singer.
+
+She sang the song Dilbar.
+
+Badshah is an Indian rapper and singer.
+
+He released the song DJ Waley Babu.
+
+Honey Singh is an Indian rapper and music producer.
+
+He released the song Angreji Beat.
+
+Mika Singh is an Indian singer known for Bollywood songs.
+
+He sang the song Sawan Mein Lag Gayi Aag.
+
+Alka Yagnik is an Indian playback singer.
+
+She sang Taal Se Taal.
+
+Sunil Shetty sang in some Indian pop songs.
+
+Mohit Chauhan is an Indian playback singer.
+
+He sang the song Tum Se Hi.
+
+Udit Narayan is an Indian playback singer.
+
+He sang Pehla Nasha.
+
+Rahat Fateh Ali Khan is a Pakistani singer popular in India.
+
+He sings qawwali and Bollywood songs.
+
+Kailash Kher is an Indian pop singer.
+
+He sings the song Teri Deewani.
+
+Himesh Reshammiya is an Indian singer and composer.
+
+He sang Aashiq Banaya Aapne.
+
+Atif Aslam is a Pakistani singer popular in Bollywood.
+
+He sang the song Tera Hone Laga Hoon.
+
+Neeti Mohan is an Indian pop and Bollywood singer.
+
+She sang Ishq Wala Love.
+
+Shankar Mahadevan is an Indian playback singer.
+
+He sings both classical and Bollywood songs.
+
+Armaan Malik is a contemporary Indian pop singer.
+
+He sang Bol Do Na Zara.
+
+Benny Dayal is an Indian playback singer.
+
+He sang the song Badtameez Dil.
+
+Jonita Gandhi is an Indian-Canadian playback singer.
+
+She sang the song Zingaat (Hindi version).
+
+Vishal Dadlani is an Indian singer and composer.
+
+Shekhar Ravjiani is a music composer and singer in India.
+
+Ankit Tiwari is an Indian singer and composer.
+
+He sang Sun Raha Hai Na Tu.
+
+Pritam is an Indian music composer.
+
+He composed Ae Dil Hai Mushkil songs.
+
+Javed Ali is an Indian playback singer.
+
+He sang Jashn-E-Bahaaraa.
+
+Mohit Chauhan sang Tum Se Hi.
+
+Neha Kakkar sang Oh Humsafar.
+
+Arijit Singh sang Channa Mereya.
+
+Shreya Ghoshal sang Sun Raha Hai Na Tu.
+
+Kailash Kher sang Saiyaaraa.
+
+Rahat Fateh Ali Khan sang Afreen Afreen.
+
+Badshah released the song Paagal.
+
+Honey Singh sang Lungi Dance.
+
+Mika Singh sang Dhanno.
+
+Sonu Nigam sang Kal Ho Na Ho title track.
+
+Lata Mangeshkar sang Lag Jaa Gale.
+
+Kishore Kumar sang Roop Tera Mastana.
+
+A.R. Rahman composed Roja songs.
+
+Himesh Reshammiya sang Tera Suroor.
+
+Benny Dayal sang Badtameez Dil.
+
+Jonita Gandhi sang Shubhaarambh.
+
+Armaan Malik sang Main Rahoon Ya Na Rahoon.
+
+Alka Yagnik sang Choli Ke Peeche.
+
+Udit Narayan sang Papa Kehte Hain.
+
+Mohit Chauhan sang Masakali.
+
+Shankar Mahadevan sang Breathless.
+
+Atif Aslam sang Jeene Laga Hoon.
+
+Neeti Mohan sang Ishq Wala Love.
+
+Vishal Dadlani sang Bala.
+
+Shekhar Ravjiani sang Balam Pichkari.
+
+Ankit Tiwari sang Sun Raha Hai.
+
+Pritam composed Tum Hi Ho songs.
+
+Javed Ali sang Jashn-E-Bahaaraa.
+
+Kailash Kher sang Ya Rabba.
+
+Rahat Fateh Ali Khan sang Teri Ore.
+
+Badshah sang Abhi Toh Party Shuru Hui Hai.
+
+Honey Singh sang Angreji Beat.
+
+Mika Singh sang Aankh Marey.
+
+Sonu Nigam sang Suraj Hua Maddham.
+
+Lata Mangeshkar sang Tere Bina Zindagi.
+
+Kishore Kumar sang Chingari Koi Bhadke.
+
+A.R. Rahman composed Jiya Jale.
+
+Himesh Reshammiya sang Aashiq Banaya Aapne.
+
+Benny Dayal sang Sun Saathiya.
+
+Jonita Gandhi sang The Humma Song.
+
+Armaan Malik sang Tum Tum.
+
+Alka Yagnik sang Dheere Dheere.
+
+Udit Narayan sang Pehla Nasha

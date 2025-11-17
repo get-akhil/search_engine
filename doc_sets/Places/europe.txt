@@ -1,0 +1,99 @@
+Eiffel Tower is in Paris, France, built in 1889, famous iron lattice tower.
+
+Colosseum is in Rome, Italy, built in 80 AD, famous ancient amphitheater.
+
+Sagrada Familia is in Barcelona, Spain, designed by Gaudí, under construction since 1882.
+
+Neuschwanstein Castle is in Bavaria, Germany, built in 1869, inspired Disney castles.
+
+Stonehenge is in Wiltshire, UK, built around 3000 BC, famous prehistoric stone circle.
+
+Brandenburg Gate is in Berlin, Germany, built in 1791, famous neoclassical monument.
+
+Louvre Museum is in Paris, France, built in 1793, famous for Mona Lisa.
+
+Big Ben is in London, UK, completed in 1859, famous clock tower at the Palace of Westminster.
+
+Buckingham Palace is in London, UK, built in 1703, official residence of the British monarch.
+
+Acropolis of Athens is in Athens, Greece, built in 5th century BC, famous ancient citadel.
+
+Prague Castle is in Prague, Czech Republic, built in the 9th century, largest ancient castle in the world.
+
+Pantheon is in Rome, Italy, built in 118–125 AD, famous ancient Roman temple.
+
+Notre Dame Cathedral is in Paris, France, built in 1345, famous Gothic cathedral.
+
+Trevi Fountain is in Rome, Italy, built in 1762, famous baroque fountain.
+
+Edinburgh Castle is in Edinburgh, Scotland, built in the 12th century, historic fortress.
+
+Château de Chambord is in Loire Valley, France, built in 1519, famous Renaissance castle.
+
+Alhambra is in Granada, Spain, built in 1333, famous Moorish palace and fortress.
+
+Charles Bridge is in Prague, Czech Republic, built in 1357, famous historic bridge over the Vltava River.
+
+St. Peter’s Basilica is in Vatican City, built in 1626, famous Renaissance church.
+
+Duomo di Milano is in Milan, Italy, completed in 1965, famous Gothic cathedral.
+
+Palace of Versailles is in Versailles, France, built in 1682, famous royal palace.
+
+Tower of London is in London, UK, built in 1078, famous historic castle and prison.
+
+Anne Frank House is in Amsterdam, Netherlands, built in 1635, famous museum about Anne Frank.
+
+Pena Palace is in Sintra, Portugal, built in 1849, famous Romanticist castle.
+
+Heidelberg Castle is in Heidelberg, Germany, built in 1396, famous Renaissance ruin.
+
+Mont Saint-Michel is in Normandy, France, built in 8th century, famous island commune.
+
+Riga Old Town is in Riga, Latvia, UNESCO heritage with historic architecture.
+
+Hagia Sophia Europe Side is in Istanbul, Turkey, built in 537 AD, famous Byzantine architecture.
+
+Blue Lagoon is in Iceland, famous geothermal spa and natural landmark.
+
+Matterhorn is in Switzerland, famous iconic mountain on the Alps.
+
+Windmills of Kinderdijk are in Netherlands, built in the 18th century, famous UNESCO heritage site.
+
+Pont du Gard is in France, built in the 1st century, famous Roman aqueduct.
+
+Cinque Terre is in Italy, famous cluster of colorful coastal villages.
+
+Hallstatt is in Austria, famous scenic village with lake and mountains.
+
+The Alster Lakes are in Hamburg, Germany, famous urban lakes and scenic spots.
+
+Basilica di Santa Maria del Fiore is in Florence, Italy, built in 1436, famous cathedral dome.
+
+Neptune Fountain is in Bologna, Italy, built in 1566, famous Renaissance fountain.
+
+Bryggen is in Bergen, Norway, famous historic wharf buildings.
+
+Cliffs of Moher are in Ireland, famous coastal cliffs and natural landmark.
+
+Prague Astronomical Clock is in Prague, Czech Republic, built in 1410, famous medieval clock.
+
+Vasa Museum is in Stockholm, Sweden, built in 1990, famous preserved 17th-century ship.
+
+Gamla Stan is in Stockholm, Sweden, famous old town with medieval streets.
+
+Charles Church is in London, UK, built in 1682, famous baroque church.
+
+Schonbrunn Palace is in Vienna, Austria, built in 1642, famous former imperial summer residence.
+
+Helsinki Cathedral is in Helsinki, Finland, built in 1852, famous neoclassical church.
+
+Sibiu Old Town is in Romania, famous medieval architecture and historic squares.
+
+Belém Tower is in Lisbon, Portugal, built in 1515, famous fortress and landmark.
+
+Neptune Fountain in Bologna is in Italy, famous Renaissance landmark.
+
+Kronborg Castle is in Helsingør, Denmark, built in 1420, famous Hamlet castle.
+
+Rathaus-Glockenspiel is in Munich, Germany, built in 1908, famous animated clock tower.
