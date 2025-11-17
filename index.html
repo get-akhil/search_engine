@@ -3,30 +3,50 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Optimised Search Engine</title>
-    <!-- Load Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Load Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Load Tailwind CSS --><script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Lucide Icons --><script src="https://unpkg.com/lucide@latest"></script>
     <style>
         /* Custom font import for modern look */
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #0d1117; /* Deep slate background */
-            color: #c9d1d9; /* Light text */
-            /* Subtle fixed radial gradient for depth */
+            background-color: #0a0a0a; /* Deep charcoal black base */
+            color: #e0ffe0; /* Light green-tinged text */
             background-attachment: fixed;
-            background-image: radial-gradient(at 0% 0%, rgba(20, 30, 48, 0.5) 0%, transparent 50%),
-                              radial-gradient(at 100% 100%, rgba(20, 30, 48, 0.5) 0%, transparent 50%),
-                              linear-gradient(to bottom, #0a0e14, #0d1117);
+            overflow-x: hidden; /* Prevent horizontal scroll */
         }
+
+        /* --- STATIC BACKGROUND IMAGE INTEGRATION --- */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Behind all content */
+            
+            /* Use the single provided image URL */
+            background-image: url('https://cdn.pixabay.com/photo/2015/12/15/05/43/starry-night-1093721_1280.jpg');
+            background-size: cover; /* Ensures the image covers the whole viewport */
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Keeps the background static */
+            background-position: center center;
+            
+            /* Apply a dark, slightly green overlay for readability/theme consistency */
+            filter: brightness(0.7) grayscale(0.1); 
+            opacity: 0.9;
+        }
+
+        /* --- END STATIC BACKGROUND --- */
+
         .search-container {
             position: relative;
             max-width: 800px;
             margin: 0 auto;
         }
         .shadow-custom {
-            box-shadow: 0 4px 15px -1px rgba(0, 0, 0, 0.5), 0 2px 8px -2px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 4px 20px -1px rgba(0, 255, 0, 0.1), 0 2px 10px -2px rgba(0, 255, 0, 0.05); /* Green glow effect */
         }
         .text-gradient {
             background-clip: text;
@@ -34,7 +54,7 @@
             color: transparent;
         }
         .glow-shadow {
-            box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Stronger green glow */
         }
         .modal-content-scroll {
             max-height: 70vh;
@@ -43,64 +63,52 @@
     </style>
 </head>
 <body class="p-4 md:p-8 min-h-screen">
-
+    
     <div class="search-container pt-10">
-        <!-- Header -->
-        <header class="text-center mb-10">
-            <h1 class="text-4xl md:text-5xl font-extrabold text-blue-400">
-                <!-- Removed scan icon --> <span class="text-gradient bg-gradient-to-r from-blue-400 to-cyan-400">Optimised Search Engine</span>
+        <!-- Header --><header class="text-center mb-10">
+            <h1 class="text-4xl md:text-5xl font-extrabold">
+                <span class="text-gradient bg-gradient-to-r from-green-400 to-emerald-500">Optimised Search Engine</span>
             </h1>
-            <p class="text-gray-400 mt-2">Data Structures With C (Project Based Learning)</p>
+            <p class="text-white mt-2">Data Structures With C (Project Based Learning)</p>
         </header>
 
-        <!-- Search Input Bar with Suggestions -->
-        <div id="search-bar-wrapper" class="relative">
+        <!-- Search Input Bar with Suggestions --><div id="search-bar-wrapper" class="relative">
             <input type="text" id="search-input" placeholder="Enter query (e.g., 'data structure' or 'robotics engineering')"
-                   class="w-full p-4 pl-12 text-lg rounded-xl border border-gray-700 bg-gray-800 text-white focus:ring-blue-500 focus:border-blue-500 shadow-custom transition duration-200"
+                   class="w-full p-4 pl-12 text-lg rounded-xl border border-green-700 bg-gray-900 text-green-200 focus:ring-green-500 focus:border-green-500 shadow-custom transition duration-200"
                    onkeyup="handleInput(event)">
-            <i data-lucide="search" class="absolute left-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-500"></i>
+            <i data-lucide="search" class="absolute left-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-green-500"></i>
             <button onclick="handleSearchClick()" id="searchButton"
-                class="absolute right-0 top-0 h-full px-5 text-white bg-blue-600 rounded-r-xl hover:bg-blue-700 transition duration-150 transform hover:scale-[1.01] hover:shadow-lg">
-                <!-- SVG scan icon removed here -->
+                class="absolute right-0 top-0 h-full px-5 text-black bg-green-500 rounded-r-xl hover:bg-green-600 transition duration-150 transform hover:scale-[1.01] hover:shadow-lg">
                 Search
             </button>
             
-            <!-- Suggestions Dropdown -->
-            <ul id="suggestion-list" class="absolute z-10 w-full mt-2 bg-gray-800 border border-gray-700 rounded-xl shadow-lg max-h-48 overflow-y-auto hidden">
-                <!-- Suggestions will be rendered here -->
-            </ul>
+            <!-- Suggestions Dropdown --><ul id="suggestion-list" class="absolute z-10 w-full mt-2 bg-gray-900 border border-green-700 rounded-xl shadow-lg max-h-48 overflow-y-auto hidden">
+                <!-- Suggestions will be rendered here --></ul>
         </div>
-
-        <!-- Query Assistant Button and LLM Analysis Panel removed -->
         
-        <!-- Main Content Area -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+        <!-- Main Content Area --><div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
 
-            <!-- Recent Searches / Suggestions Panel (Column 1) -->
-            <div class="md:col-span-1">
-                <div class="bg-gray-800 p-6 rounded-xl shadow-2xl border border-gray-700 glow-shadow">
-                    <h2 class="text-xl font-semibold mb-4 flex items-center text-blue-400">
+            <!-- Recent Searches / Suggestions Panel (Column 1) --><div class="md:col-span-1">
+                <div class="bg-gray-900 p-6 rounded-xl shadow-2xl border border-green-700 glow-shadow">
+                    <h2 class="text-xl font-semibold mb-4 flex items-center text-green-400">
                         <i data-lucide="history" class="h-5 w-5 mr-2"></i> Recent Searches
                     </h2>
                     <ul id="recent-searches-list" class="space-y-2 text-sm">
-                        <!-- History items will be inserted here -->
-                        <li class="text-gray-500 italic">No recent searches yet.</li>
+                        <!-- History items will be inserted here --><li class="text-gray-500 italic">No recent searches yet.</li>
                     </ul>
                 </div>
             </div>
 
-            <!-- Search Results Area (Columns 2 & 3) -->
-            <div class="md:col-span-2">
-                <div class="bg-gray-800 p-6 rounded-xl shadow-2xl border border-gray-700 min-h-64">
-                    <h2 class="text-xl font-semibold mb-4 flex items-center text-blue-400">
+            <!-- Search Results Area (Columns 2 & 3) --><div class="md:col-span-2">
+                <div class="bg-gray-900 p-6 rounded-xl shadow-2xl border border-green-700 min-h-64">
+                    <h2 class="text-xl font-semibold mb-4 flex items-center text-green-400">
                         <i data-lucide="list-checks" class="h-5 w-5 mr-2"></i> Search Results
                     </h2>
                     <div id="results-container" class="space-y-4">
                         <p class="text-gray-500 italic" id="initial-message">Enter a query to see ranked results from the local C index.</p>
-                        <!-- Results are dynamically inserted here -->
-                    </div>
+                        <!-- Results are dynamically inserted here --></div>
                     <div id="loading-indicator" class="hidden text-center mt-8">
-                        <svg class="animate-spin h-8 w-8 text-blue-400 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <svg class="animate-spin h-8 w-8 text-green-400 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                             <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
                             <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                         </svg>
@@ -111,24 +119,22 @@
         </div>
     </div>
 
-    <!-- Document Viewer Modal -->
-    <div id="documentModal" class="fixed inset-0 bg-black bg-opacity-80 backdrop-blur-sm hidden z-50 p-4 md:p-8">
+    <!-- Document Viewer Modal --><div id="documentModal" class="fixed inset-0 bg-black bg-opacity-80 backdrop-blur-sm hidden z-50 p-4 md:p-8">
         <div class="bg-gray-900 rounded-xl shadow-2xl max-w-4xl mx-auto mt-4 modal-content-scroll">
-            <div class="sticky top-0 bg-gray-900 border-b border-gray-700 p-4 flex justify-between items-center z-10">
+            <div class="sticky top-0 bg-gray-900 border-b border-gray-800 p-4 flex justify-between items-center z-10">
                 <h2 id="modalTitle" class="text-xl font-bold text-white">Document Viewer: [Filename]</h2>
-                <button onclick="closeModal()" class="text-gray-400 hover:text-white transition duration-150">
+                <button onclick="closeModal()" class="text-gray-400 hover:text-green-400 transition duration-150">
                     <i data-lucide="x" class="h-6 w-6"></i>
                 </button>
             </div>
             <div class="p-4 md:p-6">
-                <!-- LLM Summary Section -->
-                <div class="mb-6 p-4 bg-gray-800 rounded-lg border border-gray-700 shadow-lg">
-                    <h3 class="text-lg font-semibold mb-2 text-yellow-400 flex items-center">
-                        <i data-lucide="message-square" class="h-5 w-5 mr-2"></i> LLM Summary (Gemini API)
+                <!-- LLM Summary Section --><div class="mb-6 p-4 bg-gray-800 rounded-lg border border-green-700 shadow-lg">
+                    <h3 class="text-lg font-semibold mb-2 text-emerald-400 flex items-center">
+                        <i data-lucide="message-square" class="h-5 w-5 mr-2"></i> Summary
                     </h3>
-                    <div id="modalSummary" class="text-sm text-gray-300">
+                    <div id="modalSummary" class="text-base font-semibold text-gray-300">
                         <div class="text-center py-2" id="summaryLoading">
-                            <svg class="animate-spin h-5 w-5 text-yellow-400 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <svg class="animate-spin h-5 w-5 text-emerald-400 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                                 <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
                                 <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                             </svg>
@@ -137,11 +143,10 @@
                     </div>
                 </div>
 
-                <!-- Raw Document Content -->
-                <h3 class="text-lg font-semibold mb-2 text-blue-400 flex items-center mt-4">
+                <!-- Raw Document Content --><h3 class="text-lg font-semibold mb-2 text-green-400 flex items-center mt-4">
                     <i data-lucide="file-text" class="h-5 w-5 mr-2"></i> Raw Document Content
                 </h3>
-                <pre id="modalContent" class="bg-gray-700 p-4 rounded-lg text-sm text-gray-300 whitespace-pre-wrap font-mono border border-gray-600 overflow-x-auto"></pre>
+                <pre id="modalContent" class="bg-gray-800 p-4 rounded-lg text-sm text-white whitespace-pre-wrap font-mono border border-gray-700 overflow-x-auto"></pre>
             </div>
         </div>
     </div>
@@ -149,16 +154,11 @@
 
     <script>
         // --- Configuration ---
-<<<<<<< HEAD
         // This dynamically determines the host (e.g., crispy-space-carnival-...) 
         // and forces the port to 3000, where the Flask server is running internally.
         const LOCAL_HOST_ORIGIN = window.location.origin.replace(/:\d+/, ':3000');
         const LOCAL_API_URL = LOCAL_HOST_ORIGIN + '/api/search';
         const DOCUMENT_API_URL = LOCAL_HOST_ORIGIN + '/api/document/';
-        // ANALYZE_API_URL removed
-=======
-        const LOCAL_API_URL = window.location.origin.replace(/:\d+/, ':3000') + '/api/search';
->>>>>>> c3d1db25eea4b537c3d358c8557bc4632df15395
         const MAX_RECENT_SEARCHES = 5;
 
         // --- DOM Elements ---
@@ -173,7 +173,6 @@
         const modalContent = document.getElementById('modalContent');
         const modalSummary = document.getElementById('modalSummary');
         const summaryLoading = document.getElementById('summaryLoading');
-        // analysisArea, analysisContent, analysisLoading removed
         
         // --- Data Management ---
         let recentSearches = JSON.parse(localStorage.getItem('recentSearches') || '[]');
@@ -204,7 +203,7 @@
 
             recentSearches.forEach(query => {
                 const li = document.createElement('li');
-                li.className = 'cursor-pointer text-gray-300 hover:text-blue-400 hover:bg-gray-700 p-2 rounded-lg transition duration-150 flex items-center';
+                li.className = 'cursor-pointer text-green-300 hover:text-green-400 hover:bg-gray-800 p-2 rounded-lg transition duration-150 flex items-center';
                 li.innerHTML = `<i data-lucide="chevrons-right" class="h-4 w-4 mr-2"></i>${query}`;
                 li.onclick = () => {
                     searchInput.value = query;
@@ -223,7 +222,7 @@
                 suggestionList.classList.remove('hidden');
                 matchingQueries.forEach(query => {
                     const li = document.createElement('li');
-                    li.className = 'p-3 cursor-pointer hover:bg-gray-700 transition duration-100';
+                    li.className = 'p-3 cursor-pointer hover:bg-gray-800 transition duration-100';
                     li.textContent = query;
                     li.onclick = () => {
                         searchInput.value = query;
@@ -272,7 +271,7 @@
                 // Display summary
                 summaryLoading.classList.add('hidden');
                 modalSummary.innerHTML = data.summary.trim() === 'API failed to return text.' || data.summary.trim().startsWith('Error:') 
-                    ? `<p class="text-red-300">${data.summary}</p>` 
+                    ? `<p class="text-red-400">${data.summary}</p>` 
                     : `<div class="markdown">${data.summary}</div>`;
                 
                 lucide.createIcons();
@@ -281,7 +280,7 @@
                 console.error("Document fetch error:", error);
                 modalContent.textContent = `Error fetching document: ${error.message}`;
                 summaryLoading.classList.add('hidden');
-                modalSummary.innerHTML = `<p class="text-red-300">Failed to load or summarize document. Check Flask logs.</p>`;
+                modalSummary.innerHTML = `<p class="text-red-400">Failed to load or summarize document. Check Flask logs or API key.</p>`;
             }
         }
 
@@ -297,7 +296,7 @@
             initialMessage.classList.add('hidden');
 
             if (results.length === 0) {
-                resultsContainer.innerHTML = `<p class="text-red-400 font-semibold">No results found for "${query}".</p>`;
+                resultsContainer.innerHTML = `<p class="text-green-400 font-semibold">No results found for "${query}".</p>`;
                 return;
             }
 
@@ -305,14 +304,16 @@
 
             results.forEach((result, index) => {
                 const itemDiv = document.createElement('div');
-                itemDiv.className = 'p-4 bg-gray-700/50 rounded-lg border border-gray-600 flex items-start space-x-4 hover:bg-gray-700 transition duration-150';
+                itemDiv.className = 'p-4 bg-gray-700/50 rounded-lg border border-green-800 flex items-start space-x-4 hover:bg-gray-800 transition duration-150';
                 
                 let iconHtml;
                 if (isImageSearch) {
-                    iconHtml = `<div class="w-16 h-16 bg-blue-900 rounded-lg flex items-center justify-center flex-shrink-0">
-                                    <i data-lucide="image" class="h-8 w-8 text-blue-300"></i>
+                    // Using green for image search simulation
+                    iconHtml = `<div class="w-16 h-16 bg-green-900 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <i data-lucide="image" class="h-8 w-8 text-green-300"></i>
                                 </div>`;
                 } else {
+                    // Using deep green for document
                     iconHtml = `<div class="w-10 h-10 bg-green-700 rounded-full flex items-center justify-center flex-shrink-0">
                                     <i data-lucide="file-text" class="h-5 w-5 text-white"></i>
                                 </div>`;
@@ -321,9 +322,9 @@
                 itemDiv.innerHTML = `
                     ${iconHtml}
                     <div class="flex-grow">
-                        <p class="text-lg font-medium text-white cursor-pointer hover:text-blue-300" 
+                        <p class="text-lg font-medium text-white cursor-pointer hover:text-green-300" 
                            onclick="openDocument('${result.filename}')">${result.filename}</p>
-                        <p class="text-sm text-gray-400">Relevance Score: <span class="text-yellow-400 font-bold">${result.score}</span></p>
+                        <p class="text-sm text-gray-400">Relevance Score: <span class="text-emerald-400 font-bold">${result.score}</span></p>
                         <p class="text-xs text-gray-500 mt-1">Click filename to view content and LLM summary.</p>
                     </div>
                 `;
@@ -375,16 +376,13 @@
             }
         }
 
-        // Removed analyzeQuery() function
-
         function handleSearchClick() {
-            // This function is now just a direct wrapper for performSearch()
             performSearch();
         }
 
         // --- Initialization ---
         document.addEventListener('DOMContentLoaded', () => {
-            lucide.createIcons(); // Initialize all Lucide icons
+            lucide.createIcons(); 
             renderRecentSearches();
 
             // Bind the enter key to the search button's action if input is focused

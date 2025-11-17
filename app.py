@@ -8,7 +8,7 @@ from flask_cors import CORS
 
 # --- Gemini API Configuration ---
 # NOTE: The API key is left empty; the runtime environment will provide it.
-GEMINI_API_KEY = "" 
+GEMINI_API_KEY = "AIzaSyDMqxJoF_x-0wgUbFzLX4v3DyjflbRx3Ic" 
 GEMINI_MODEL = "gemini-2.5-flash-preview-09-2025"
 GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={GEMINI_API_KEY}"
 # --------------------------------
