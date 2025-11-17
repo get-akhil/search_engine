@@ -135,11 +135,15 @@ def search_api():
             
             # Check for New Category Structure (Subdirectories)
             if os.path.isdir(entry_path) and entry == category_filter:
-                for filename in os.listdir(entry_path):
-                    if filename.endswith(".txt"):
-                        full_filename = os.path.join(category_filter, filename)
-                        # Score of 1 means it's just a file listing
-                        filtered_files.append({"filename": full_filename, "score": 1}) 
+                try:
+                    for filename in os.listdir(entry_path):
+                        if filename.endswith(".txt"):
+                            full_filename = os.path.join(category_filter, filename)
+                            # Score of 1 means it's just a file listing
+                            filtered_files.append({"filename": full_filename, "score": 1}) 
+                except Exception as e:
+                    # Log error but continue
+                    print(f"Error reading subdirectory {entry_path}: {e}")
                 break
 
             # Check for Old Category Structure (Top-level Engineering files)
