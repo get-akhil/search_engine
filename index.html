@@ -149,12 +149,16 @@
 
     <script>
         // --- Configuration ---
+<<<<<<< HEAD
         // This dynamically determines the host (e.g., crispy-space-carnival-...) 
         // and forces the port to 3000, where the Flask server is running internally.
         const LOCAL_HOST_ORIGIN = window.location.origin.replace(/:\d+/, ':3000');
         const LOCAL_API_URL = LOCAL_HOST_ORIGIN + '/api/search';
         const DOCUMENT_API_URL = LOCAL_HOST_ORIGIN + '/api/document/';
         // ANALYZE_API_URL removed
+=======
+        const LOCAL_API_URL = window.location.origin.replace(/:\d+/, ':3000') + '/api/search';
+>>>>>>> c3d1db25eea4b537c3d358c8557bc4632df15395
         const MAX_RECENT_SEARCHES = 5;
 
         // --- DOM Elements ---
