@@ -60,6 +60,11 @@
             max-height: 70vh;
             overflow-y: auto;
         }
+        /* Custom styles for the API Answer output */
+        #api-answer-box .source-link {
+            text-decoration: underline;
+            text-decoration-color: #34d399; /* emerald-400 */
+        }
     </style>
 </head>
 <body class="p-4 md:p-8 min-h-screen">
@@ -72,7 +77,7 @@
             <p class="text-white mt-2">Data Structures With C (Project Based Learning)</p>
         </header>
 
-        <!-- Search Input Bar (Reverted to original look) --><div id="search-bar-wrapper" class="relative">
+        <!-- Search Input Bar --><div id="search-bar-wrapper" class="relative">
             <!-- Hidden Category Selector (Used internally for filtering) -->
             <select id="category-select" class="hidden">
                 <option value="All">All Categories</option>
@@ -85,8 +90,8 @@
             </select>
             
             <input type="text" id="search-input" placeholder="Enter query (e.g., 'data structure' or 'robotics engineering')"
-                   class="w-full p-4 pl-12 text-lg rounded-xl border border-green-700 bg-gray-900 text-green-200 focus:ring-green-500 focus:border-green-500 shadow-custom transition duration-200"
-                   onkeyup="handleInput(event)">
+                    class="w-full p-4 pl-12 text-lg rounded-xl border border-green-700 bg-gray-900 text-green-200 focus:ring-green-500 focus:border-green-500 shadow-custom transition duration-200"
+                    onkeyup="handleInput(event)">
             
             <i data-lucide="search" class="absolute left-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-green-500"></i>
             <button onclick="handleSearchClick()" id="searchButton"
@@ -127,6 +132,20 @@
 
             <!-- Search Results Area (Columns 2 & 3) --><div class="md:col-span-2">
                 <div class="bg-gray-900 p-6 rounded-xl shadow-2xl border border-green-700 min-h-64">
+                    
+                    <!-- NEW: AI Answer Box (Above Results Header) -->
+                    <div id="api-answer-box" class="mb-6 p-4 bg-gray-800/70 rounded-xl border border-emerald-700 hidden">
+                        <h2 class="text-xl font-bold mb-3 flex items-center text-emerald-400">
+                            <i data-lucide="bot" class="h-5 w-5 mr-2"></i> AI Answer
+                        </h2>
+                        <div id="gemini-answer-content" class="text-base text-gray-200 leading-relaxed">
+                            <!-- Answer content, loading spinner, or error message goes here -->
+                        </div>
+                        <div id="gemini-answer-sources" class="mt-3 text-xs text-gray-400 italic">
+                            <!-- Sources go here -->
+                        </div>
+                    </div>
+
                     <h2 class="text-xl font-semibold mb-4 flex items-center text-green-400" id="results-header">
                         <i data-lucide="list-checks" class="h-5 w-5 mr-2"></i> Search Results
                     </h2>
@@ -160,7 +179,7 @@
                         <i data-lucide="message-square" class="h-5 w-5 mr-2"></i> Summary
                     </h3>
                     <div id="modalSummary" class="text-base font-semibold text-gray-300">
-                         <!-- Content managed by JS -->
+                            <!-- Content managed by JS -->
                     </div>
                     <div id="summaryControls" class="mt-4">
                         <!-- Controls (Button/Loading) managed by JS -->
@@ -179,8 +198,10 @@
 
     <script>
         // --- Configuration ---
-        const LOCAL_HOST_ORIGIN = window.location.origin.replace(/:\d+/, ':3000');
+        // FIX: Reverted port reference back to :3000.
+        const LOCAL_HOST_ORIGIN = window.location.origin.replace(/:\d+/, ':3000'); 
         const LOCAL_API_URL = LOCAL_HOST_ORIGIN + '/api/search';
+        const AI_ANSWER_PROXY_URL = LOCAL_HOST_ORIGIN + '/api/ai-answer'; // <-- NEW PROXY URL
         
         // NEW API ENDPOINTS FOR ASYNCHRONOUS LOAD
         const DOCUMENT_CONTENT_URL = LOCAL_HOST_ORIGIN + '/api/document/content/';
@@ -211,8 +232,13 @@
         const modalTitle = document.getElementById('modalTitle');
         const modalContent = document.getElementById('modalContent');
         const modalSummary = document.getElementById('modalSummary');
-        const summaryControls = document.getElementById('summaryControls'); // NEW CONTROL CONTAINER
+        const summaryControls = document.getElementById('summaryControls'); 
         
+        // NEW AI Answer DOM elements
+        const apiAnswerBox = document.getElementById('api-answer-box');
+        const geminiAnswerContent = document.getElementById('gemini-answer-content');
+        const geminiAnswerSources = document.getElementById('gemini-answer-sources');
+
         let recentSearches = JSON.parse(localStorage.getItem('recentSearches') || '[]');
         
         // --- Core Functions ---
@@ -236,6 +262,76 @@
             });
             lucide.createIcons();
         }
+
+        /**
+         * Renders the Gemini answer and sources into the dedicated box.
+         * @param {string} text 
+         * @param {Array<Object>} sources 
+         */
+        function renderGeminiAnswer(text, sources) {
+            apiAnswerBox.classList.remove('hidden');
+            geminiAnswerContent.innerHTML = text.replace(/\n/g, '<br>');
+
+            if (sources && sources.length > 0) {
+                const sourceHtml = sources.map((s, index) => 
+                    `<a href="${s.uri}" target="_blank" class="source-link hover:text-white" title="${s.title || 'Source'}">
+                        [${index + 1}]
+                    </a>`
+                ).join(' ');
+                geminiAnswerSources.innerHTML = `Sources: ${sourceHtml}`;
+            } else {
+                geminiAnswerSources.textContent = 'No external sources cited.';
+            }
+            lucide.createIcons();
+        }
+        
+        /**
+         * Handles the request to the Flask proxy for a general query answer.
+         * @param {string} query 
+         */
+        async function callGeminiAnswerAPI(query) {
+            apiAnswerBox.classList.remove('hidden');
+            geminiAnswerContent.innerHTML = `
+                <div class="text-center py-2">
+                    <svg class="animate-spin h-5 w-5 text-emerald-400 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    <p class="mt-1 text-xs text-gray-400">Generating AI Answer via secure server proxy...</p>
+                </div>
+            `;
+            geminiAnswerSources.textContent = ''; // Clear previous sources
+
+            const url = `${AI_ANSWER_PROXY_URL}?query=${encodeURIComponent(query)}`;
+
+            try {
+                const response = await fetch(url);
+                
+                if (!response.ok) {
+                    throw new Error(`Server proxy returned status ${response.status}`);
+                }
+                
+                const result = await response.json();
+                
+                // The Flask proxy returns an object with 'text' and 'sources'
+                const generatedText = result.text || 'No answer generated.';
+                const sources = result.sources || [];
+                
+                if (generatedText.includes("Error:") || generatedText.includes("Failed to connect")) {
+                    // Check for server-side error messages passed in the 'text' field
+                     geminiAnswerContent.innerHTML = `<p class="text-red-400">${generatedText}</p>`;
+                     geminiAnswerSources.textContent = '';
+                } else {
+                    renderGeminiAnswer(generatedText, sources);
+                }
+
+            } catch (error) {
+                console.error("AI Answer proxy call failed:", error);
+                geminiAnswerContent.innerHTML = `<p class="text-red-400">Error generating AI Answer. Details: ${error.message}</p>`;
+                geminiAnswerSources.textContent = '';
+            }
+        }
+
 
         /**
          * Renders the search/browsing results.
@@ -268,17 +364,17 @@
                 
                 const iconHtml = isBrowsing 
                     ? `<div class="w-10 h-10 bg-emerald-700 rounded-full flex items-center justify-center flex-shrink-0">
-                           <i data-lucide="file-text" class="h-5 w-5 text-white"></i>
-                       </div>`
+                            <i data-lucide="file-text" class="h-5 w-5 text-white"></i>
+                        </div>`
                     : `<div class="w-10 h-10 bg-green-700 rounded-full flex items-center justify-center flex-shrink-0">
-                           <span class="text-white font-bold">${index + 1}</span>
-                       </div>`;
+                            <span class="text-white font-bold">${index + 1}</span>
+                        </div>`;
 
                 itemDiv.innerHTML = `
                     ${iconHtml}
                     <div class="flex-grow">
                         <p class="text-lg font-medium text-white cursor-pointer hover:text-green-300" 
-                           onclick="openDocument('${result.filename}')">${result.filename}</p>
+                            onclick="openDocument('${result.filename}')">${result.filename}</p>
                         ${isBrowsing 
                             ? `<p class="text-sm text-gray-400 mt-1">File Size/Type: TXT Document</p>` 
                             : `<p class="text-sm text-gray-400">Relevance Score: <span class="text-emerald-400 font-bold">${result.score}</span></p>`
@@ -303,6 +399,15 @@
             
             const url = `${LOCAL_API_URL}?query=${encodeURIComponent(query)}&category=${encodeURIComponent(category)}`;
 
+            // --- 1. LLM Query Answer (ASYNCHRONOUS) ---
+            if (query.length > 0 && category === 'All') {
+                callGeminiAnswerAPI(query);
+            } else {
+                apiAnswerBox.classList.add('hidden');
+                geminiAnswerContent.innerHTML = '';
+            }
+
+            // --- 2. Local C Engine Search (MAIN BLOCKING CALL) ---
             try {
                 const response = await fetch(url);
                 
@@ -337,7 +442,7 @@
             }
         }
         
-        // --- NEW SUMMARY FUNCTIONS ---
+        // --- NEW SUMMARY FUNCTIONS (Unchanged) ---
 
         /**
          * Displays the loading state for the summary section.
@@ -428,7 +533,7 @@
             }
         }
 
-        // --- Helper / Initialization Functions ---
+        // --- Helper / Initialization Functions (Unchanged) ---
         
         function updateRecentSearches(query) {
              query = query.trim().toLowerCase();
